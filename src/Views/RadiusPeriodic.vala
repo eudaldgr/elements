@@ -19,7 +19,7 @@
 * Authored by: eudaldgr <eudaldgr@posteo.net>
 */
 
-namespace RadiusPeriodic {
+namespace Application {
     public class RadiusPeriodic : Gtk.Box {
         public RadiusPeriodic(Gtk.Orientation orientation, int spacing) {
             Object(orientation: orientation, spacing: spacing);

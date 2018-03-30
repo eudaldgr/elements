@@ -19,7 +19,7 @@
 * Authored by: eudaldgr <eudaldgr@posteo.net>
 */
 
-namespace Stack {
+namespace Application {
     public class Stack : Gtk.Stack {
         public Stack() {
             Object();

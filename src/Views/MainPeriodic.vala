@@ -19,7 +19,7 @@
 * Authored by: eudaldgr <eudaldgr@posteo.net>
 */
 
-namespace MainPeriodic {
+namespace Application {
     public class MainPeriodic : Gtk.Box {
         public MainPeriodic(Gtk.Orientation orientation, int spacing) {
             Object(orientation: orientation, spacing: spacing);
@@ -425,6 +425,14 @@ namespace MainPeriodic {
             b101.get_style_context().add_class("actinid");
             b102.get_style_context().add_class("actinid");
             b103.get_style_context().add_class("actinid");
+
+            b001.clicked.connect(() => {
+/*
+                new Stacks.Stacks();
+*/
+                new AtomView.getStack()
+            });
+
         }
     }
 }

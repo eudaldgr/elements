@@ -19,7 +19,7 @@
 * Authored by: eudaldgr <eudaldgr@posteo.net>
 */
 
-namespace OrbitalPeriodic {
+namespace Application {
     public class OrbitalPeriodic : Gtk.Box {
         public OrbitalPeriodic(Gtk.Orientation orientation, int spacing) {
             Object(orientation: orientation, spacing: spacing);
