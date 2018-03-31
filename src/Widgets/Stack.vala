@@ -19,7 +19,7 @@
 * Authored by: eudaldgr <eudaldgr@posteo.net>
 */
 
-namespace Application {
+namespace Stack {
     public class Stack : Gtk.Stack {
         public Stack() {
             Object();
@@ -29,7 +29,7 @@ namespace Application {
             this.add_titled(new MainPeriodic.MainPeriodic(Gtk.Orientation.VERTICAL, 0), "MainTable", "Main");
             this.add_titled(new OrbitalPeriodic.OrbitalPeriodic(Gtk.Orientation.VERTICAL, 0), "Orbitals", "Orbitals");
             this.add_titled(new eVPeriodic.eVPeriodic(Gtk.Orientation.VERTICAL, 0), "ElectronegativityTable", "Electronegativity");
-            this.add_titled(new RadiusPeriodic.RadiusPeriodic(Gtk.Orientation.VERTICAL, 0), "IonicRadius", "Ionic radius");
+            this.add_titled(new RadiusPeriodic.RadiusPeriodic(Gtk.Orientation.VERTICAL, 0), "AtomicRadius", "Atomic radius");
         }
     }
 }

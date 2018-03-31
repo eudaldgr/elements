@@ -19,7 +19,7 @@
 * Authored by: eudaldgr <eudaldgr@posteo.net>
 */
 
-namespace Application {
+namespace Search {
     public class Search : Gtk.SearchEntry {
         public Search() {
             Object();

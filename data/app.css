@@ -1,3 +1,24 @@
+/*
+* Copyright (c) 2018 Eudald Gubert Roldan
+*
+* This program is free software; you can redistribute it and/or
+* modify it under the terms of the GNU General Public
+* License as published by the Free Software Foundation; either
+* version 2 of the License, or (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+* General Public License for more details.
+*
+* You should have received a copy of the GNU General Public
+* License along with this program; if not, write to the
+* Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+* Boston, MA 02110-1301 USA
+*
+* Authored by: eudaldgr <eudaldgr@posteo.net>
+*/
+
 /***************
  *    Main     *
  **************/
@@ -140,11 +161,10 @@
 }
 
 /***************
- *    Ionic    *
+ *    Radius   *
  **************/
-/*
-.button.h {
 
+.button.h {
     color : white;
     border-radius : 0px;
     padding : 20px 10px;
@@ -152,65 +172,55 @@
 }
 
 .button.alcalin {
-
     border-radius : 0px;
     padding : 20px 10px;
     background : rgba(212, 212, 212, 1);
 }
 
 .button.alcalino {
-
     border-radius : 0px;
     padding : 20px 10px;
     background : rgba(255, 225, 107, 1);
 }
 
 .button.trans_metal {
-
     border-radius : 0px;
     padding : 20px 10px;
     background : rgba(255, 194, 125, 1);
 }
 
 .button.metal {
-
     border-radius : 0px;
     padding : 20px 10px;
     background : rgba(255, 140, 130, 1);
 }
 
 .button.non_metal {
-
     border-radius : 0px;
     padding : 20px 10px;
     background : rgba(226, 159, 252, 1);
 }
 
 .button.nobel_gas {
-
     border-radius : 0px;
     padding : 20px 10px;
     background : rgba(163, 144, 124, 1);
 }
 
 .button.lantanid {
-
     border-radius : 0px;
     padding : 20px 10px;
     background : rgba(209, 255, 130, 1);
 }
 
 .button.actinid {
-
     border-radius : 0px;
     padding : 20px 10px;
     background : rgba(140, 213, 255, 1);
 }
 
 .button.alone {
-
     border-radius : 0px;
     padding : 20px 10px;
     background : rgba(149, 163, 171, 1);
 }
-*/

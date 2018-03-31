@@ -19,7 +19,7 @@
 * Authored by: eudaldgr <eudaldgr@posteo.net>
 */
 
-namespace Application {
+namespace eVPeriodic {
     public class eVPeriodic : Gtk.Box {
         public eVPeriodic(Gtk.Orientation orientation, int spacing) {
             Object(orientation: orientation, spacing: spacing);
