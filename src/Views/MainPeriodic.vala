@@ -157,13 +157,12 @@ namespace MainPeriodic {
             var b117 = new Gtk.Button.with_label ("Ts");
             var b118 = new Gtk.Button.with_label ("Og");
 */
-            grid.attach(new Gtk.Label("*"), 1, 10, 1, 1);
-            grid.attach(new Gtk.Label("*"), 1, 11, 1, 1);
+            var x = new Gtk.Label("*");
+            var xx = new Gtk.Label("**");
 
             grid.attach(new Gtk.Label(" "), 0, 8, 1, 1);
-/*            grid.attach(new Gtk.Label(" "), 0, 9, 1, 1);*/
-            grid.attach(new Gtk.Label("*"), 2, 6, 1, 1);
-            grid.attach(new Gtk.Label("*"), 2, 7, 1, 1);
+            grid.attach(x, 2, 6, 1, 1);
+            grid.attach(xx, 2, 7, 1, 1);
 
             grid.attach(b001, 0, 1, 1, 1);
             grid.attach(b002, 17, 1, 1, 1);
@@ -302,6 +301,9 @@ namespace MainPeriodic {
             grid.attach(b117, 16, 7, 1, 1);
             grid.attach(b118, 17, 7, 1, 1);
 */
+            x.get_style_context().add_class("xlantanid");
+            xx.get_style_context().add_class("xxactinid");
+
             b001.get_style_context().add_class("h");
 
             b003.get_style_context().add_class("alcalin");

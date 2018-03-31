@@ -122,6 +122,24 @@
         background : rgba(238, 139, 177, 1);
     }
 
+    .label.xlantanid {
+        border : 0px;
+        font-size : 16px;
+        color : white;
+        border-radius : 3px;
+        padding : 10px 10px;
+        background : rgba(206, 134, 217, 1);
+    }
+
+    .label.xxactinid {
+        border : 0px;
+        font-size : 16px;
+        color : white;
+        border-radius : 3px;
+        padding : 10px 10px;
+        background : rgba(238, 139, 177, 1);
+    }
+
     /***************
      *   Orbital   *
      **************/
