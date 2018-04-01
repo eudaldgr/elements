@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://cdn.rawgit.com/eudaldgr/elements/master/data/icons/128/com.github.eudaldgr.elements.svg" alt="Icon" />
+</p>
+
 # Elements
 Periodic table
 
@@ -36,16 +40,25 @@ These dependencies must be present before building
  - `meson`
  - `gtk+-3.0`
  - `granite`
+ - `glib2.0`
 
  You can install these on a Ubuntu-based system by executing this command:
  
- `sudo apt install valac libgtk-3-dev libgranite-dev meson`
+ `sudo apt install valac libgtk-3-dev libglib2.0-dev libgranite-dev meson`
 
 ### Building
 
- `meson build`
+```
+git clone https://github.com/eudaldgr/elements.git
+meson build && cd build
+meson configure -Dprefix=/usr
+ninja
+sudo ninja install
+com.github.eudaldgr.elements
+```
 
-### Installing
+### Deconstruct
 
- `cd build`
- `ninja`
+```
+sudo ninja uninstall
+```
