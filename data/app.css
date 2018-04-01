@@ -68,7 +68,7 @@
         background : rgba(193, 230, 160, 1);
     }
 
-    .button.semi {
+    .button_semi {
         border : 0px;
         font-size : 16px;
         color : white;
@@ -144,25 +144,25 @@
      *   Orbital   *
      **************/
 
-    .button.s {
+    .s {
         border-radius : 0px;
         padding : 10px 10px;
         background : rgba(255, 225, 107, 1);
     }
 
-    .button.p {
+    .p {
         border-radius : 0px;
         padding : 10px 10px;
         background : rgba(255, 140, 130, 1);
     }
 
-    .button.d {
+    .d {
         border-radius : 0px;
         padding : 10px 10px;
         background : rgba(255, 194, 125, 1);
     }
 
-    .button.f {
+    .f {
         border-radius : 0px;
         padding : 10px 10px;
         background : rgba(226, 159, 252, 1);
@@ -172,43 +172,43 @@
      *     eV      *
      **************/
 
-    .button.zero_eV {
+    .zero_eV {
         border-radius : 0px;
         padding : 10px 10px;
         background : rgba(250, 250, 250, 1);
     }
 
-    .button.one_eV {
+    .one_eV {
         border-radius : 0px;
         padding : 10px 10px;
         background : rgba(255, 225, 107, 1);
     }
 
-    .button.two_eV {
+    .two_eV {
         border-radius : 0px;
         padding : 10px 10px;
         background : rgba(249, 196, 64, 1);
     }
 
-    .button.three_eV {
+    .three_eV {
         border-radius : 0px;
         padding : 10px 10px;
         background : rgba(255, 161, 84, 1);
     }
 
-    .button.four_eV {
+    .four_eV {
         border-radius : 0px;
         padding : 10px 10px;
         background : rgba(243, 115, 41, 1);
     }
 
-    .button.five_eV {
+    .five_eV {
         border-radius : 0px;
         padding : 10px 10px;
         background : rgba(237, 83, 83, 1);
     }
 
-    .button.six_eV {
+    .six_eV {
         color : white;
         border-radius : 0px;
         padding : 10px 10px;
