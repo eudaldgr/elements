@@ -7,17 +7,17 @@
 
 <p align="center">
     <img
-    src="https://raw.githubusercontent.com/eudaldgr/elements/master/Screenshot1.png" />
+    src="https://raw.githubusercontent.com/eudaldgr/elements/master/data/screenshots/Screenshot1.png" />
 </p>
 
 <p align="center">
     <img
-    src="https://raw.githubusercontent.com/eudaldgr/elements/master/Screenshot2.png" />
+    src="https://raw.githubusercontent.com/eudaldgr/elements/master/data/screenshots/Screenshot2.png" />
 </p>
 
 <p align="center">
     <img
-    src="https://raw.githubusercontent.com/eudaldgr/elements/master/Screenshot3.png" />
+    src="https://raw.githubusercontent.com/eudaldgr/elements/master/data/screenshots/Screenshot3.png" />
 </p>
 
 ## Installation
