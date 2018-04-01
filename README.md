@@ -1,5 +1,6 @@
 # Elements
 Periodic table
+
 UNDER CONSTRUCTION
 
 <p align="center">
@@ -42,4 +43,9 @@ These dependencies must be present before building
 
 ### Building
 
+ `meson build`
+
 ### Installing
+
+ `cd build`
+ `ninja`
