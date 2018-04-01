@@ -20,15 +20,6 @@
     src="https://raw.githubusercontent.com/eudaldgr/elements/master/Screenshot3.png" />
 </p>
 
-<p align="center">
-    <img
-    src="https://raw.githubusercontent.com/eudaldgr/elements/master/ScreenshotA.png" />
-</p>
-
-### elements for elementary OS
-
-A periodic table to learn about elements.
-
 ## Installation
 
 ### Dependencies
