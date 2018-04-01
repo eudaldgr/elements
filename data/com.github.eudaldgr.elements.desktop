@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Elements
+GenericName=Elements
+Comment=Awesome periodic table.
+Categories=Science;
+Exec=com.github.eudaldgr.elements
+Icon=com.github.eudaldgr.elements
+Terminal=false
+Type=Application
+X-GNOME-Gettext-Domain=elements
+Keywords=Science;Chemistry;Elements;
+X-GNOME-UsesNotifications=false

@@ -224,9 +224,7 @@ namespace MainPeriodic {
 ////////////////////////////////////////////////////
 //////////////////Lantanids/////////////////////////
 ////////////////////////////////////////////////////
-
             grid.attach(b057, 2, 10, 1, 1);
-
             grid.attach(b058, 3, 10, 1, 1);
             grid.attach(b059, 4, 10, 1, 1);
             grid.attach(b060, 5, 10, 1, 1);
@@ -241,7 +239,6 @@ namespace MainPeriodic {
             grid.attach(b069, 14, 10, 1, 1);
             grid.attach(b070, 15, 10, 1, 1);
             grid.attach(b071, 16, 10, 1, 1);
-
 ////////////////////////////////////////////////////
 
             grid.attach(b072, 3, 6, 1, 1);
@@ -265,9 +262,7 @@ namespace MainPeriodic {
 ////////////////////////////////////////////////////
 ///////////////Actinids/////////////////////////////
 ////////////////////////////////////////////////////
-
             grid.attach(b089, 2, 11, 1, 1);
-
             grid.attach(b090, 3, 11, 1, 1);
             grid.attach(b091, 4, 11, 1, 1);
             grid.attach(b092, 5, 11, 1, 1);
@@ -282,7 +277,6 @@ namespace MainPeriodic {
             grid.attach(b101, 14, 11, 1, 1);
             grid.attach(b102, 15, 11, 1, 1);
             grid.attach(b103, 16, 11, 1, 1);
-
 ////////////////////////////////////////////////////
 /*
             grid.attach(b104, 3, 7, 1, 1);
@@ -301,8 +295,8 @@ namespace MainPeriodic {
             grid.attach(b117, 16, 7, 1, 1);
             grid.attach(b118, 17, 7, 1, 1);
 */
-            x.get_style_context().add_class("xlantanid");
-            xx.get_style_context().add_class("xxactinid");
+            x.get_style_context().add_class("lantanid");
+            xx.get_style_context().add_class("actinid");
 
             b001.get_style_context().add_class("h");
 
