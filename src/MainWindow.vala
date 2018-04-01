@@ -24,8 +24,6 @@ public class Elements : Gtk.Application {
     construct {
         application_id = "com.github.eudaldgr.elements";
         flags = ApplicationFlags.FLAGS_NONE;
-
-        loadGresources();
     }
 
     public override void activate () {
@@ -44,13 +42,15 @@ public class Elements : Gtk.Application {
         window.set_titlebar(headerbar);
         window.window_position = Gtk.WindowPosition.CENTER;
         window.add(pages.stack = new Stack.Stack());
-        window.show_all();
-    }
 
-    private void loadGresources() {
+        weak Gtk.IconTheme default_theme = Gtk.IconTheme.get_default ();
+        default_theme.add_resource_path ("/com/github/eudaldgr/elements");
+
         var provider = new Gtk.CssProvider ();
-        provider.load_from_resource ("/home/eudaldgr/Documents/src/elements/src/data/application.css");
+        provider.load_from_resource ("/com/github/eudaldgr/elements/app.css");
         Gtk.StyleContext.add_provider_for_screen (Gdk.Screen.get_default (), provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+
+        window.show_all();
     }
 
     public static int main (string[] args) {
