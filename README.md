@@ -6,6 +6,14 @@
 <h3 align="center">A periodic table for elementary OS</h3>
 
 <p align="center">
+    <a href="https://forthebadge.com"><img alt="forthebadge" src="https://forthebadge.com/images/badges/powered-by-oxygen.svg"></a>
+
+    <a href="https://forthebadge.com"><img alt="forthebadge" src="https://forthebadge.com/images/badges/made-with-crayons.svg"></a>
+
+    <a href="https://forthebadge.com"><img alt="forthebadge" src="https://forthebadge.com/images/badges/gluten-free.svg"></a>
+</p>
+
+<p align="center">
     <img
     src="https://raw.githubusercontent.com/eudaldgr/elements/master/data/screenshots/Screenshot1.png" />
 </p>
