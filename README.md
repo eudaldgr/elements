@@ -1,6 +1,5 @@
 <p align="center">
-
-  <img src="https://cdn.rawgit.com/eudaldgr/elements/master/data/icons/128/com.github.eudaldgr.elements.svg" alt="Icon" />
+  <img src="https://github.com/eudaldgr/elements/blob/master/data/icons/128/com.github.eudaldgr.elements.svg" alt="Icon" />
 </p>
 
 <h1 align="center">Elements</h1>
