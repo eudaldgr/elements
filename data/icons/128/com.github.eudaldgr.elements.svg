@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -29,13 +30,15 @@
      inkscape:window-height="1017"
      id="namedview46"
      showgrid="false"
-     inkscape:zoom="5.6568543"
-     inkscape:cx="45.384795"
-     inkscape:cy="61.74822"
+     inkscape:zoom="4"
+     inkscape:cx="53.587708"
+     inkscape:cy="78.650974"
      inkscape:window-x="0"
      inkscape:window-y="30"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g153" />
+     inkscape:current-layer="g153"
+     inkscape:snap-object-midpoints="false"
+     inkscape:snap-center="false" />
   <metadata
      id="metadata155">
     <rdf:RDF>
@@ -44,6 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>elementary Icon Template</dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -51,6 +55,45 @@
      id="title4162">elementary Icon Template</title>
   <defs
      id="defs3">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5766">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5768" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop5770" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5750">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5752" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop5754" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5646"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5648" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 64 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="128 : 64 : 1"
+       inkscape:persp3d-origin="64 : 42.666667 : 1"
+       id="perspective4200" />
     <linearGradient
        id="linearGradient10457">
       <stop
@@ -206,6 +249,34 @@
        x2="352"
        y1="196"
        y2="131" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5646"
+       id="linearGradient5650"
+       x1="299.34412"
+       y1="170.39619"
+       x2="339.61658"
+       y2="170.39619"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5750"
+       id="linearGradient5756"
+       x1="370"
+       y1="124.18755"
+       x2="370.125"
+       y2="157.43755"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-1.0000049,0)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5766"
+       id="linearGradient5772"
+       x1="319.37616"
+       y1="160.4315"
+       x2="319.55292"
+       y2="240.15781"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <g
      id="g153"
@@ -254,5 +325,90 @@
        width="101"
        x="285.5"
        y="105.5" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:73.15240479px;line-height:125%;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System';letter-spacing:0px;word-spacing:0px;opacity:0.05;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linejoin:round;stroke-opacity:1"
+       x="291.13538"
+       y="199.42691"
+       id="text5782"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0056268,0.99440469)"><tspan
+         sodipodi:role="line"
+         id="tspan5784"
+         x="291.13538"
+         y="199.42691"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-linejoin:round;stroke-opacity:1">H</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5774"
+       y="196.91106"
+       x="294.06775"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70px;line-height:125%;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System';letter-spacing:0px;word-spacing:0px;opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1;"
+       xml:space="preserve"><tspan
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1;"
+         y="196.91106"
+         x="294.06775"
+         id="tspan5776"
+         sodipodi:role="line">H</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:70px;line-height:125%;font-family:'Khmer OS System';letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient5772);fill-opacity:1;-inkscape-font-specification:'Khmer OS System';font-stretch:normal;font-variant:normal;stroke:none;stroke-opacity:1"
+       x="294.06775"
+       y="195.91133"
+       id="text4154"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4156"
+         x="294.06775"
+         y="195.91133"
+         style="stroke:none;stroke-opacity:1;fill-opacity:1;fill:url(#linearGradient5772)">H</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="364.98456"
+       y="116.76767"
+       id="text4176"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4178"
+         x="364.98456"
+         y="116.76767" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40.22471237px;line-height:125%;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System';letter-spacing:0px;word-spacing:0px;opacity:0.07000002;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.06637621px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+       x="335.25195"
+       y="152.57402"
+       id="text5786"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0662141,0.93789794)"><tspan
+         sodipodi:role="line"
+         id="tspan5788"
+         x="335.25195"
+         y="152.57402"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.06637621px;stroke-linejoin:round;stroke-opacity:1">1</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5758"
+       y="141.63205"
+       x="359.91867"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:125%;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System';letter-spacing:0px;word-spacing:0px;opacity:0.15;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="fill:#000000;fill-opacity:1"
+         y="141.63205"
+         x="359.91867"
+         id="tspan5760"
+         sodipodi:role="line">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:125%;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System';letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient5756);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="359.91867"
+       y="140.63252"
+       id="text4180"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4182"
+         x="359.91867"
+         y="140.63252"
+         style="fill:url(#linearGradient5756);fill-opacity:1">1</tspan></text>
   </g>
 </svg>
