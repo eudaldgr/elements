@@ -26,7 +26,6 @@ executable(
     asresources,
     'src/Application.vala',
     'src/Constants.vala',
-    'src/Elements.vala',
     'src/MainWindow.vala',
     'src/Widgets/HeaderBar.vala',
     'src/Widgets/Stack.vala',
