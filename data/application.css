@@ -122,6 +122,15 @@
     background : rgba(238, 139, 177, 1);
 }
 
+.non {
+    border : 0px;
+    font-size : 17px;
+    color : white;
+    border-radius : 3px;
+    padding : 15px 10px;
+    background : rgba(184, 202, 212, 1);
+}
+
 /***************
  *   Orbital   *
  **************/

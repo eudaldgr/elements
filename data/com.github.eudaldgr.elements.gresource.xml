@@ -2,6 +2,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
   <gresource prefix="/com/github/eudaldgr/elements">
-    <file alias="app.css" compressed="true">app.css</file>
+    <file alias="application.css" compressed="true">application.css</file>
   </gresource>
 </gresources>

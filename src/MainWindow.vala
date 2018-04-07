@@ -19,46 +19,41 @@
 * Authored by: eudaldgr <eudaldgr@posteo.net>
 */
 
-public class Elements : Gtk.Application {
+using Granite.Widgets;
 
-    construct {
-        application_id = "com.github.eudaldgr.elements";
-        flags = ApplicationFlags.FLAGS_NONE;
-    }
+namespace Application {
+    public class MainWindow : Gtk.Window {
 
-    public override void activate () {
-        var pages = new Gtk.StackSwitcher();
-        pages.margin = 3;
-        pages.halign = Gtk.Align.CENTER;
-        pages.homogeneous = true;
+        private Stack stack = Stack.get_instance();
 
-        var headerbar = new Gtk.HeaderBar();
-        headerbar.set_custom_title(pages);
-        headerbar.show_close_button = true;
-        headerbar.pack_end(new Search.Search());
+        private HeaderBar headerBar = HeaderBar.get_instance();
 
-        var window = new Gtk.ApplicationWindow(this);
-        window.resizable = false;
-        window.set_titlebar(headerbar);
-        window.window_position = Gtk.WindowPosition.CENTER;
-        window.add(pages.stack = new Stack.Stack());
+        construct {
+            resizable = false;
+            set_titlebar (headerBar);
 
-        weak Gtk.IconTheme default_theme = Gtk.IconTheme.get_default ();
-        default_theme.add_resource_path ("/com/github/eudaldgr/elements");
+            stack.loadViews(this);
 
-        var provider = new Gtk.CssProvider ();
-        provider.load_from_resource ("/com/github/eudaldgr/elements/app.css");
-        Gtk.StyleContext.add_provider_for_screen (
-            Gdk.Screen.get_default (),
-            provider,
-            Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
-        );
+            addShortcuts();
+        }
 
-        window.show_all();
-    }
+        private void addShortcuts() {
+            key_press_event.connect ((e) => { 
+                switch (e.keyval) {
+                    case Gdk.Key.f:
+                      if ((e.state & Gdk.ModifierType.CONTROL_MASK) != 0) {
+                        headerBar.searchEntry.grab_focus();
+                      }
+                      break;
+                    case Gdk.Key.q:
+                      if ((e.state & Gdk.ModifierType.CONTROL_MASK) != 0) {
+                        Gtk.main_quit();
+                      }
+                      break;
+                }
 
-    public static int main (string[] args) {
-        var app = new Elements();
-        return app.run(args);
+                return false; 
+            });
+        }
     }
 }

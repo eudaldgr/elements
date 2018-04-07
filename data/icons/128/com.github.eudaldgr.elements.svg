@@ -16,7 +16,10 @@
    viewBox="0 0 128 128"
    width="128"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="com.github.eudaldgr.elements.svg">
+   sodipodi:docname="com.github.eudaldgr.elements.svg"
+   inkscape:export-filename="/home/eudaldgr/Documents/src/elements/data/icons/64/com.github.eudaldgr.elements..png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -31,8 +34,8 @@
      id="namedview46"
      showgrid="false"
      inkscape:zoom="4"
-     inkscape:cx="53.587708"
-     inkscape:cy="78.650974"
+     inkscape:cx="51.712708"
+     inkscape:cy="58.650974"
      inkscape:window-x="0"
      inkscape:window-y="30"
      inkscape:window-maximized="1"
@@ -264,8 +267,8 @@
        id="linearGradient5756"
        x1="370"
        y1="124.18755"
-       x2="370.125"
-       y2="157.43755"
+       x2="369.625"
+       y2="167.68755"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(-1.0000049,0)" />
     <linearGradient
@@ -275,7 +278,7 @@
        x1="319.37616"
        y1="160.4315"
        x2="319.55292"
-       y2="240.15781"
+       y2="259.40781"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <g

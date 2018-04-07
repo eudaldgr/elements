@@ -19,11 +19,17 @@
 * Authored by: eudaldgr <eudaldgr@posteo.net>
 */
 
-namespace History {
-    public class History : Gtk.Box {
-        public History(Gtk.Orientation orientation, int spacing) {
-            Object(orientation: orientation, spacing: spacing);
+namespace Application.Constants {
+    public const string APP_NAME = "Elements";
+    public const string EXEC_NAME = "Elements";
+    public const string DESKTOP_NAME = "com.github.eudaldgr.elements.desktop";
+    public const string APPLICATION_ID = DESKTOP_NAME;
+    public const string ICON = "com.github.eudaldgr.repositories";
+    public const string MAIN_URL = "https://github.com/eudaldgr/elements";
+    public const string BUG_URL = MAIN_URL + "/issues";
+    public const string VERSION = "0.1.0";
+    public const string VERSION_INFO = "Unstable";
+    public const string APP_YEARS = "2018";
 
-        }
-    }
+    public const Gdk.RGBA BRAND_COLOR = {0.529, 0.792, 0.761, 1.0};
 }

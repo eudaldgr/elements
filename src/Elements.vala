@@ -19,15 +19,26 @@
 * Authored by: eudaldgr <eudaldgr@posteo.net>
 */
 
-namespace StackAtom {
-    public class StackAtom : Gtk.Stack {
-        public StackAtom() {
-            Object();
+namespace Application {
+    public class Elements : Object {
 
-            this.margin = 12;
-            this.transition_type = Gtk.StackTransitionType.SLIDE_LEFT_RIGHT;
-            this.add_titled(new Properties.Properties(Gtk.Orientation.VERTICAL, 0), "Properties", "Properties");
-            this.add_titled(new History.History(Gtk.Orientation.VERTICAL, 0), "History", "History");
+        private string name;
+        private string shortcut;
+
+        public string getName() {
+            return this.name;
+        }
+
+        public void setName(string name) {
+            this.name = name;
+        }
+
+        public string getShortcut() {
+            return this.shortcut;
+        }
+
+        public void setShortcut(string shortcut) {
+            this.shortcut = shortcut;
         }
     }
 }

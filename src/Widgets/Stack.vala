@@ -19,16 +19,64 @@
 * Authored by: eudaldgr <eudaldgr@posteo.net>
 */
 
-namespace Stack {
-    public class Stack : Gtk.Stack {
-        public Stack() {
-            Object();
+namespace Application {
+    public class Stack : Object {
 
-            this.margin = 12;
-            this.transition_type = Gtk.StackTransitionType.SLIDE_LEFT_RIGHT;
-            this.add_titled(new MainPeriodic.MainPeriodic(Gtk.Orientation.VERTICAL, 0), "MainTable", "Main");
-            this.add_titled(new OrbitalPeriodic.OrbitalPeriodic(Gtk.Orientation.VERTICAL, 0), "Orbitals", "Orbitals");
-            this.add_titled(new eVPeriodic.eVPeriodic(Gtk.Orientation.VERTICAL, 0), "ElectronegativityTable", "Electronegativity");
+        static Stack? instance;
+
+        private Gtk.Stack stack;
+
+        private const string MAIN_VIEW_ID = "main-view";
+        private const string ORBITAL_VIEW_ID = "orbital-view";
+        private const string ELECTRONEGATIVITY_VIEW_ID = "electronegativity-view";
+
+        Stack() {
+            stack = new Gtk.Stack ();
+            stack.margin = 12;
+            stack.transition_type = Gtk.StackTransitionType.SLIDE_LEFT_RIGHT;
+        }
+
+        public static Stack get_instance() {
+            if (instance == null) {
+                instance = new Stack();
+            }
+            return instance;
+        }
+
+        public Gtk.Stack getStack() {
+            return this.stack;
+        }
+
+        public void loadViews(Gtk.Window window) {
+            var main_view = new PeriodicView(Gtk.Orientation.VERTICAL, 0, MAIN_VIEW_ID);
+            var orbital_view = new PeriodicView(Gtk.Orientation.VERTICAL, 0, ORBITAL_VIEW_ID);
+            var electro_view = new PeriodicView(Gtk.Orientation.VERTICAL, 0, ELECTRONEGATIVITY_VIEW_ID);
+
+            stack.add_titled (main_view, MAIN_VIEW_ID, "Main");
+            stack.add_titled (orbital_view, ORBITAL_VIEW_ID, "Orbital");
+            stack.add_titled (electro_view, ELECTRONEGATIVITY_VIEW_ID, "Electronegativity");
+
+            stack.notify["visible-child"].connect (() => {
+                var headerBar = HeaderBar.get_instance();
+
+                if(stack.get_visible_child_name() == MAIN_VIEW_ID){
+                    headerBar.showReturnButton(false);
+                    headerBar.showButtons(true);
+                }
+
+                if(stack.get_visible_child_name() == ORBITAL_VIEW_ID){
+                    headerBar.showReturnButton(false);
+                    headerBar.showButtons(true);
+                }
+
+                if(stack.get_visible_child_name() == ELECTRONEGATIVITY_VIEW_ID){
+                    headerBar.showReturnButton(false);
+                    headerBar.showButtons(true);
+                }
+            });
+
+            window.add(stack);
+            window.show_all();
         }
     }
 }
