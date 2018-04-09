@@ -22,19 +22,19 @@
 using Granite.Widgets;
 
 namespace Application {
-    public class PeriodicView : Gtk.Box {
+    public class PeriodicView : Gtk.Grid {
 
-        static PeriodicView? instance;
+        Stack stack = Stack.get_instance();
 
-        public PeriodicView(Gtk.Orientation orientation, int spacing, string id) {
+        private HeaderBar headerBar = HeaderBar.get_instance();
 
-            var grid = new Gtk.Grid();
-            grid.row_spacing = 3;
-            grid.column_spacing = 3;
-            grid.row_homogeneous = true;
-            grid.column_homogeneous = true;
+        public PeriodicView(string id) {
+            headerBar.showPeriodicViewMode(true);
 
-            this.pack_start(grid, true, false, 0);
+            this.row_spacing = 3;
+            this.column_spacing = 3;
+            this.row_homogeneous = true;
+            this.column_homogeneous = true;
 
             var b001 = new Gtk.Button.with_label ("H");
             var b002 = new Gtk.Button.with_label ("He");
@@ -158,140 +158,140 @@ namespace Application {
             var x = new Gtk.Label("*");
             var xx = new Gtk.Label("**");
 
-            grid.attach(new Gtk.Label(" "), 0, 8, 1, 1);
-            grid.attach(x, 2, 6, 1, 1);
-            grid.attach(xx, 2, 7, 1, 1);
+            this.attach(new Gtk.Label(" "), 0, 8, 1, 1);
+            this.attach(x, 2, 6, 1, 1);
+            this.attach(xx, 2, 7, 1, 1);
 
-            grid.attach(b001, 0, 1, 1, 1);
-            grid.attach(b002, 17, 1, 1, 1);
-            grid.attach(b003, 0, 2, 1, 1);
-            grid.attach(b004, 1, 2, 1, 1);
-            grid.attach(b005, 12, 2, 1, 1);
-            grid.attach(b006, 13, 2, 1, 1);
-            grid.attach(b007, 14, 2, 1, 1);
-            grid.attach(b008, 15, 2, 1, 1);
-            grid.attach(b009, 16, 2, 1, 1);
-            grid.attach(b010, 17, 2, 1, 1);
-            grid.attach(b011, 0, 3, 1, 1);
-            grid.attach(b012, 1, 3, 1, 1);
-            grid.attach(b013, 12, 3, 1, 1);
-            grid.attach(b014, 13, 3, 1, 1);
-            grid.attach(b015, 14, 3, 1, 1);
-            grid.attach(b016, 15, 3, 1, 1);
-            grid.attach(b017, 16, 3, 1, 1);
-            grid.attach(b018, 17, 3, 1, 1);
-            grid.attach(b019, 0, 4, 1, 1);
-            grid.attach(b020, 1, 4, 1, 1);
-            grid.attach(b021, 2, 4, 1, 1);
-            grid.attach(b022, 3, 4, 1, 1);
-            grid.attach(b023, 4, 4, 1, 1);
-            grid.attach(b024, 5, 4, 1, 1);
-            grid.attach(b025, 6, 4, 1, 1);
-            grid.attach(b026, 7, 4, 1, 1);
-            grid.attach(b027, 8, 4, 1, 1);
-            grid.attach(b028, 9, 4, 1, 1);
-            grid.attach(b029, 10, 4, 1, 1);
-            grid.attach(b030, 11, 4, 1, 1);
-            grid.attach(b031, 12, 4, 1, 1);
-            grid.attach(b032, 13, 4, 1, 1);
-            grid.attach(b033, 14, 4, 1, 1);
-            grid.attach(b034, 15, 4, 1, 1);
-            grid.attach(b035, 16, 4, 1, 1);
-            grid.attach(b036, 17, 4, 1, 1);
-            grid.attach(b037, 0, 5, 1, 1);
-            grid.attach(b038, 1, 5, 1, 1);
-            grid.attach(b039, 2, 5, 1, 1);
-            grid.attach(b040, 3, 5, 1, 1);
-            grid.attach(b041, 4, 5, 1, 1);
-            grid.attach(b042, 5, 5, 1, 1);
-            grid.attach(b043, 6, 5, 1, 1);
-            grid.attach(b044, 7, 5, 1, 1);
-            grid.attach(b045, 8, 5, 1, 1);
-            grid.attach(b046, 9, 5, 1, 1);
-            grid.attach(b047, 10, 5, 1, 1);
-            grid.attach(b048, 11, 5, 1, 1);
-            grid.attach(b049, 12, 5, 1, 1);
-            grid.attach(b050, 13, 5, 1, 1);
-            grid.attach(b051, 14, 5, 1, 1);
-            grid.attach(b052, 15, 5, 1, 1);
-            grid.attach(b053, 16, 5, 1, 1);
-            grid.attach(b054, 17, 5, 1, 1);
-            grid.attach(b055, 0, 6, 1, 1);
-            grid.attach(b056, 1, 6, 1, 1);
+            this.attach(b001, 0, 1, 1, 1);
+            this.attach(b002, 17, 1, 1, 1);
+            this.attach(b003, 0, 2, 1, 1);
+            this.attach(b004, 1, 2, 1, 1);
+            this.attach(b005, 12, 2, 1, 1);
+            this.attach(b006, 13, 2, 1, 1);
+            this.attach(b007, 14, 2, 1, 1);
+            this.attach(b008, 15, 2, 1, 1);
+            this.attach(b009, 16, 2, 1, 1);
+            this.attach(b010, 17, 2, 1, 1);
+            this.attach(b011, 0, 3, 1, 1);
+            this.attach(b012, 1, 3, 1, 1);
+            this.attach(b013, 12, 3, 1, 1);
+            this.attach(b014, 13, 3, 1, 1);
+            this.attach(b015, 14, 3, 1, 1);
+            this.attach(b016, 15, 3, 1, 1);
+            this.attach(b017, 16, 3, 1, 1);
+            this.attach(b018, 17, 3, 1, 1);
+            this.attach(b019, 0, 4, 1, 1);
+            this.attach(b020, 1, 4, 1, 1);
+            this.attach(b021, 2, 4, 1, 1);
+            this.attach(b022, 3, 4, 1, 1);
+            this.attach(b023, 4, 4, 1, 1);
+            this.attach(b024, 5, 4, 1, 1);
+            this.attach(b025, 6, 4, 1, 1);
+            this.attach(b026, 7, 4, 1, 1);
+            this.attach(b027, 8, 4, 1, 1);
+            this.attach(b028, 9, 4, 1, 1);
+            this.attach(b029, 10, 4, 1, 1);
+            this.attach(b030, 11, 4, 1, 1);
+            this.attach(b031, 12, 4, 1, 1);
+            this.attach(b032, 13, 4, 1, 1);
+            this.attach(b033, 14, 4, 1, 1);
+            this.attach(b034, 15, 4, 1, 1);
+            this.attach(b035, 16, 4, 1, 1);
+            this.attach(b036, 17, 4, 1, 1);
+            this.attach(b037, 0, 5, 1, 1);
+            this.attach(b038, 1, 5, 1, 1);
+            this.attach(b039, 2, 5, 1, 1);
+            this.attach(b040, 3, 5, 1, 1);
+            this.attach(b041, 4, 5, 1, 1);
+            this.attach(b042, 5, 5, 1, 1);
+            this.attach(b043, 6, 5, 1, 1);
+            this.attach(b044, 7, 5, 1, 1);
+            this.attach(b045, 8, 5, 1, 1);
+            this.attach(b046, 9, 5, 1, 1);
+            this.attach(b047, 10, 5, 1, 1);
+            this.attach(b048, 11, 5, 1, 1);
+            this.attach(b049, 12, 5, 1, 1);
+            this.attach(b050, 13, 5, 1, 1);
+            this.attach(b051, 14, 5, 1, 1);
+            this.attach(b052, 15, 5, 1, 1);
+            this.attach(b053, 16, 5, 1, 1);
+            this.attach(b054, 17, 5, 1, 1);
+            this.attach(b055, 0, 6, 1, 1);
+            this.attach(b056, 1, 6, 1, 1);
 
 ////////////////////////////////////////////////////
 //////////////////Lantanids/////////////////////////
 ////////////////////////////////////////////////////
-            grid.attach(b057, 2, 10, 1, 1);
-            grid.attach(b058, 3, 10, 1, 1);
-            grid.attach(b059, 4, 10, 1, 1);
-            grid.attach(b060, 5, 10, 1, 1);
-            grid.attach(b061, 6, 10, 1, 1);
-            grid.attach(b062, 7, 10, 1, 1);
-            grid.attach(b063, 8, 10, 1, 1);
-            grid.attach(b064, 9, 10, 1, 1);
-            grid.attach(b065, 10, 10, 1, 1);
-            grid.attach(b066, 11, 10, 1, 1);
-            grid.attach(b067, 12, 10, 1, 1);
-            grid.attach(b068, 13, 10, 1, 1);
-            grid.attach(b069, 14, 10, 1, 1);
-            grid.attach(b070, 15, 10, 1, 1);
-            grid.attach(b071, 16, 10, 1, 1);
+            this.attach(b057, 2, 10, 1, 1);
+            this.attach(b058, 3, 10, 1, 1);
+            this.attach(b059, 4, 10, 1, 1);
+            this.attach(b060, 5, 10, 1, 1);
+            this.attach(b061, 6, 10, 1, 1);
+            this.attach(b062, 7, 10, 1, 1);
+            this.attach(b063, 8, 10, 1, 1);
+            this.attach(b064, 9, 10, 1, 1);
+            this.attach(b065, 10, 10, 1, 1);
+            this.attach(b066, 11, 10, 1, 1);
+            this.attach(b067, 12, 10, 1, 1);
+            this.attach(b068, 13, 10, 1, 1);
+            this.attach(b069, 14, 10, 1, 1);
+            this.attach(b070, 15, 10, 1, 1);
+            this.attach(b071, 16, 10, 1, 1);
 ////////////////////////////////////////////////////
 
-            grid.attach(b072, 3, 6, 1, 1);
-            grid.attach(b073, 4, 6, 1, 1);
-            grid.attach(b074, 5, 6, 1, 1);
-            grid.attach(b075, 6, 6, 1, 1);
-            grid.attach(b076, 7, 6, 1, 1);
-            grid.attach(b077, 8, 6, 1, 1);
-            grid.attach(b078, 9, 6, 1, 1);
-            grid.attach(b079, 10, 6, 1, 1);
-            grid.attach(b080, 11, 6, 1, 1);
-            grid.attach(b081, 12, 6, 1, 1);
-            grid.attach(b082, 13, 6, 1, 1);
-            grid.attach(b083, 14, 6, 1, 1);
-            grid.attach(b084, 15, 6, 1, 1);
-            grid.attach(b085, 16, 6, 1, 1);
-            grid.attach(b086, 17, 6, 1, 1);
-            grid.attach(b087, 0, 7, 1, 1);
-            grid.attach(b088, 1, 7, 1, 1);
+            this.attach(b072, 3, 6, 1, 1);
+            this.attach(b073, 4, 6, 1, 1);
+            this.attach(b074, 5, 6, 1, 1);
+            this.attach(b075, 6, 6, 1, 1);
+            this.attach(b076, 7, 6, 1, 1);
+            this.attach(b077, 8, 6, 1, 1);
+            this.attach(b078, 9, 6, 1, 1);
+            this.attach(b079, 10, 6, 1, 1);
+            this.attach(b080, 11, 6, 1, 1);
+            this.attach(b081, 12, 6, 1, 1);
+            this.attach(b082, 13, 6, 1, 1);
+            this.attach(b083, 14, 6, 1, 1);
+            this.attach(b084, 15, 6, 1, 1);
+            this.attach(b085, 16, 6, 1, 1);
+            this.attach(b086, 17, 6, 1, 1);
+            this.attach(b087, 0, 7, 1, 1);
+            this.attach(b088, 1, 7, 1, 1);
 
 ////////////////////////////////////////////////////
 ///////////////Actinids/////////////////////////////
 ////////////////////////////////////////////////////
-            grid.attach(b089, 2, 11, 1, 1);
-            grid.attach(b090, 3, 11, 1, 1);
-            grid.attach(b091, 4, 11, 1, 1);
-            grid.attach(b092, 5, 11, 1, 1);
-            grid.attach(b093, 6, 11, 1, 1);
-            grid.attach(b094, 7, 11, 1, 1);
-            grid.attach(b095, 8, 11, 1, 1);
-            grid.attach(b096, 9, 11, 1, 1);
-            grid.attach(b097, 10, 11, 1, 1);
-            grid.attach(b098, 11, 11, 1, 1);
-            grid.attach(b099, 12, 11, 1, 1);
-            grid.attach(b100, 13, 11, 1, 1);
-            grid.attach(b101, 14, 11, 1, 1);
-            grid.attach(b102, 15, 11, 1, 1);
-            grid.attach(b103, 16, 11, 1, 1);
+            this.attach(b089, 2, 11, 1, 1);
+            this.attach(b090, 3, 11, 1, 1);
+            this.attach(b091, 4, 11, 1, 1);
+            this.attach(b092, 5, 11, 1, 1);
+            this.attach(b093, 6, 11, 1, 1);
+            this.attach(b094, 7, 11, 1, 1);
+            this.attach(b095, 8, 11, 1, 1);
+            this.attach(b096, 9, 11, 1, 1);
+            this.attach(b097, 10, 11, 1, 1);
+            this.attach(b098, 11, 11, 1, 1);
+            this.attach(b099, 12, 11, 1, 1);
+            this.attach(b100, 13, 11, 1, 1);
+            this.attach(b101, 14, 11, 1, 1);
+            this.attach(b102, 15, 11, 1, 1);
+            this.attach(b103, 16, 11, 1, 1);
 ////////////////////////////////////////////////////
 
-            grid.attach(b104, 3, 7, 1, 1);
-            grid.attach(b105, 4, 7, 1, 1);
-            grid.attach(b106, 5, 7, 1, 1);
-            grid.attach(b107, 6, 7, 1, 1);
-            grid.attach(b108, 7, 7, 1, 1);
-            grid.attach(b109, 8, 7, 1, 1);
-            grid.attach(b110, 9, 7, 1, 1);
-            grid.attach(b111, 10, 7, 1, 1);
-            grid.attach(b112, 11, 7, 1, 1);
-            grid.attach(b113, 12, 7, 1, 1);
-            grid.attach(b114, 13, 7, 1, 1);
-            grid.attach(b115, 14, 7, 1, 1);
-            grid.attach(b116, 15, 7, 1, 1);
-            grid.attach(b117, 16, 7, 1, 1);
-            grid.attach(b118, 17, 7, 1, 1);
+            this.attach(b104, 3, 7, 1, 1);
+            this.attach(b105, 4, 7, 1, 1);
+            this.attach(b106, 5, 7, 1, 1);
+            this.attach(b107, 6, 7, 1, 1);
+            this.attach(b108, 7, 7, 1, 1);
+            this.attach(b109, 8, 7, 1, 1);
+            this.attach(b110, 9, 7, 1, 1);
+            this.attach(b111, 10, 7, 1, 1);
+            this.attach(b112, 11, 7, 1, 1);
+            this.attach(b113, 12, 7, 1, 1);
+            this.attach(b114, 13, 7, 1, 1);
+            this.attach(b115, 14, 7, 1, 1);
+            this.attach(b116, 15, 7, 1, 1);
+            this.attach(b117, 16, 7, 1, 1);
+            this.attach(b118, 17, 7, 1, 1);
 
             if (id == "main-view") {
                 x.get_style_context().add_class("lantanid");
@@ -426,131 +426,6 @@ namespace Application {
                 b101.get_style_context().add_class("actinid");
                 b102.get_style_context().add_class("actinid");
                 b103.get_style_context().add_class("actinid");
-            } if (id == "orbital-view") {
-                x.get_style_context().add_class("f");
-                xx.get_style_context().add_class("f");
-
-                b001.get_style_context().add_class("s");
-                b003.get_style_context().add_class("s");
-                b004.get_style_context().add_class("s");
-                b011.get_style_context().add_class("s");
-                b012.get_style_context().add_class("s");
-                b019.get_style_context().add_class("s");
-                b020.get_style_context().add_class("s");
-                b037.get_style_context().add_class("s");
-                b038.get_style_context().add_class("s");
-                b055.get_style_context().add_class("s");
-                b056.get_style_context().add_class("s");
-                b087.get_style_context().add_class("s");
-                b088.get_style_context().add_class("s");
-
-                b002.get_style_context().add_class("p");
-                b005.get_style_context().add_class("p");
-                b006.get_style_context().add_class("p");
-                b007.get_style_context().add_class("p");
-                b008.get_style_context().add_class("p");
-                b009.get_style_context().add_class("p");
-                b010.get_style_context().add_class("p");
-                b013.get_style_context().add_class("p");
-                b014.get_style_context().add_class("p");
-                b015.get_style_context().add_class("p");
-                b016.get_style_context().add_class("p");
-                b017.get_style_context().add_class("p");
-                b018.get_style_context().add_class("p");
-                b031.get_style_context().add_class("p");
-                b032.get_style_context().add_class("p");
-                b033.get_style_context().add_class("p");
-                b034.get_style_context().add_class("p");
-                b035.get_style_context().add_class("p");
-                b036.get_style_context().add_class("p");
-                b049.get_style_context().add_class("p");
-                b050.get_style_context().add_class("p");
-                b051.get_style_context().add_class("p");
-                b052.get_style_context().add_class("p");
-                b053.get_style_context().add_class("p");
-                b054.get_style_context().add_class("p");
-                b081.get_style_context().add_class("p");
-                b082.get_style_context().add_class("p");
-                b083.get_style_context().add_class("p");
-                b084.get_style_context().add_class("p");
-                b085.get_style_context().add_class("p");
-                b086.get_style_context().add_class("p");
-                b113.get_style_context().add_class("p");
-                b114.get_style_context().add_class("p");
-                b115.get_style_context().add_class("p");
-                b116.get_style_context().add_class("p");
-                b117.get_style_context().add_class("p");
-                b118.get_style_context().add_class("p");
-
-                b021.get_style_context().add_class("d");
-                b022.get_style_context().add_class("d");
-                b023.get_style_context().add_class("d");
-                b024.get_style_context().add_class("d");
-                b025.get_style_context().add_class("d");
-                b026.get_style_context().add_class("d");
-                b027.get_style_context().add_class("d");
-                b028.get_style_context().add_class("d");
-                b029.get_style_context().add_class("d");
-                b030.get_style_context().add_class("d");
-                b039.get_style_context().add_class("d");
-                b040.get_style_context().add_class("d");
-                b041.get_style_context().add_class("d");
-                b042.get_style_context().add_class("d");
-                b043.get_style_context().add_class("d");
-                b044.get_style_context().add_class("d");
-                b045.get_style_context().add_class("d");
-                b046.get_style_context().add_class("d");
-                b047.get_style_context().add_class("d");
-                b048.get_style_context().add_class("d");
-                b072.get_style_context().add_class("d");
-                b073.get_style_context().add_class("d");
-                b074.get_style_context().add_class("d");
-                b075.get_style_context().add_class("d");
-                b076.get_style_context().add_class("d");
-                b077.get_style_context().add_class("d");
-                b078.get_style_context().add_class("d");
-                b079.get_style_context().add_class("d");
-                b080.get_style_context().add_class("d");
-                b104.get_style_context().add_class("d");
-                b105.get_style_context().add_class("d");
-                b106.get_style_context().add_class("d");
-                b107.get_style_context().add_class("d");
-                b108.get_style_context().add_class("d");
-                b109.get_style_context().add_class("d");
-                b110.get_style_context().add_class("d");
-                b111.get_style_context().add_class("d");
-                b112.get_style_context().add_class("d");
-
-                b057.get_style_context().add_class("f");
-                b058.get_style_context().add_class("f");
-                b059.get_style_context().add_class("f");
-                b060.get_style_context().add_class("f");
-                b061.get_style_context().add_class("f");
-                b062.get_style_context().add_class("f");
-                b063.get_style_context().add_class("f");
-                b064.get_style_context().add_class("f");
-                b065.get_style_context().add_class("f");
-                b066.get_style_context().add_class("f");
-                b067.get_style_context().add_class("f");
-                b068.get_style_context().add_class("f");
-                b069.get_style_context().add_class("f");
-                b070.get_style_context().add_class("f");
-                b071.get_style_context().add_class("f");
-                b089.get_style_context().add_class("f");
-                b090.get_style_context().add_class("f");
-                b091.get_style_context().add_class("f");
-                b092.get_style_context().add_class("f");
-                b093.get_style_context().add_class("f");
-                b094.get_style_context().add_class("f");
-                b095.get_style_context().add_class("f");
-                b096.get_style_context().add_class("f");
-                b097.get_style_context().add_class("f");
-                b098.get_style_context().add_class("f");
-                b099.get_style_context().add_class("f");
-                b100.get_style_context().add_class("f");
-                b101.get_style_context().add_class("f");
-                b102.get_style_context().add_class("f");
-                b103.get_style_context().add_class("f");
             } if (id == "electronegativity-view") {
                 x.get_style_context().add_class("zero_eV");
                 xx.get_style_context().add_class("zero_eV");
@@ -681,13 +556,13 @@ namespace Application {
 
                 b009.get_style_context().add_class("six_eV");
             }
-        }
 
-        public static PeriodicView get_instance() {
-            if (instance == null) {
-                instance = new PeriodicView(Gtk.Orientation.VERTICAL, 0, "main-view");
-            }
-            return instance;
+            b001.clicked.connect (() => {
+                headerBar.custom_title = headerBar.atomicView_mode;
+                headerBar.showPeriodicViewMode(false);
+                headerBar.showAtomicViewMode(true);
+                stack.getStack().visible_child_name = "properties-view";
+            });
         }
     }
-}
+}   

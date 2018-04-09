@@ -30,18 +30,20 @@ namespace Application {
 
         public Gtk.SearchEntry searchEntry = new Gtk.SearchEntry();
         public Gtk.Button return_button = new Gtk.Button();
-        public Gtk.StackSwitcher stackSwitcher = new Gtk.StackSwitcher();
+        public Granite.Widgets.ModeButton periodicView_mode = new Granite.Widgets.ModeButton();
+        public Granite.Widgets.ModeButton atomicView_mode = new Granite.Widgets.ModeButton();
 
         HeaderBar() {
             Granite.Widgets.Utils.set_color_primary (this, Constants.BRAND_COLOR);
 
             generateSearchEntry();
             generateReturnButton();
-            generateStackSwitcher();
+            generatePeriodicViewMode();
+            generateAtomicViewMode();
 
             this.show_close_button = true;
 
-            this.set_custom_title (stackSwitcher);
+            this.custom_title = periodicView_mode;
 
             this.pack_start (return_button);
             this.pack_end (searchEntry);
@@ -54,16 +56,46 @@ namespace Application {
             return instance;
         }
 
+    private void generatePeriodicViewMode() {
+        var label1 = new Gtk.Label("Main");
+        var label2 = new Gtk.Label("Electronegativity");
+
+        label1.name = "main-view";
+        label2.name = "electronegativity-view";
+
+        periodicView_mode.append(label1);
+        periodicView_mode.append(label2);
+        periodicView_mode.no_show_all = true;
+        periodicView_mode.visible = false;
+        periodicView_mode.margin = 1;
+        periodicView_mode.notify["selected"].connect (on_periodicView_mode_changed);
+    }
+
+    private void generateAtomicViewMode() {
+        var label1 = new Gtk.Label("Properties");
+        var label2 = new Gtk.Label("History");
+
+        label1.name = "properties-view";
+        label2.name = "history-view";
+
+        atomicView_mode.append(label1);
+        atomicView_mode.append(label2);
+        atomicView_mode.no_show_all = true;
+        atomicView_mode.visible = false;
+        atomicView_mode.margin = 1;
+        atomicView_mode.notify["selected"].connect (on_atomicView_mode_changed);
+    }
+
         private void generateSearchEntry() {
             searchEntry.set_placeholder_text(_("Search elements"));
             searchEntry.set_tooltip_text(_("Search for elements"));
             searchEntry.no_show_all = true;
             searchEntry.visible = true;
-/*
             searchEntry.search_changed.connect (() => {
+/*
                 listManager.getList().getRepositories(searchEntry.text); 
-            });
 */
+            });
         }
 
         private void generateReturnButton() {
@@ -72,15 +104,19 @@ namespace Application {
             return_button.get_style_context ().add_class ("back-button");
             return_button.visible = false;
             return_button.clicked.connect (() => {
+                this.showPeriodicViewMode(true);
+                this.custom_title = periodicView_mode;
+                this.showAtomicViewMode(false);
                 stack.getStack().visible_child_name = "main-view";
             });
         }
 
-        private void generateStackSwitcher() {
-            stackSwitcher.margin = 3;
-            stackSwitcher.halign = Gtk.Align.CENTER;
-            stackSwitcher.homogeneous = true;
-            stackSwitcher.stack = stack.getStack();
+        public void showPeriodicViewMode(bool answer) {
+            periodicView_mode.visible = answer;
+        }
+
+        public void showAtomicViewMode(bool answer) {
+            atomicView_mode.visible = answer;
         }
 
         public void showButtons(bool answer) {
@@ -89,6 +125,30 @@ namespace Application {
 
         public void showReturnButton(bool answer) {
             return_button.visible = answer;
+        }
+
+        public void setSelectedPeriodicViewMode(int answer) {
+            periodicView_mode.selected = answer;
+        }
+
+        public void setSelectedAtomicViewMode(int answer) {
+            atomicView_mode.selected = answer;
+        }
+
+         private void on_periodicView_mode_changed() {
+            if(periodicView_mode.selected == 0) {
+                stack.getStack().visible_child_name = "main-view";
+            } else {
+                stack.getStack().visible_child_name = "electronegativity-view";
+            }
+        }
+
+         private void on_atomicView_mode_changed() {
+            if(atomicView_mode.selected == 0) {
+                stack.getStack().visible_child_name = "properties-view";
+            } else {
+                stack.getStack().visible_child_name = "history-view";
+            }
         }
     }
 }

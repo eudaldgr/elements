@@ -27,13 +27,16 @@ namespace Application {
         private Gtk.Stack stack;
 
         private const string MAIN_VIEW_ID = "main-view";
-        private const string ORBITAL_VIEW_ID = "orbital-view";
-        private const string ELECTRONEGATIVITY_VIEW_ID = "electronegativity-view";
+        private const string ELECTRO_VIEW_ID = "electronegativity-view";
+        private const string PROPERTIES_VIEW_ID = "properties-view";
+        private const string HISTORY_VIEW_ID = "history-view";
 
         Stack() {
-            stack = new Gtk.Stack ();
+            stack = new Gtk.Stack();
             stack.margin = 12;
+/*
             stack.transition_type = Gtk.StackTransitionType.SLIDE_LEFT_RIGHT;
+*/
         }
 
         public static Stack get_instance() {
@@ -48,30 +51,47 @@ namespace Application {
         }
 
         public void loadViews(Gtk.Window window) {
-            var main_view = new PeriodicView(Gtk.Orientation.VERTICAL, 0, MAIN_VIEW_ID);
-            var orbital_view = new PeriodicView(Gtk.Orientation.VERTICAL, 0, ORBITAL_VIEW_ID);
-            var electro_view = new PeriodicView(Gtk.Orientation.VERTICAL, 0, ELECTRONEGATIVITY_VIEW_ID);
+            var main_view = new PeriodicView(MAIN_VIEW_ID);
+            var electro_view = new PeriodicView(ELECTRO_VIEW_ID);
+            var properties_view = new Gtk.Label("Properties TEST");
+            var history_view = new Gtk.Label("History TEST");
 
             stack.add_titled (main_view, MAIN_VIEW_ID, "Main");
-            stack.add_titled (orbital_view, ORBITAL_VIEW_ID, "Orbital");
-            stack.add_titled (electro_view, ELECTRONEGATIVITY_VIEW_ID, "Electronegativity");
+            stack.add_titled (electro_view, ELECTRO_VIEW_ID, "Electronegativity");
+            stack.add_titled (properties_view, PROPERTIES_VIEW_ID, "Properties");
+            stack.add_titled (history_view, HISTORY_VIEW_ID, "History");
 
             stack.notify["visible-child"].connect (() => {
                 var headerBar = HeaderBar.get_instance();
 
-                if(stack.get_visible_child_name() == MAIN_VIEW_ID){
+                if(stack.get_visible_child_name() == MAIN_VIEW_ID) {
                     headerBar.showReturnButton(false);
                     headerBar.showButtons(true);
+                    headerBar.showPeriodicViewMode(true);
+                    headerBar.setSelectedPeriodicViewMode(0);
+                    headerBar.showAtomicViewMode(false);
                 }
 
-                if(stack.get_visible_child_name() == ORBITAL_VIEW_ID){
+                if(stack.get_visible_child_name() == ELECTRO_VIEW_ID) {
                     headerBar.showReturnButton(false);
                     headerBar.showButtons(true);
+                    headerBar.showPeriodicViewMode(true);
+                    headerBar.showAtomicViewMode(false);
                 }
 
-                if(stack.get_visible_child_name() == ELECTRONEGATIVITY_VIEW_ID){
-                    headerBar.showReturnButton(false);
+                if(stack.get_visible_child_name() == PROPERTIES_VIEW_ID) {
+                    headerBar.showReturnButton(true);
                     headerBar.showButtons(true);
+                    headerBar.showPeriodicViewMode(false);
+                    headerBar.showAtomicViewMode(true);
+                    headerBar.setSelectedAtomicViewMode(0);
+                }
+
+                if(stack.get_visible_child_name() == HISTORY_VIEW_ID) {
+                    headerBar.showReturnButton(true);
+                    headerBar.showButtons(true);
+                    headerBar.showPeriodicViewMode(false);
+                    headerBar.showAtomicViewMode(true);
                 }
             });
 
