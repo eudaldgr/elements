@@ -56,7 +56,7 @@ namespace Application {
 
         private void loadGresources() {
             var provider = new Gtk.CssProvider ();
-            provider.load_from_resource ("/com/github/eudaldgr/elements/application.css");
+            provider.load_from_resource ("/com/github/eudaldgr/elements/app.css");
             Gtk.StyleContext.add_provider_for_screen (
                 Gdk.Screen.get_default(),
                 provider,

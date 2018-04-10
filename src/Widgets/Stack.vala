@@ -53,8 +53,8 @@ namespace Application {
         public void loadViews(Gtk.Window window) {
             var main_view = new PeriodicView(MAIN_VIEW_ID);
             var electro_view = new PeriodicView(ELECTRO_VIEW_ID);
-            var properties_view = new Gtk.Label("Properties TEST");
-            var history_view = new Gtk.Label("History TEST");
+            var properties_view = new PropertiesView();
+            var history_view = new HistoryView();
 
             stack.add_titled (main_view, MAIN_VIEW_ID, "Main");
             stack.add_titled (electro_view, ELECTRO_VIEW_ID, "Electronegativity");

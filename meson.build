@@ -27,9 +27,11 @@ executable(
     'src/Application.vala',
     'src/Constants.vala',
     'src/MainWindow.vala',
+    'src/Views/HistoryView.vala',
+    'src/Views/PeriodicView.vala',
+    'src/Views/PropertiesView.vala',
     'src/Widgets/HeaderBar.vala',
     'src/Widgets/Stack.vala',
-    'src/Views/PeriodicView.vala',
     dependencies: [
         dependency('glib-2.0'),
         dependency('granite'),

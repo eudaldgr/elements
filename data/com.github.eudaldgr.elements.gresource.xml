@@ -2,6 +2,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
   <gresource prefix="/com/github/eudaldgr/elements">
-    <file alias="application.css" compressed="true">application.css</file>
+    <file alias="app.css" compressed="true">application.css</file>
+
+    <file alias="H.svg" compressed="true">H.svg</file>
+    <file alias="He.svg" compressed="true">He.svg</file>
   </gresource>
 </gresources>
