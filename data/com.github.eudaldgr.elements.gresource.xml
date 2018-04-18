@@ -3,8 +3,5 @@
 <gresources>
   <gresource prefix="/com/github/eudaldgr/elements">
     <file alias="app.css" compressed="true">application.css</file>
-
-    <file alias="H.svg" compressed="true">H.svg</file>
-    <file alias="He.svg" compressed="true">He.svg</file>
   </gresource>
 </gresources>

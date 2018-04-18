@@ -25,17 +25,32 @@ namespace Application {
     public class PropertiesView : Gtk.Grid {
 
         public PropertiesView() {
-/*
-            this.row_spacing = 3;
-            this.column_spacing = 3;
-            this.row_homogeneous = true;
-            this.column_homogeneous = true;
-*/
+            this.orientation = Gtk.Orientation.VERTICAL;
 
-            var image = new Gtk.Image();
-            image.set_from_resource("/com/github/eudaldgr/elements/H.svg");
+            var separator = new Gtk.Separator (Gtk.Orientation.VERTICAL);
+            separator.margin_top = 50;
+            separator.margin_bottom = 50;
 
-            this.attach(image, 0, 0, 1);
+            var box = new Gtk.Box(Gtk.Orientation.HORIZONTAL, 0);
+            box.orientation = Gtk.Orientation.HORIZONTAL;
+
+            var name = new Gtk.Label(H.NAME);
+            var atomic_number = new Gtk.Label("Atomic number:");
+            var atomic_weigth = new Gtk.Label("Atomic_weigth:");
+            var electro = new Gtk.Label("Electronegativity:");
+            var melting_point = new Gtk.Label("Melting point:");
+            var boiling_point = new Gtk.Label("Boiling point:");
+
+
+            name.get_style_context().add_class("h1");
+            atomic_number.get_style_context().add_class("h3");
+            atomic_weigth.get_style_context().add_class("h3");
+            electro.get_style_context().add_class("h3");
+            melting_point.get_style_context().add_class("h3");
+            boiling_point.get_style_context().add_class("h3");
+
+            this.add(box);
+            this.add(separator);
         }
     }
 }

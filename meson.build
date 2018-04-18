@@ -27,6 +27,7 @@ executable(
     'src/Application.vala',
     'src/Constants.vala',
     'src/MainWindow.vala',
+    'src/Atom/Properties.vala',
     'src/Views/HistoryView.vala',
     'src/Views/PeriodicView.vala',
     'src/Views/PropertiesView.vala',

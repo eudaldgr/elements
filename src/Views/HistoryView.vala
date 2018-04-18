@@ -25,12 +25,6 @@ namespace Application {
     public class HistoryView : Gtk.Grid {
 
         public HistoryView() {
-/*
-            this.row_spacing = 3;
-            this.column_spacing = 3;
-            this.row_homogeneous = true;
-            this.column_homogeneous = true;
-*/
         }
     }
 }
