@@ -24,13 +24,16 @@ namespace Application.H {
     public const string NAME = _("Hydrogen");
     public const string GROUP = Constants.OTHER_NONMETAL;
     public const string ATOMIC_NUMBER = "1";
-/*    public const object ELECTRON {
-      { "s": 1, "p": 0, "d": 0, "f": 0 }
-    };*/
     public const string ELECTRONEGATIVITY = "2.2";
     public const string ATOMIC_WEIGTH = "1.0079";
     public const string MELTING_POINT = "13.99";
     public const string BOILING_POINT = "20.271";
+    public const int 1S = 1;
+/*
+    public const object ELECTRON {
+      { "s": 1, "p": 0, "d": 0, "f": 0 }
+    };
+*/
 }
 
 namespace Application.He {
@@ -45,6 +48,7 @@ namespace Application.He {
     public const string ATOMIC_WEIGTH = "4.0026";
     public const string MELTING_POINT = "0.95";
     public const string BOILING_POINT = "4.222";
+    public const int 1S = 2;
 }
 
 namespace Application.Li {
@@ -60,6 +64,8 @@ namespace Application.Li {
     public const string ATOMIC_WEIGTH = "6.94";
     public const string MELTING_POINT = "453.65";
     public const string BOILING_POINT = "1603";
+    public const int 1S = 2;
+    public const int 2S = 1;
 }
 
 namespace Application.Be {

@@ -34,6 +34,7 @@ executable(
     'src/Widgets/HeaderBar.vala',
     'src/Widgets/Stack.vala',
     dependencies: [
+        dependency('cairo'),
         dependency('glib-2.0'),
         dependency('granite'),
         dependency('gtk+-3.0'),

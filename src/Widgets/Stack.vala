@@ -48,7 +48,7 @@ namespace Application {
         public void loadViews(Gtk.Window window) {
             var main_view = new PeriodicView(Constants.MAIN_VIEW_ID);
             var electro_view = new PeriodicView(Constants.ELECTRO_VIEW_ID);
-            var properties_view = new PropertiesView();
+            var properties_view = new PropertiesView("null");
             var history_view = new HistoryView();
 
             stack.add_titled (main_view, Constants.MAIN_VIEW_ID, "Main");

@@ -540,13 +540,7 @@ namespace Application {
                 b009.get_style_context().add_class(Constants.SIXeV);
             }
 
-            b001.clicked.connect(() => {
-                headerBar.custom_title = headerBar.atomicView_mode;
-                headerBar.showPeriodicViewMode(false);
-                headerBar.showAtomicViewMode(true);
-                stack.getStack().visible_child_name = Constants.PROPERTIES_VIEW_ID;
-            });
-/*
+            b001.clicked.connect(on_click);
             b002.clicked.connect(on_click);
             b003.clicked.connect(on_click);
             b004.clicked.connect(on_click);
@@ -671,7 +665,6 @@ namespace Application {
             headerBar.showPeriodicViewMode(false);
             headerBar.showAtomicViewMode(true);
             stack.getStack().visible_child_name = Constants.PROPERTIES_VIEW_ID;
-*/
         }
     }
 }

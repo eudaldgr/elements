@@ -34,7 +34,7 @@ namespace Application {
         public Granite.Widgets.ModeButton atomicView_mode = new Granite.Widgets.ModeButton();
 
         HeaderBar() {
-            Granite.Widgets.Utils.set_color_primary (this, Constants.BRAND_COLOR);
+            Granite.Widgets.Utils.set_color_primary (this, Colors.BRAND);
 
             generateSearchEntry();
             generateReturnButton();
