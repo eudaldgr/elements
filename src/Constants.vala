@@ -27,7 +27,7 @@ namespace Application.Constants {
     public const string ICON = "com.github.eudaldgr.repositories";
     public const string MAIN_URL = "https://github.com/eudaldgr/elements";
     public const string BUG_URL = MAIN_URL + "/issues";
-    public const string VERSION = "0.1.0";
+    public const string VERSION = "0.0.1";
     public const string VERSION_INFO = "Unstable";
     public const string APP_YEARS = "2018";
 
