@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>com.github.eudaldgr.elements.desktop</id>
+  <metadata_license>CC0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>Elements</name>
+  <summary>All the elements of the universe!</summary>
+  <description>
+    <p>A viewer of the elements</p>
+    <p>Features:</p>
+     <ul>
+       <li>View all the elements</li>
+       <li>Use handy shortcuts to close the app</li>
+    </ul>
+  </description>
+ <releases>
+    <release version="0.0.1" date="2018-04-21">
+      <description>
+        <p>0.0.1</p>
+        <ul>
+          <li>First release</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/eudaldgr/elements/master/data/screenshots/Screenshot1.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/eudaldgr/elements/master/data/screenshots/Screenshot2.png</image>
+    </screenshot>
+  </screenshots>
+  <developer_name>Eudald Gubert i Roldan</developer_name>
+  <custom>
+    <value key="x-appcenter-color-primary">rgba(135, 203, 195, 256)</value>
+    <value key="x-appcenter-color-primary-text">#333333</value>
+  </custom>
+  <url type="homepage">https://github.com/eudaldgr/elements</url>
+  <url type="bugtracker">https://github.com/eudaldgr/elements/issues</url>
+  <url type="help">https://github.com/eudaldgr/elements/issues</url>
+</component>

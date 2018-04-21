@@ -1,0 +1,10 @@
+Package: com.github.eudaldgr.elements
+Version: 0.0.1
+Architecture: amd64
+Maintainer: Eudald Gubert i Roldan <eudaldgr@posteo.net>
+Installed-Size: 8
+Section: x11
+Priority: optional
+Homepage: https://github.com/eudaldgr/elements
+Description: View all the elements of the periodic table
+ A periodic table
