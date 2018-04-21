@@ -27,26 +27,31 @@ namespace Application {
         static HeaderBar? instance;
 
         Stack stack = Stack.get_instance();
-
+/*
         public Gtk.SearchEntry searchEntry = new Gtk.SearchEntry();
+*/
         public Gtk.Button return_button = new Gtk.Button();
         public Granite.Widgets.ModeButton periodicView_mode = new Granite.Widgets.ModeButton();
         public Granite.Widgets.ModeButton atomicView_mode = new Granite.Widgets.ModeButton();
 
         HeaderBar() {
             Granite.Widgets.Utils.set_color_primary (this, Colors.BRAND);
-
+/*
             generateSearchEntry();
+*/
             generateReturnButton();
             generatePeriodicViewMode();
+/*
             generateAtomicViewMode();
-
+*/
             this.show_close_button = true;
 
             this.custom_title = periodicView_mode;
 
             this.pack_start (return_button);
+/*
             this.pack_end (searchEntry);
+*/
         }
 
         public static HeaderBar get_instance() {
@@ -70,7 +75,7 @@ namespace Application {
             periodicView_mode.margin = 1;
             periodicView_mode.notify["selected"].connect (on_periodicView_mode_changed);
         }
-
+/*
         private void generateAtomicViewMode() {
             var label1 = new Gtk.Label("Properties");
             var label2 = new Gtk.Label("History");
@@ -92,12 +97,10 @@ namespace Application {
             searchEntry.no_show_all = true;
             searchEntry.visible = true;
             searchEntry.search_changed.connect (() => {
-/*
                 listManager.getList().getRepositories(searchEntry.text); 
-*/
             });
         }
-
+*/
         private void generateReturnButton() {
             return_button.label = _("Back");
             return_button.no_show_all = true;
@@ -106,8 +109,9 @@ namespace Application {
             return_button.clicked.connect (() => {
                 this.showPeriodicViewMode(true);
                 this.custom_title = periodicView_mode;
+/*
                 this.showAtomicViewMode(false);
-
+*/
                 stack.getStack().visible_child_name = Constants.MAIN_VIEW_ID;
             });
         }
@@ -115,7 +119,7 @@ namespace Application {
         public void showPeriodicViewMode(bool answer) {
             periodicView_mode.visible = answer;
         }
-
+/*
         public void showAtomicViewMode(bool answer) {
             atomicView_mode.visible = answer;
         }
@@ -123,7 +127,7 @@ namespace Application {
         public void showButtons(bool answer) {
             searchEntry.visible = answer;
         }
-
+*/
         public void showReturnButton(bool answer) {
             return_button.visible = answer;
         }
@@ -131,11 +135,11 @@ namespace Application {
         public void setSelectedPeriodicViewMode(int answer) {
             periodicView_mode.selected = answer;
         }
-
+/*
         public void setSelectedAtomicViewMode(int answer) {
             atomicView_mode.selected = answer;
         }
-
+*/
          private void on_periodicView_mode_changed() {
             if(periodicView_mode.selected == 0) {
                 stack.getStack().visible_child_name = Constants.MAIN_VIEW_ID;
@@ -143,7 +147,7 @@ namespace Application {
                 stack.getStack().visible_child_name = Constants.ELECTRO_VIEW_ID;
             }
         }
-
+/*
          private void on_atomicView_mode_changed() {
             if(atomicView_mode.selected == 0) {
                 stack.getStack().visible_child_name = Constants.PROPERTIES_VIEW_ID;
@@ -151,5 +155,6 @@ namespace Application {
                 stack.getStack().visible_child_name = Constants.HISTORY_VIEW_ID;
             }
         }
+*/
     }
 }

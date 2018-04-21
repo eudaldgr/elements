@@ -28,12 +28,9 @@ namespace Application.H {
     public const string ATOMIC_WEIGTH = "1.0079";
     public const string MELTING_POINT = "13.99";
     public const string BOILING_POINT = "20.271";
-    public const int 1S = 1;
-/*
-    public const object ELECTRON {
+/*    public const object ELECTRON {
       { "s": 1, "p": 0, "d": 0, "f": 0 }
-    };
-*/
+    };*/
 }
 
 namespace Application.He {
@@ -41,14 +38,13 @@ namespace Application.He {
     public const string NAME = _("Helium");
     public const string GROUP = Constants.NOBLE_GAS;
     public const string ATOMIC_NUMBER = "2";
-/*    public const object ELECTRON {
-      { "s": 2, "p": 0, "d": 0, "f": 0 }
-    };*/
     public const string ELECTRONEGATIVITY = "no data";
     public const string ATOMIC_WEIGTH = "4.0026";
     public const string MELTING_POINT = "0.95";
     public const string BOILING_POINT = "4.222";
-    public const int 1S = 2;
+/*    public const object ELECTRON {
+      { "s": 2, "p": 0, "d": 0, "f": 0 }
+    };*/
 }
 
 namespace Application.Li {
@@ -56,16 +52,14 @@ namespace Application.Li {
     public const string NAME = _("Lithium");
     public const string GROUP = Constants.ALKALI_METAL;
     public const string ATOMIC_NUMBER = "3";
-/*    public const object ELECTRON {
-      { "s": 2, "p": 0, "d": 0, "f": 0 },
-      { "s": 1, "p": 0, "d": 0, "f": 0 }
-    };*/
     public const string ELECTRONEGATIVITY = "0.98";
     public const string ATOMIC_WEIGTH = "6.94";
     public const string MELTING_POINT = "453.65";
     public const string BOILING_POINT = "1603";
-    public const int 1S = 2;
-    public const int 2S = 1;
+/*    public const object ELECTRON {
+      { "s": 2, "p": 0, "d": 0, "f": 0 },
+      { "s": 1, "p": 0, "d": 0, "f": 0 }
+    };*/
 }
 
 namespace Application.Be {
@@ -73,14 +67,14 @@ namespace Application.Be {
     public const string NAME = _("Beryllium");
     public const string GROUP = Constants.ALKALINE_EARTH_METAL;
     public const string ATOMIC_NUMBER = "4";
-/*    public const object ELECTRON {
-      { "s": 2, "p": 0, "d": 0, "f": 0 },
-      { "s": 2, "p": 0, "d": 0, "f": 0 }
-    };*/
     public const string ELECTRONEGATIVITY = "1.57";
     public const string ATOMIC_WEIGTH = "9.0121831";
     public const string MELTING_POINT = "1560";
     public const string BOILING_POINT = "2742";
+/*    public const object ELECTRON {
+      { "s": 2, "p": 0, "d": 0, "f": 0 },
+      { "s": 2, "p": 0, "d": 0, "f": 0 }
+    };*/
 }
 
 namespace Application.B {
@@ -88,14 +82,14 @@ namespace Application.B {
     public const string NAME = _("Boron");
     public const string GROUP = Constants.METALLOID;
     public const string ATOMIC_NUMBER = "5";
-/*    public const object ELECTRON {
-      { "s": 2, "p": 0, "d": 0, "f": 0 },
-      { "s": 2, "p": 1, "d": 0, "f": 0 }
-    };*/
     public const string ELECTRONEGATIVITY = "2.04";
     public const string ATOMIC_WEIGTH = "10.81";
     public const string MELTING_POINT = "2349";
     public const string BOILING_POINT = "4200";
+/*    public const object ELECTRON {
+      { "s": 2, "p": 0, "d": 0, "f": 0 },
+      { "s": 2, "p": 1, "d": 0, "f": 0 }
+    };*/
 }
 
 namespace Application.C {
@@ -103,14 +97,14 @@ namespace Application.C {
     public const string NAME = _("Carbon");
     public const string GROUP = Constants.OTHER_NONMETAL;
     public const string ATOMIC_NUMBER = "6";
-/*    public const object ELECTRON {
-      { "s": 2, "p": 0, "d": 0, "f": 0 },
-      { "s": 2, "p": 2, "d": 0, "f": 0 }
-    };*/
     public const string ELECTRONEGATIVITY = "2.55";
     public const string ATOMIC_WEIGTH = "12.011";
     public const string MELTING_POINT = "-";
     public const string BOILING_POINT = "-";
+/*    public const object ELECTRON {
+      { "s": 2, "p": 0, "d": 0, "f": 0 },
+      { "s": 2, "p": 2, "d": 0, "f": 0 }
+    };*/
 }
 
 namespace Application.N {

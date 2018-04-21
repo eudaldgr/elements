@@ -48,33 +48,43 @@ namespace Application {
         public void loadViews(Gtk.Window window) {
             var main_view = new PeriodicView(Constants.MAIN_VIEW_ID);
             var electro_view = new PeriodicView(Constants.ELECTRO_VIEW_ID);
+/*
             var properties_view = new PropertiesView("null");
             var history_view = new HistoryView();
-
+*/
             stack.add_titled (main_view, Constants.MAIN_VIEW_ID, "Main");
             stack.add_titled (electro_view, Constants.ELECTRO_VIEW_ID, "Electronegativity");
+/*
             stack.add_titled (properties_view, Constants.PROPERTIES_VIEW_ID, "Properties");
             stack.add_titled (history_view, Constants.HISTORY_VIEW_ID, "History");
-
+*/
             stack.notify["visible-child"].connect (() => {
                 var headerBar = HeaderBar.get_instance();
 
                 if(stack.get_visible_child_name() == Constants.MAIN_VIEW_ID) {
                     headerBar.showReturnButton(false);
+/*
                     headerBar.showButtons(true);
+*/
                     headerBar.showPeriodicViewMode(true);
                     headerBar.setSelectedPeriodicViewMode(0);
+/*
                     headerBar.showAtomicViewMode(false);
+*/
                 }
 
                 if(stack.get_visible_child_name() == Constants.ELECTRO_VIEW_ID) {
                     headerBar.showReturnButton(false);
+/*
                     headerBar.showButtons(true);
+*/
                     headerBar.showPeriodicViewMode(true);
                     headerBar.setSelectedPeriodicViewMode(1);
+/*
                     headerBar.showAtomicViewMode(false);
+*/
                 }
-
+/*
                 if(stack.get_visible_child_name() == Constants.PROPERTIES_VIEW_ID) {
                     headerBar.showReturnButton(true);
                     headerBar.showButtons(true);
@@ -90,6 +100,7 @@ namespace Application {
                     headerBar.showAtomicViewMode(true);
                     headerBar.setSelectedAtomicViewMode(1);
                 }
+*/
             });
 
             window.add(stack);
