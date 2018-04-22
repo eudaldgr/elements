@@ -21,7 +21,7 @@
 
 using Granite.Widgets;
 
-namespace Application {
+namespace Elements {
     public class PeriodicView : Gtk.Grid {
 
         static PeriodicView? instance;
@@ -364,8 +364,8 @@ namespace Application {
                 b083.get_style_context().add_class(Constants.POST_TRANSITION_METAL);
                 b113.get_style_context().add_class(Constants.POST_TRANSITION_METAL);
                 b115.get_style_context().add_class(Constants.POST_TRANSITION_METAL);
-                b114.get_style_context().add_class("non");
-                b116.get_style_context().add_class("non");
+                b114.get_style_context().add_class(Constants.POST_TRANSITION_METAL);
+                b116.get_style_context().add_class(Constants.POST_TRANSITION_METAL);
                 b005.get_style_context().add_class(Constants.METALLOID);
                 b014.get_style_context().add_class(Constants.METALLOID);
                 b032.get_style_context().add_class(Constants.METALLOID);
@@ -423,39 +423,39 @@ namespace Application {
                 b002.get_style_context().add_class(Constants.ZEROeV);
                 b010.get_style_context().add_class(Constants.ZEROeV);
                 b018.get_style_context().add_class(Constants.ZEROeV);
-                b036.get_style_context().add_class(Constants.ZEROeV);
-                b054.get_style_context().add_class(Constants.ZEROeV);
-                b057.get_style_context().add_class(Constants.ZEROeV);
-                b058.get_style_context().add_class(Constants.ZEROeV);
-                b059.get_style_context().add_class(Constants.ZEROeV);
-                b060.get_style_context().add_class(Constants.ZEROeV);
-                b061.get_style_context().add_class(Constants.ZEROeV);
-                b062.get_style_context().add_class(Constants.ZEROeV);
-                b063.get_style_context().add_class(Constants.ZEROeV);
-                b064.get_style_context().add_class(Constants.ZEROeV);
-                b065.get_style_context().add_class(Constants.ZEROeV);
-                b066.get_style_context().add_class(Constants.ZEROeV);
-                b067.get_style_context().add_class(Constants.ZEROeV);
-                b068.get_style_context().add_class(Constants.ZEROeV);
-                b069.get_style_context().add_class(Constants.ZEROeV);
-                b070.get_style_context().add_class(Constants.ZEROeV);
-                b071.get_style_context().add_class(Constants.ZEROeV);
-                b086.get_style_context().add_class(Constants.ZEROeV);
-                b089.get_style_context().add_class(Constants.ZEROeV);
-                b090.get_style_context().add_class(Constants.ZEROeV);
-                b091.get_style_context().add_class(Constants.ZEROeV);
-                b092.get_style_context().add_class(Constants.ZEROeV);
-                b093.get_style_context().add_class(Constants.ZEROeV);
-                b094.get_style_context().add_class(Constants.ZEROeV);
-                b095.get_style_context().add_class(Constants.ZEROeV);
-                b096.get_style_context().add_class(Constants.ZEROeV);
-                b097.get_style_context().add_class(Constants.ZEROeV);
-                b098.get_style_context().add_class(Constants.ZEROeV);
-                b099.get_style_context().add_class(Constants.ZEROeV);
-                b100.get_style_context().add_class(Constants.ZEROeV);
-                b101.get_style_context().add_class(Constants.ZEROeV);
-                b102.get_style_context().add_class(Constants.ZEROeV);
-                b103.get_style_context().add_class(Constants.ZEROeV);
+                b036.get_style_context().add_class(Constants.FOUReV);
+                b054.get_style_context().add_class(Constants.THREEeV);
+                b057.get_style_context().add_class(Constants.ONEeV);
+                b058.get_style_context().add_class(Constants.ONEeV);
+                b059.get_style_context().add_class(Constants.ONEeV);
+                b060.get_style_context().add_class(Constants.ONEeV);
+                b061.get_style_context().add_class(Constants.ONEeV);
+                b062.get_style_context().add_class(Constants.ONEeV);
+                b063.get_style_context().add_class(Constants.ONEeV);
+                b064.get_style_context().add_class(Constants.ONEeV);
+                b065.get_style_context().add_class(Constants.ONEeV);
+                b066.get_style_context().add_class(Constants.ONEeV);
+                b067.get_style_context().add_class(Constants.ONEeV);
+                b068.get_style_context().add_class(Constants.ONEeV);
+                b069.get_style_context().add_class(Constants.ONEeV);
+                b070.get_style_context().add_class(Constants.ONEeV);
+                b071.get_style_context().add_class(Constants.ONEeV);
+                b086.get_style_context().add_class(Constants.THREEeV);
+                b089.get_style_context().add_class(Constants.ONEeV);
+                b090.get_style_context().add_class(Constants.ONEeV);
+                b091.get_style_context().add_class(Constants.ONEeV);
+                b092.get_style_context().add_class(Constants.TWOeV);
+                b093.get_style_context().add_class(Constants.TWOeV);
+                b094.get_style_context().add_class(Constants.TWOeV);
+                b095.get_style_context().add_class(Constants.ONEeV);
+                b096.get_style_context().add_class(Constants.ONEeV);
+                b097.get_style_context().add_class(Constants.ONEeV);
+                b098.get_style_context().add_class(Constants.ONEeV);
+                b099.get_style_context().add_class(Constants.ONEeV);
+                b100.get_style_context().add_class(Constants.ONEeV);
+                b101.get_style_context().add_class(Constants.ONEeV);
+                b102.get_style_context().add_class(Constants.ONEeV);
+                b103.get_style_context().add_class(Constants.ONEeV);
                 b104.get_style_context().add_class(Constants.ZEROeV);
                 b105.get_style_context().add_class(Constants.ZEROeV);
                 b106.get_style_context().add_class(Constants.ZEROeV);

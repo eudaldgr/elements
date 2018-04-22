@@ -19,7 +19,7 @@
 * Authored by: eudaldgr <eudaldgr@posteo.net>
 */
 
-namespace Application.Constants {
+namespace Elements.Constants {
     public const string APP_NAME = "Elements";
     public const string EXEC_NAME = "Elements";
     public const string DESKTOP_NAME = "com.github.eudaldgr.elements.desktop";
@@ -31,32 +31,32 @@ namespace Application.Constants {
     public const string VERSION_INFO = "Unstable";
     public const string APP_YEARS = "2018";
 
-    public const string MAIN_VIEW_ID = _("main-view");
-    public const string ELECTRO_VIEW_ID = _("electronegativity-view");
-    public const string PROPERTIES_VIEW_ID = _("properties-view");
-    public const string HISTORY_VIEW_ID = _("history-view");
+    public const string MAIN_VIEW_ID = "main-view";
+    public const string ELECTRO_VIEW_ID = "electronegativity-view";
+    public const string PROPERTIES_VIEW_ID = "properties-view";
+    public const string HISTORY_VIEW_ID = "history-view";
 
-    public const string OTHER_NONMETAL = _("other-nonmetal");
-    public const string NOBLE_GAS = _("noble-gas");
-    public const string ALKALI_METAL = _("alkali-metal");
-    public const string ALKALINE_EARTH_METAL = _("alkaline-earth-metal");
-    public const string METALLOID = _("metalloid");
-    public const string HALOGEN = _("halogen");
-    public const string POST_TRANSITION_METAL = _("post-transition-metal");
-    public const string TRANSITION_METAL = _("transition-metal");
-    public const string LANTHANIDE = _("lanthanide");
-    public const string ACTINIDE = _("actinide");
+    public const string OTHER_NONMETAL = "other-nonmetal";
+    public const string NOBLE_GAS = "noble-gas";
+    public const string ALKALI_METAL = "alkali-metal";
+    public const string ALKALINE_EARTH_METAL = "alkaline-earth-metal";
+    public const string METALLOID = "metalloid";
+    public const string HALOGEN = "halogen";
+    public const string POST_TRANSITION_METAL = "post-transition-metal";
+    public const string TRANSITION_METAL = "transition-metal";
+    public const string LANTHANIDE = "lanthanide";
+    public const string ACTINIDE = "actinide";
 
-    public const string ZEROeV = _("zero-eV");
-    public const string ONEeV = _("one-eV");
-    public const string TWOeV = _("two-eV");
-    public const string THREEeV = _("three-eV");
-    public const string FOUReV = _("four-eV");
-    public const string FIVEeV = _("five-eV");
-    public const string SIXeV = _("six-eV");
+    public const string ZEROeV = "zero-eV";
+    public const string ONEeV = "one-eV";
+    public const string TWOeV = "two-eV";
+    public const string THREEeV = "three-eV";
+    public const string FOUReV = "four-eV";
+    public const string FIVEeV = "five-eV";
+    public const string SIXeV = "six-eV";
 }
 
-namespace Application.Colors {
+namespace Elements.Colors {
     public const Gdk.RGBA BRAND = {0.529, 0.792, 0.761, 1.0};
 
     public const Gdk.RGBA ALKALI_METAL = {0.96484375, 0.68359375, 0.5546875, 1};

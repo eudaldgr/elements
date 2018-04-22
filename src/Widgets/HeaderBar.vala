@@ -21,37 +21,39 @@
 
 using Granite.Widgets;
 
-namespace Application {
+namespace Elements {
     public class HeaderBar : Gtk.HeaderBar {
 
         static HeaderBar? instance;
 
         Stack stack = Stack.get_instance();
+        Popover popover = Popover.get_instance();
 /*
         public Gtk.SearchEntry searchEntry = new Gtk.SearchEntry();
 */
+        public Gtk.Button info_button = new Gtk.Button.from_icon_name("help-contents", Gtk.IconSize.LARGE_TOOLBAR);
         public Gtk.Button return_button = new Gtk.Button();
         public Granite.Widgets.ModeButton periodicView_mode = new Granite.Widgets.ModeButton();
         public Granite.Widgets.ModeButton atomicView_mode = new Granite.Widgets.ModeButton();
 
         HeaderBar() {
-            Granite.Widgets.Utils.set_color_primary (this, Colors.BRAND);
+            Granite.Widgets.Utils.set_color_primary(this, Colors.BRAND);
 /*
             generateSearchEntry();
 */
+            generateInfoButton();
             generateReturnButton();
             generatePeriodicViewMode();
 /*
             generateAtomicViewMode();
 */
             this.show_close_button = true;
-
             this.custom_title = periodicView_mode;
-
-            this.pack_start (return_button);
+            this.pack_start(return_button);
 /*
-            this.pack_end (searchEntry);
+            this.pack_end(searchEntry);
 */
+            this.pack_end(info_button);
         }
 
         public static HeaderBar get_instance() {
@@ -73,7 +75,7 @@ namespace Application {
             periodicView_mode.no_show_all = true;
             periodicView_mode.visible = false;
             periodicView_mode.margin = 1;
-            periodicView_mode.notify["selected"].connect (on_periodicView_mode_changed);
+            periodicView_mode.notify["selected"].connect(on_periodicView_mode_changed);
         }
 /*
         private void generateAtomicViewMode() {
@@ -104,7 +106,7 @@ namespace Application {
         private void generateReturnButton() {
             return_button.label = _("Back");
             return_button.no_show_all = true;
-            return_button.get_style_context ().add_class ("back-button");
+            return_button.get_style_context().add_class ("back-button");
             return_button.visible = false;
             return_button.clicked.connect (() => {
                 this.showPeriodicViewMode(true);
@@ -113,6 +115,19 @@ namespace Application {
                 this.showAtomicViewMode(false);
 */
                 stack.getStack().visible_child_name = Constants.MAIN_VIEW_ID;
+            });
+        }
+
+        private void generateInfoButton() {
+            var pop = new Gtk.Popover(info_button);
+            pop.position = Gtk.PositionType.BOTTOM;
+            pop.set_size_request(250, 400);
+            pop.add(popover);
+
+            info_button.tooltip_text = _("Colors code");
+            info_button.no_show_all = true;
+            info_button.clicked.connect(() => {
+                pop.show_all();
             });
         }
 
@@ -130,6 +145,10 @@ namespace Application {
 */
         public void showReturnButton(bool answer) {
             return_button.visible = answer;
+        }
+
+        public void showInfoButton(bool answer) {
+            info_button.visible = answer;
         }
 
         public void setSelectedPeriodicViewMode(int answer) {

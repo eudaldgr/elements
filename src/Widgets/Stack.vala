@@ -19,7 +19,7 @@
 * Authored by: eudaldgr <eudaldgr@posteo.net>
 */
 
-namespace Application {
+namespace Elements {
     public class Stack : Object {
 
         static Stack? instance;
@@ -52,17 +52,18 @@ namespace Application {
             var properties_view = new PropertiesView("null");
             var history_view = new HistoryView();
 */
-            stack.add_titled (main_view, Constants.MAIN_VIEW_ID, "Main");
-            stack.add_titled (electro_view, Constants.ELECTRO_VIEW_ID, "Electronegativity");
+            stack.add_titled(main_view, Constants.MAIN_VIEW_ID, _("Main"));
+            stack.add_titled(electro_view, Constants.ELECTRO_VIEW_ID, _("Electronegativity"));
 /*
-            stack.add_titled (properties_view, Constants.PROPERTIES_VIEW_ID, "Properties");
-            stack.add_titled (history_view, Constants.HISTORY_VIEW_ID, "History");
+            stack.add_titled(properties_view, Constants.PROPERTIES_VIEW_ID, _("Properties"));
+            stack.add_titled(history_view, Constants.HISTORY_VIEW_ID, _("History"));
 */
-            stack.notify["visible-child"].connect (() => {
+            stack.notify["visible-child"].connect(() => {
                 var headerBar = HeaderBar.get_instance();
 
                 if(stack.get_visible_child_name() == Constants.MAIN_VIEW_ID) {
                     headerBar.showReturnButton(false);
+                    headerBar.showInfoButton(true);
 /*
                     headerBar.showButtons(true);
 */
@@ -75,6 +76,7 @@ namespace Application {
 
                 if(stack.get_visible_child_name() == Constants.ELECTRO_VIEW_ID) {
                     headerBar.showReturnButton(false);
+                    headerBar.showInfoButton(true);
 /*
                     headerBar.showButtons(true);
 */
@@ -87,6 +89,7 @@ namespace Application {
 /*
                 if(stack.get_visible_child_name() == Constants.PROPERTIES_VIEW_ID) {
                     headerBar.showReturnButton(true);
+                    headerBar.showInfoButton(false);
                     headerBar.showButtons(true);
                     headerBar.showPeriodicViewMode(false);
                     headerBar.showAtomicViewMode(true);
@@ -95,6 +98,7 @@ namespace Application {
 
                 if(stack.get_visible_child_name() == Constants.HISTORY_VIEW_ID) {
                     headerBar.showReturnButton(true);
+                    headerBar.showInfoButton(false);
                     headerBar.showButtons(true);
                     headerBar.showPeriodicViewMode(false);
                     headerBar.showAtomicViewMode(true);

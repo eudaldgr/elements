@@ -19,7 +19,7 @@
 * Authored by: eudaldgr <eudaldgr@posteo.net>
 */
 
-namespace Application.H {
+namespace Elements.H {
     public const string ID = "H";
     public const string NAME = _("Hydrogen");
     public const string GROUP = Constants.OTHER_NONMETAL;
@@ -33,7 +33,7 @@ namespace Application.H {
     };*/
 }
 
-namespace Application.He {
+namespace Elements.He {
     public const string ID = "He";
     public const string NAME = _("Helium");
     public const string GROUP = Constants.NOBLE_GAS;
@@ -47,7 +47,7 @@ namespace Application.He {
     };*/
 }
 
-namespace Application.Li {
+namespace Elements.Li {
     public const string ID = "Li";
     public const string NAME = _("Lithium");
     public const string GROUP = Constants.ALKALI_METAL;
@@ -62,7 +62,7 @@ namespace Application.Li {
     };*/
 }
 
-namespace Application.Be {
+namespace Elements.Be {
     public const string ID = "Be";
     public const string NAME = _("Beryllium");
     public const string GROUP = Constants.ALKALINE_EARTH_METAL;
@@ -77,7 +77,7 @@ namespace Application.Be {
     };*/
 }
 
-namespace Application.B {
+namespace Elements.B {
     public const string ID = "B";
     public const string NAME = _("Boron");
     public const string GROUP = Constants.METALLOID;
@@ -92,7 +92,7 @@ namespace Application.B {
     };*/
 }
 
-namespace Application.C {
+namespace Elements.C {
     public const string ID = "C";
     public const string NAME = _("Carbon");
     public const string GROUP = Constants.OTHER_NONMETAL;
@@ -107,7 +107,7 @@ namespace Application.C {
     };*/
 }
 
-namespace Application.N {
+namespace Elements.N {
     public const string ID = "N";
     public const string NAME = _("Nitrogen");
     public const string GROUP = Constants.OTHER_NONMETAL;
@@ -122,7 +122,7 @@ namespace Application.N {
     public const string BOILING_POINT = "77.355";
 }
 
-namespace Application.O {
+namespace Elements.O {
     public const string ID = "O";
     public const string NAME = _("Oxygen");
     public const string GROUP = Constants.OTHER_NONMETAL;
@@ -137,7 +137,7 @@ namespace Application.O {
     public const string BOILING_POINT = "90.188";
 }
 
-namespace Application.F {
+namespace Elements.F {
     public const string ID = "F";
     public const string NAME = _("Fluorine");
     public const string GROUP = Constants.HALOGEN;
@@ -152,7 +152,7 @@ namespace Application.F {
     public const string BOILING_POINT = "85.03";
 }
 
-namespace Application.Ne {
+namespace Elements.Ne {
     public const string ID = "Ne";
     public const string NAME = _("Neon");
     public const string GROUP = Constants.NOBLE_GAS;
@@ -167,7 +167,7 @@ namespace Application.Ne {
     public const string BOILING_POINT = "27.104";
 }
 
-namespace Application.Na {
+namespace Elements.Na {
     public const string ID = "Na";
     public const string NAME = _("Sodium");
     public const string GROUP = Constants.ALKALI_METAL;
@@ -183,7 +183,7 @@ namespace Application.Na {
     public const string BOILING_POINT = "208.029";
 }
 
-namespace Application.Mg {
+namespace Elements.Mg {
     public const string ID = "Mg";
     public const string NAME = _("Magnesium");
     public const string GROUP = Constants.ALKALINE_EARTH_METAL;
@@ -199,7 +199,7 @@ namespace Application.Mg {
     public const string BOILING_POINT = "1363";
 }
 
-namespace Application.Al {
+namespace Elements.Al {
     public const string ID = "Al";
     public const string NAME = _("Aluminium");
     public const string GROUP = Constants.POST_TRANSITION_METAL;
@@ -215,7 +215,7 @@ namespace Application.Al {
     public const string BOILING_POINT = "2743";
 }
 
-namespace Application.Si {
+namespace Elements.Si {
     public const string ID = "Si";
     public const string NAME = _("Silicon");
     public const string GROUP = Constants.METALLOID;
@@ -231,7 +231,7 @@ namespace Application.Si {
     public const string BOILING_POINT = "3538";
 }
 
-namespace Application.P {
+namespace Elements.P {
     public const string ID = "P";
     public const string NAME = _("Phosphorus");
     public const string GROUP = Constants.OTHER_NONMETAL;
@@ -247,7 +247,7 @@ namespace Application.P {
     public const string BOILING_POINT = "-";
 }
 
-namespace Application.S {
+namespace Elements.S {
     public const string ID = "S";
     public const string NAME = _("Sulfur");
     public const string GROUP = Constants.OTHER_NONMETAL;
@@ -263,7 +263,7 @@ namespace Application.S {
     public const string BOILING_POINT = "717.8";
 }
 
-namespace Application.Cl {
+namespace Elements.Cl {
     public const string ID = "Cl";
     public const string NAME = _("Chlorine");
     public const string GROUP = Constants.HALOGEN;
@@ -279,7 +279,7 @@ namespace Application.Cl {
     public const string BOILING_POINT = "239.11";
 }
 
-namespace Application.Ar {
+namespace Elements.Ar {
     public const string ID = "Ar";
     public const string NAME = _("Argon");
     public const string GROUP = Constants.NOBLE_GAS;
@@ -295,7 +295,7 @@ namespace Application.Ar {
     public const string BOILING_POINT = "87.302";
 }
 
-namespace Application.K {
+namespace Elements.K {
     public const string ID = "K";
     public const string NAME = _("Potasium");
     public const string GROUP = Constants.ALKALI_METAL;
@@ -312,7 +312,7 @@ namespace Application.K {
     public const string BOILING_POINT = "1032";
 }
 
-namespace Application.Ca {
+namespace Elements.Ca {
     public const string ID = "Ca";
     public const string NAME = _("Calcium");
     public const string GROUP = Constants.ALKALINE_EARTH_METAL;
@@ -329,7 +329,7 @@ namespace Application.Ca {
     public const string BOILING_POINT = "1757";
 }
 
-namespace Application.Sc {
+namespace Elements.Sc {
     public const string ID = "Sc";
     public const string NAME = _("Scandium");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -346,7 +346,7 @@ namespace Application.Sc {
     public const string BOILING_POINT = "3109";
 }
 
-namespace Application.Ti {
+namespace Elements.Ti {
     public const string ID = "Ti";
     public const string NAME = _("Titanium");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -363,7 +363,7 @@ namespace Application.Ti {
     public const string BOILING_POINT = "3560";
 }
 
-namespace Application.V {
+namespace Elements.V {
     public const string ID = "V";
     public const string NAME = _("Vanadium");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -380,7 +380,7 @@ namespace Application.V {
     public const string BOILING_POINT = "3680";
 }
 
-namespace Application.Cr {
+namespace Elements.Cr {
     public const string ID = "Cr";
     public const string NAME = _("Chromium");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -397,7 +397,7 @@ namespace Application.Cr {
     public const string BOILING_POINT = "2944";
 }
 
-namespace Application.Mn {
+namespace Elements.Mn {
     public const string ID = "Mn";
     public const string NAME = _("Manganese");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -414,7 +414,7 @@ namespace Application.Mn {
     public const string BOILING_POINT = "2334";
 }
 
-namespace Application.Fe {
+namespace Elements.Fe {
     public const string ID = "Fe";
     public const string NAME = _("Iron");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -431,7 +431,7 @@ namespace Application.Fe {
     public const string BOILING_POINT = "3134";
 }
 
-namespace Application.Co {
+namespace Elements.Co {
     public const string ID = "Co";
     public const string NAME = _("Cobalt");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -448,7 +448,7 @@ namespace Application.Co {
     public const string BOILING_POINT = "3200";
 }
 
-namespace Application.Ni {
+namespace Elements.Ni {
     public const string ID = "Ni";
     public const string NAME = _("Nickel");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -465,7 +465,7 @@ namespace Application.Ni {
     public const string BOILING_POINT = "3003";
 }
 
-namespace Application.Cu {
+namespace Elements.Cu {
     public const string ID = "Cu";
     public const string NAME = _("Copper");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -482,7 +482,7 @@ namespace Application.Cu {
     public const string BOILING_POINT = "2835";
 }
 
-namespace Application.Zn {
+namespace Elements.Zn {
     public const string ID = "Zn";
     public const string NAME = _("Zinc");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -499,7 +499,7 @@ namespace Application.Zn {
     public const string BOILING_POINT = "1180";
 }
 
-namespace Application.Ga {
+namespace Elements.Ga {
     public const string ID = "Ga";
     public const string NAME = _("Gallium");
     public const string GROUP = Constants.POST_TRANSITION_METAL;
@@ -516,7 +516,7 @@ namespace Application.Ga {
     public const string BOILING_POINT = "2673";
 }
 
-namespace Application.Ge {
+namespace Elements.Ge {
     public const string ID = "Ge";
     public const string NAME = _("Germanium");
     public const string GROUP = Constants.METALLOID;
@@ -533,7 +533,7 @@ namespace Application.Ge {
     public const string BOILING_POINT = "3106";
 }
 
-namespace Application.As {
+namespace Elements.As {
     public const string ID = "As";
     public const string NAME = _("Arsenic");
     public const string GROUP = Constants.METALLOID;
@@ -550,7 +550,7 @@ namespace Application.As {
     public const string BOILING_POINT = "-";
 }
 
-namespace Application.Se {
+namespace Elements.Se {
     public const string ID = "Se";
     public const string NAME = _("Selenium");
     public const string GROUP = Constants.OTHER_NONMETAL;
@@ -567,7 +567,7 @@ namespace Application.Se {
     public const string BOILING_POINT = "958";
 }
 
-namespace Application.Br {
+namespace Elements.Br {
     public const string ID = "Br";
     public const string NAME = _("Bromine");
     public const string GROUP = Constants.HALOGEN;
@@ -584,7 +584,7 @@ namespace Application.Br {
     public const string BOILING_POINT = "332.0";
 }
 
-namespace Application.Kr {
+namespace Elements.Kr {
     public const string ID = "Kr";
     public const string NAME = _("Krypton");
     public const string GROUP = Constants.NOBLE_GAS;
@@ -601,7 +601,7 @@ namespace Application.Kr {
     public const string BOILING_POINT = "119.93";
 }
 
-namespace Application.Rb {
+namespace Elements.Rb {
     public const string ID = "Rb";
     public const string NAME = _("Rubidium");
     public const string GROUP = Constants.ALKALI_METAL;
@@ -619,7 +619,7 @@ namespace Application.Rb {
     public const string BOILING_POINT = "961";
 }
 
-namespace Application.Sr {
+namespace Elements.Sr {
     public const string ID = "Sr";
     public const string NAME = _("Strontium");
     public const string GROUP = Constants.ALKALINE_EARTH_METAL;
@@ -637,7 +637,7 @@ namespace Application.Sr {
     public const string BOILING_POINT = "1650";
 }
 
-namespace Application.Y {
+namespace Elements.Y {
     public const string ID = "Y";
     public const string NAME = _("Yttrium");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -655,7 +655,7 @@ namespace Application.Y {
     public const string BOILING_POINT = "3203";
 }
 
-namespace Application.Zr {
+namespace Elements.Zr {
     public const string ID = "Zr";
     public const string NAME = _("Zirconium");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -673,7 +673,7 @@ namespace Application.Zr {
     public const string BOILING_POINT = "4650";
 }
 
-namespace Application.Nb {
+namespace Elements.Nb {
     public const string ID = "Nb";
     public const string NAME = _("Niobium");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -691,7 +691,7 @@ namespace Application.Nb {
     public const string BOILING_POINT = "5017";
 }
 
-namespace Application.Mo {
+namespace Elements.Mo {
     public const string ID = "Mo";
     public const string NAME = _("Molybdenum");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -709,7 +709,7 @@ namespace Application.Mo {
     public const string BOILING_POINT = "4912";
 }
 
-namespace Application.Tc {
+namespace Elements.Tc {
     public const string ID = "Tc";
     public const string NAME = _("Technetium");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -727,7 +727,7 @@ namespace Application.Tc {
     public const string BOILING_POINT = "4538";
 }
 
-namespace Application.Ru {
+namespace Elements.Ru {
     public const string ID = "Ru";
     public const string NAME = _("Ruthenium");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -745,7 +745,7 @@ namespace Application.Ru {
     public const string BOILING_POINT = "4423";
 }
 
-namespace Application.Rh {
+namespace Elements.Rh {
     public const string ID = "Rh";
     public const string NAME = _("Rhodium");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -763,7 +763,7 @@ namespace Application.Rh {
     public const string BOILING_POINT = "3968";
 }
 
-namespace Application.Pd {
+namespace Elements.Pd {
     public const string ID = "Pd";
     public const string NAME = _("Palladium");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -781,7 +781,7 @@ namespace Application.Pd {
     public const string BOILING_POINT = "3236";
 }
 
-namespace Application.Ag {
+namespace Elements.Ag {
     public const string ID = "Ag";
     public const string NAME = _("Silver");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -799,7 +799,7 @@ namespace Application.Ag {
     public const string BOILING_POINT = "2435";
 }
 
-namespace Application.Cd {
+namespace Elements.Cd {
     public const string ID = "Cd";
     public const string NAME = _("Cadmium");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -817,7 +817,7 @@ namespace Application.Cd {
     public const string BOILING_POINT = "1040";
 }
 
-namespace Application.In {
+namespace Elements.In {
     public const string ID = "In";
     public const string NAME = _("Indium");
     public const string GROUP = Constants.POST_TRANSITION_METAL;
@@ -835,7 +835,7 @@ namespace Application.In {
     public const string BOILING_POINT = "2345";
 }
 
-namespace Application.Sn {
+namespace Elements.Sn {
     public const string ID = "Sn";
     public const string NAME = _("Tin");
     public const string GROUP = Constants.POST_TRANSITION_METAL;
@@ -853,7 +853,7 @@ namespace Application.Sn {
     public const string BOILING_POINT = "2875";
 }
 
-namespace Application.Sb {
+namespace Elements.Sb {
     public const string ID = "Sb";
     public const string NAME = _("Antimony");
     public const string GROUP = Constants.METALLOID;
@@ -871,7 +871,7 @@ namespace Application.Sb {
     public const string BOILING_POINT = "1908";
 }
 
-namespace Application.Te {
+namespace Elements.Te {
     public const string ID = "Te";
     public const string NAME = _("Tellurium");
     public const string GROUP = Constants.METALLOID;
@@ -889,7 +889,7 @@ namespace Application.Te {
     public const string BOILING_POINT = "1261";
 }
 
-namespace Application.I {
+namespace Elements.I {
     public const string ID = "I";
     public const string NAME = _("Iodine");
     public const string GROUP = Constants.HALOGEN;
@@ -907,7 +907,7 @@ namespace Application.I {
     public const string BOILING_POINT = "457.4";
 }
 
-namespace Application.Xe {
+namespace Elements.Xe {
     public const string ID = "Xe";
     public const string NAME = _("Xenon");
     public const string GROUP = Constants.NOBLE_GAS;
@@ -925,7 +925,7 @@ namespace Application.Xe {
     public const string BOILING_POINT = "165.051";
 }
 
-namespace Application.Cs {
+namespace Elements.Cs {
     public const string ID = "Cs";
     public const string NAME = _("Caesium");
     public const string GROUP = Constants.ALKALI_METAL;
@@ -944,7 +944,7 @@ namespace Application.Cs {
     public const string BOILING_POINT = "944";
 }
 
-namespace Application.Ba {
+namespace Elements.Ba {
     public const string ID = "Ba";
     public const string NAME = _("Barium");
     public const string GROUP = Constants.ALKALINE_EARTH_METAL;
@@ -963,7 +963,7 @@ namespace Application.Ba {
     public const string BOILING_POINT = "2118";
 }
 
-namespace Application.La {
+namespace Elements.La {
     public const string ID = "La";
     public const string NAME = _("Lanthanum");
     public const string GROUP = Constants.LANTHANIDE;
@@ -982,7 +982,7 @@ namespace Application.La {
     public const string BOILING_POINT = "3737";
 }
 
-namespace Application.Ce {
+namespace Elements.Ce {
     public const string ID = "Ce";
     public const string NAME = _("Cerium");
     public const string GROUP = Constants.LANTHANIDE;
@@ -1001,7 +1001,7 @@ namespace Application.Ce {
     public const string BOILING_POINT = "3716";
 }
 
-namespace Application.Pr {
+namespace Elements.Pr {
     public const string ID = "Pr";
     public const string NAME = _("Praseodymium");
     public const string GROUP = Constants.LANTHANIDE;
@@ -1020,7 +1020,7 @@ namespace Application.Pr {
     public const string BOILING_POINT = "3403";
 }
 
-namespace Application.Nd {
+namespace Elements.Nd {
     public const string ID = "Nd";
     public const string NAME = _("Neodymium");
     public const string GROUP = Constants.LANTHANIDE;
@@ -1039,7 +1039,7 @@ namespace Application.Nd {
     public const string BOILING_POINT = "3347";
 }
 
-namespace Application.Pm {
+namespace Elements.Pm {
     public const string ID = "Pm";
     public const string NAME = _("Promethium");
     public const string GROUP = Constants.LANTHANIDE;
@@ -1058,7 +1058,7 @@ namespace Application.Pm {
     public const string BOILING_POINT = "3273";
 }
 
-namespace Application.Sm {
+namespace Elements.Sm {
     public const string ID = "Sm";
     public const string NAME = _("Samarium");
     public const string GROUP = Constants.LANTHANIDE;
@@ -1077,7 +1077,7 @@ namespace Application.Sm {
     public const string BOILING_POINT = "2173";
 }
 
-namespace Application.Eu {
+namespace Elements.Eu {
     public const string ID = "Eu";
     public const string NAME = _("Europium");
     public const string GROUP = Constants.LANTHANIDE;
@@ -1096,7 +1096,7 @@ namespace Application.Eu {
     public const string BOILING_POINT = "1802";
 }
 
-namespace Application.Gd {
+namespace Elements.Gd {
     public const string ID = "Gd";
     public const string NAME = _("Gadolinium");
     public const string GROUP = Constants.LANTHANIDE;
@@ -1115,7 +1115,7 @@ namespace Application.Gd {
     public const string BOILING_POINT = "3273";
 }
 
-namespace Application.Tb {
+namespace Elements.Tb {
     public const string ID = "Tb";
     public const string NAME = _("Terbium");
     public const string GROUP = Constants.LANTHANIDE;
@@ -1134,7 +1134,7 @@ namespace Application.Tb {
     public const string BOILING_POINT = "3396";
 }
 
-namespace Application.Dy {
+namespace Elements.Dy {
     public const string ID = "Dy";
     public const string NAME = _("Dysprosium");
     public const string GROUP = Constants.LANTHANIDE;
@@ -1153,7 +1153,7 @@ namespace Application.Dy {
     public const string BOILING_POINT = "2840";
 }
 
-namespace Application.Ho {
+namespace Elements.Ho {
     public const string ID = "Ho";
     public const string NAME = _("Holmium");
     public const string GROUP = Constants.LANTHANIDE;
@@ -1172,7 +1172,7 @@ namespace Application.Ho {
     public const string BOILING_POINT = "2873";
 }
 
-namespace Application.Er {
+namespace Elements.Er {
     public const string ID = "Er";
     public const string NAME = _("Erbium");
     public const string GROUP = Constants.LANTHANIDE;
@@ -1191,7 +1191,7 @@ namespace Application.Er {
     public const string BOILING_POINT = "3141";
 }
 
-namespace Application.Tm {
+namespace Elements.Tm {
     public const string ID = "Tm";
     public const string NAME = _("Thulium");
     public const string GROUP = Constants.LANTHANIDE;
@@ -1210,7 +1210,7 @@ namespace Application.Tm {
     public const string BOILING_POINT = "2223";
 }
 
-namespace Application.Yb {
+namespace Elements.Yb {
     public const string ID = "Yb";
     public const string NAME = _("Ytterbium");
     public const string GROUP = Constants.LANTHANIDE;
@@ -1229,7 +1229,7 @@ namespace Application.Yb {
     public const string BOILING_POINT = "1469";
 }
 
-namespace Application.Lu {
+namespace Elements.Lu {
     public const string ID = "Lu";
     public const string NAME = _("Lutetium");
     public const string GROUP = Constants.LANTHANIDE;
@@ -1248,7 +1248,7 @@ namespace Application.Lu {
     public const string BOILING_POINT = "3675";
 }
 
-namespace Application.Hf {
+namespace Elements.Hf {
     public const string ID = "Hf";
     public const string NAME = _("Hafnium");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -1267,7 +1267,7 @@ namespace Application.Hf {
     public const string BOILING_POINT = "4876";
 }
 
-namespace Application.Ta {
+namespace Elements.Ta {
     public const string ID = "Ta";
     public const string NAME = _("Tantalium");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -1286,7 +1286,7 @@ namespace Application.Ta {
     public const string BOILING_POINT = "5731";
 }
 
-namespace Application.W {
+namespace Elements.W {
     public const string ID = "W";
     public const string NAME = _("Tungsten");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -1305,7 +1305,7 @@ namespace Application.W {
     public const string BOILING_POINT = "6203";
 }
 
-namespace Application.Re {
+namespace Elements.Re {
     public const string ID = "Re";
     public const string NAME = _("Rhenium");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -1324,7 +1324,7 @@ namespace Application.Re {
     public const string BOILING_POINT = "5903";
 }
 
-namespace Application.Os {
+namespace Elements.Os {
     public const string ID = "Os";
     public const string NAME = _("Osmium");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -1343,7 +1343,7 @@ namespace Application.Os {
     public const string BOILING_POINT = "5285";
 }
 
-namespace Application.Ir {
+namespace Elements.Ir {
     public const string ID = "Ir";
     public const string NAME = _("Iridium");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -1362,7 +1362,7 @@ namespace Application.Ir {
     public const string BOILING_POINT = "4403";
 }
 
-namespace Application.Pt {
+namespace Elements.Pt {
     public const string ID = "Pt";
     public const string NAME = _("Platinium");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -1381,7 +1381,7 @@ namespace Application.Pt {
     public const string BOILING_POINT = "4098";
 }
 
-namespace Application.Au {
+namespace Elements.Au {
     public const string ID = "Au";
     public const string NAME = _("Gold");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -1400,7 +1400,7 @@ namespace Application.Au {
     public const string BOILING_POINT = "3243";
 }
 
-namespace Application.Hg {
+namespace Elements.Hg {
     public const string ID = "Hg";
     public const string NAME = _("Mercury");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -1419,7 +1419,7 @@ namespace Application.Hg {
     public const string BOILING_POINT = "629.88";
 }
 
-namespace Application.Tl {
+namespace Elements.Tl {
     public const string ID = "Tl";
     public const string NAME = _("Thallium");
     public const string GROUP = Constants.POST_TRANSITION_METAL;
@@ -1438,7 +1438,7 @@ namespace Application.Tl {
     public const string BOILING_POINT = "1746";
 }
 
-namespace Application.Pb {
+namespace Elements.Pb {
     public const string ID = "Pb";
     public const string NAME = _("Lead");
     public const string GROUP = Constants.POST_TRANSITION_METAL;
@@ -1457,7 +1457,7 @@ namespace Application.Pb {
     public const string BOILING_POINT = "2022";
 }
 
-namespace Application.Bi {
+namespace Elements.Bi {
     public const string ID = "Bi";
     public const string NAME = _("Bismuth");
     public const string GROUP = Constants.POST_TRANSITION_METAL;
@@ -1476,7 +1476,7 @@ namespace Application.Bi {
     public const string BOILING_POINT = "1837";
 }
 
-namespace Application.Po {
+namespace Elements.Po {
     public const string ID = "Po";
     public const string NAME = _("Polonium");
     public const string GROUP = Constants.METALLOID;
@@ -1495,7 +1495,7 @@ namespace Application.Po {
     public const string BOILING_POINT = "1235";
 }
 
-namespace Application.At {
+namespace Elements.At {
     public const string ID = "At";
     public const string NAME = _("Astatine");
     public const string GROUP = Constants.HALOGEN;
@@ -1514,7 +1514,7 @@ namespace Application.At {
     public const string BOILING_POINT = "610";
 }
 
-namespace Application.Rn {
+namespace Elements.Rn {
     public const string ID = "Rn";
     public const string NAME = _("Radon");
     public const string GROUP = Constants.NOBLE_GAS;
@@ -1533,7 +1533,7 @@ namespace Application.Rn {
     public const string BOILING_POINT = "211.5";
 }
 
-namespace Application.Fr {
+namespace Elements.Fr {
     public const string ID = "Fr";
     public const string NAME = _("Francium");
     public const string GROUP = Constants.ALKALI_METAL;
@@ -1553,7 +1553,7 @@ namespace Application.Fr {
     public const string BOILING_POINT = "950";
 }
 
-namespace Application.Ra {
+namespace Elements.Ra {
     public const string ID = "Ra";
     public const string NAME = _("Radium");
     public const string GROUP = Constants.ALKALINE_EARTH_METAL;
@@ -1573,7 +1573,7 @@ namespace Application.Ra {
     public const string BOILING_POINT = "2010";
 }
 
-namespace Application.Ac {
+namespace Elements.Ac {
     public const string ID = "Ac";
     public const string NAME = _("Actinium");
     public const string GROUP = Constants.ACTINIDE;
@@ -1593,7 +1593,7 @@ namespace Application.Ac {
     public const string BOILING_POINT = "3500";
 }
 
-namespace Application.Th {
+namespace Elements.Th {
     public const string ID = "Th";
     public const string NAME = _("Thorium");
     public const string GROUP = Constants.ACTINIDE;
@@ -1613,7 +1613,7 @@ namespace Application.Th {
     public const string BOILING_POINT = "5061";
 }
 
-namespace Application.Pa {
+namespace Elements.Pa {
     public const string ID = "Pa";
     public const string NAME = _("Protactinium");
     public const string GROUP = Constants.ACTINIDE;
@@ -1633,7 +1633,7 @@ namespace Application.Pa {
     public const string BOILING_POINT = "4300";
 }
 
-namespace Application.U {
+namespace Elements.U {
     public const string ID = "U";
     public const string NAME = _("Uranium");
     public const string GROUP = Constants.ACTINIDE;
@@ -1653,7 +1653,7 @@ namespace Application.U {
     public const string BOILING_POINT = "4404";
 }
 
-namespace Application.Np {
+namespace Elements.Np {
     public const string ID = "Np";
     public const string NAME = _("Neptunium");
     public const string GROUP = Constants.ACTINIDE;
@@ -1673,7 +1673,7 @@ namespace Application.Np {
     public const string BOILING_POINT = "4447";
 }
 
-namespace Application.Pu {
+namespace Elements.Pu {
     public const string ID = "Pu";
     public const string NAME = _("Plutonium");
     public const string GROUP = Constants.ACTINIDE;
@@ -1693,7 +1693,7 @@ namespace Application.Pu {
     public const string BOILING_POINT = "3505";
 }
 
-namespace Application.Am {
+namespace Elements.Am {
     public const string ID = "Am";
     public const string NAME = _("Americum");
     public const string GROUP = Constants.ACTINIDE;
@@ -1713,7 +1713,7 @@ namespace Application.Am {
     public const string BOILING_POINT = "2880";
 }
 
-namespace Application.Cm {
+namespace Elements.Cm {
     public const string ID = "Cm";
     public const string NAME = _("Curium");
     public const string GROUP = Constants.ACTINIDE;
@@ -1733,7 +1733,7 @@ namespace Application.Cm {
     public const string BOILING_POINT = "3383";
 }
 
-namespace Application.Bk {
+namespace Elements.Bk {
     public const string ID = "Bk";
     public const string NAME = _("Berkelium");
     public const string GROUP = Constants.ACTINIDE;
@@ -1753,7 +1753,7 @@ namespace Application.Bk {
     public const string BOILING_POINT = "2900";
 }
 
-namespace Application.Cf {
+namespace Elements.Cf {
     public const string ID = "Cf";
     public const string NAME = _("Californium");
     public const string GROUP = Constants.ACTINIDE;
@@ -1773,7 +1773,7 @@ namespace Application.Cf {
     public const string BOILING_POINT = "1743";
 }
 
-namespace Application.Es {
+namespace Elements.Es {
     public const string ID = "Es";
     public const string NAME = _("Einsteinium");
     public const string GROUP = Constants.ACTINIDE;
@@ -1793,7 +1793,7 @@ namespace Application.Es {
     public const string BOILING_POINT = "1269";
 }
 
-namespace Application.Fm {
+namespace Elements.Fm {
     public const string ID = "Fm";
     public const string NAME = _("Fermium");
     public const string GROUP = Constants.ACTINIDE;
@@ -1813,7 +1813,7 @@ namespace Application.Fm {
     public const string BOILING_POINT = "-";
 }
 
-namespace Application.Md {
+namespace Elements.Md {
     public const string ID = "Md";
     public const string NAME = _("Mendelevium");
     public const string GROUP = Constants.ACTINIDE;
@@ -1833,7 +1833,7 @@ namespace Application.Md {
     public const string BOILING_POINT = "-";
 }
 
-namespace Application.No {
+namespace Elements.No {
     public const string ID = "No";
     public const string NAME = _("Nobelium");
     public const string GROUP = Constants.ACTINIDE;
@@ -1853,7 +1853,7 @@ namespace Application.No {
     public const string BOILING_POINT = "-";
 }
 
-namespace Application.Lr {
+namespace Elements.Lr {
     public const string ID = "Lr";
     public const string NAME = _("Lawrencium");
     public const string GROUP = Constants.ACTINIDE;
@@ -1873,7 +1873,7 @@ namespace Application.Lr {
     public const string BOILING_POINT = "-";
 }
 
-namespace Application.Rf {
+namespace Elements.Rf {
     public const string ID = "Rf";
     public const string NAME = _("Rutherfordium");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -1887,7 +1887,7 @@ namespace Application.Rf {
     public const string BOILING_POINT = "?";
 }
 
-namespace Application.Db {
+namespace Elements.Db {
     public const string ID = "Db";
     public const string NAME = _("Dubnium");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -1901,7 +1901,7 @@ namespace Application.Db {
     public const string BOILING_POINT = "?";
 }
 
-namespace Application.Sg {
+namespace Elements.Sg {
     public const string ID = "Sg";
     public const string NAME = _("Seaborgium");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -1915,7 +1915,7 @@ namespace Application.Sg {
     public const string BOILING_POINT = "?";
 }
 
-namespace Application.Bh {
+namespace Elements.Bh {
     public const string ID = "Bh";
     public const string NAME = _("Bohrium");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -1929,7 +1929,7 @@ namespace Application.Bh {
     public const string BOILING_POINT = "?";
 }
 
-namespace Application.Hs {
+namespace Elements.Hs {
     public const string ID = "Hs";
     public const string NAME = _("Hassium");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -1943,7 +1943,7 @@ namespace Application.Hs {
     public const string BOILING_POINT = "?";
 }
 
-namespace Application.Mt {
+namespace Elements.Mt {
     public const string ID = "Mt";
     public const string NAME = _("Meitnerium");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -1957,7 +1957,7 @@ namespace Application.Mt {
     public const string BOILING_POINT = "?";
 }
 
-namespace Application.Ds {
+namespace Elements.Ds {
     public const string ID = "Ds";
     public const string NAME = _("Darmstadtium");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -1971,7 +1971,7 @@ namespace Application.Ds {
     public const string BOILING_POINT = "?";
 }
 
-namespace Application.Rg {
+namespace Elements.Rg {
     public const string ID = "Rg";
     public const string NAME = _("Roentgenium");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -1985,7 +1985,7 @@ namespace Application.Rg {
     public const string BOILING_POINT = "?";
 }
 
-namespace Application.Cn {
+namespace Elements.Cn {
     public const string ID = "Cn";
     public const string NAME = _("Copernium");
     public const string GROUP = Constants.TRANSITION_METAL;
@@ -1999,7 +1999,7 @@ namespace Application.Cn {
     public const string BOILING_POINT = "?";
 }
 
-namespace Application.Nh {
+namespace Elements.Nh {
     public const string ID = "Nh";
     public const string NAME = _("Nihonium");
     public const string GROUP = Constants.POST_TRANSITION_METAL;
@@ -2013,7 +2013,7 @@ namespace Application.Nh {
     public const string BOILING_POINT = "?";
 }
 
-namespace Application.Fl {
+namespace Elements.Fl {
     public const string ID = "Fl";
     public const string NAME = _("Flerovium");
     public const string GROUP = Constants.POST_TRANSITION_METAL;
@@ -2027,7 +2027,7 @@ namespace Application.Fl {
     public const string BOILING_POINT = "?";
 }
 
-namespace Application.Mc {
+namespace Elements.Mc {
     public const string ID = "Mc";
     public const string NAME = _("Moscovium");
     public const string GROUP = Constants.POST_TRANSITION_METAL;
@@ -2041,7 +2041,7 @@ namespace Application.Mc {
     public const string BOILING_POINT = "?";
 }
 
-namespace Application.Lv {
+namespace Elements.Lv {
     public const string ID = "Lv";
     public const string NAME = _("Livermorium");
     public const string GROUP = Constants.POST_TRANSITION_METAL;
@@ -2055,7 +2055,7 @@ namespace Application.Lv {
     public const string BOILING_POINT = "?";
 }
 
-namespace Application.Ts {
+namespace Elements.Ts {
     public const string ID = "Ts";
     public const string NAME = _("Tennessine");
     public const string GROUP = Constants.HALOGEN;
@@ -2069,7 +2069,7 @@ namespace Application.Ts {
     public const string BOILING_POINT = "?";
 }
 
-namespace Application.Og {
+namespace Elements.Og {
     public const string ID = "Og";
     public const string NAME = _("Oganesson");
     public const string GROUP = Constants.NOBLE_GAS;

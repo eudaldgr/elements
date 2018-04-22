@@ -32,6 +32,7 @@ executable(
     'src/Views/PeriodicView.vala',
     'src/Views/PropertiesView.vala',
     'src/Widgets/HeaderBar.vala',
+    'src/Widgets/Popover.vala',
     'src/Widgets/Stack.vala',
     dependencies: [
         dependency('cairo'),

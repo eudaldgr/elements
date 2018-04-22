@@ -21,7 +21,7 @@
 
 using Granite.Widgets;
 
-namespace Application {
+namespace Elements {
     public class MainWindow : Gtk.Window {
 
         private Stack stack = Stack.get_instance();

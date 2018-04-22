@@ -21,7 +21,7 @@
 
 using Granite.Widgets;
 
-namespace Application {
+namespace Elements {
     public class HistoryView : Gtk.Grid {
 
         public HistoryView() {

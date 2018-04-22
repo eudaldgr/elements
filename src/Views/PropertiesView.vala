@@ -21,7 +21,7 @@
 
 using Granite.Widgets;
 
-namespace Application {
+namespace Elements {
     public class PropertiesView : Gtk.Grid {
 
         static PropertiesView? instance;
