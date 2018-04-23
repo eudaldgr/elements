@@ -7,8 +7,6 @@
 
 <p align="center">
     <a href="https://forthebadge.com"><img alt="forthebadge" src="https://forthebadge.com/images/badges/powered-by-oxygen.svg"></a>
-</p>
-<p align="center">
     <a href="https://forthebadge.com"><img alt="forthebadge" src="https://forthebadge.com/images/badges/made-with-crayons.svg"></a>
 </p>
 <p align="center">
