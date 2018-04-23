@@ -1,5 +1,4 @@
-project('com.github.eudaldgr.elements', 'vala', 'c',
-    version: '0.0.1')
+project('com.github.eudaldgr.elements', 'vala', 'c')
 
 gnome = import('gnome')
 i18n = import('i18n')
@@ -13,7 +12,7 @@ c_args = [
   '-include', 'config.h'
 ]
 
-add_global_arguments('-DGETTEXT_PACKAGE="' + meson.project_name() + '"', language:'c')
+add_global_arguments('-DGETTEXT_PACKAGE="@0@"'.format (meson.project_name()), language:'c')
 
 asresources = gnome.compile_resources(
     'as-resources', 'data/' + meson.project_name() + '.gresource.xml',
@@ -43,3 +42,6 @@ executable(
     ],
     install: true
 )
+
+subdir('data')
+subdir('po')

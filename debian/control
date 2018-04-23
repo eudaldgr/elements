@@ -1,13 +1,18 @@
 Source: com.github.eudaldgr.elements
 Section: x11
+Priority: extra
 Maintainer: Eudald Gubert i Roldan <eudaldgr@posteo.net>
-Build-Depends: debhelper (>= 9), libgee-0.8-dev, libgtk-3-dev, meson, valac
+Build-Depends: debhelper (>= 9),
+               libgee-0.8-dev,
+               libgtk-3-dev,
+               meson,
+               libgranite-dev,
+               libglib2.0-dev,
+               valac
+
 Standards-Version: 3.9.6
 Homepage: https://github.com/eudaldgr/elements
-
 Package: com.github.eudaldgr.elements
 Architecture: any
-Priority: optional
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: View all the elements of the periodic table
- A periodic table
+Description: View all the elements of the periodic table. A periodic table.
