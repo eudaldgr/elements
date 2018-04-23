@@ -29,9 +29,9 @@
      inkscape:window-height="1017"
      id="namedview44"
      showgrid="false"
-     inkscape:zoom="13.906433"
-     inkscape:cx="31.851427"
-     inkscape:cy="15.882908"
+     inkscape:zoom="19.666666"
+     inkscape:cx="22.284624"
+     inkscape:cy="25.015109"
      inkscape:window-x="0"
      inkscape:window-y="30"
      inkscape:window-maximized="1"
@@ -52,6 +52,30 @@
      id="title4162">elementary Icon Template</title>
   <defs
      id="defs3">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4240">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4242" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop4244" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4170">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4172" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop4174" />
+    </linearGradient>
     <linearGradient
        id="linearGradient10457">
       <stop
@@ -198,6 +222,63 @@
        x2="150"
        y1="202"
        y2="178" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4170"
+       id="linearGradient4176"
+       x1="144.68292"
+       y1="190.14635"
+       x2="145.18629"
+       y2="223.00883"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       gradientTransform="translate(5.6207647,0.53178477)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4170"
+       id="linearGradient4176-7"
+       x1="144.68292"
+       y1="190.14635"
+       x2="145.18629"
+       y2="223.00883"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4170"
+       id="linearGradient4190"
+       x1="144.68292"
+       y1="190.14635"
+       x2="145.18629"
+       y2="223.00883"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4240"
+       id="linearGradient4246"
+       x1="165.82422"
+       y1="175.40497"
+       x2="165.82422"
+       y2="194.74854"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-1.0000028,0.99999658)" />
+    <linearGradient
+       gradientTransform="translate(4.4616934e-4,1.0004752)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4240"
+       id="linearGradient4246-4"
+       x1="165.82422"
+       y1="175.40497"
+       x2="165.82422"
+       y2="194.74854"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4240"
+       id="linearGradient4260"
+       x1="165.82422"
+       y1="175.40497"
+       x2="165.82422"
+       y2="194.74854"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <g
      id="g153"
@@ -242,5 +323,77 @@
        width="37"
        x="133.5"
        y="169.5" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.07000002;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;enable-background:new"
+       x="134.97472"
+       y="204.37801"
+       id="text4166-7-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4168-2-3"
+         x="134.97472"
+         y="204.37801"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.5px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System';fill:#000000;fill-opacity:1;stroke:#000000;stroke-linejoin:round;stroke-opacity:1">H</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.15;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
+       x="134.97472"
+       y="204.37801"
+       id="text4166-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4168-2"
+         x="134.97472"
+         y="204.37801"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.5px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System';fill:#000000;fill-opacity:1">H</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient4176);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="134.97519"
+       y="203.37764"
+       id="text4166"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4168"
+         x="134.97519"
+         y="203.37764"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.5px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System';fill:url(#linearGradient4176);fill-opacity:1">H</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.07000002;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;enable-background:new"
+       x="160.07866"
+       y="186.466"
+       id="text4236-9-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4238-3-3"
+         x="160.07866"
+         y="186.466"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System';fill:#000000;fill-opacity:1;stroke:#000000;stroke-linejoin:round;stroke-opacity:1">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.15;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
+       x="160.07866"
+       y="186.466"
+       id="text4236-9"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4238-3"
+         x="160.07866"
+         y="186.466"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System';fill:#000000;fill-opacity:1">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient4246);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="160.07822"
+       y="185.46553"
+       id="text4236"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4238"
+         x="160.07822"
+         y="185.46553"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System';fill:url(#linearGradient4246);fill-opacity:1">1</tspan></text>
   </g>
 </svg>

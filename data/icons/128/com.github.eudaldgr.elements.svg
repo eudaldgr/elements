@@ -33,9 +33,9 @@
      inkscape:window-height="1017"
      id="namedview46"
      showgrid="false"
-     inkscape:zoom="4"
-     inkscape:cx="51.712708"
-     inkscape:cy="58.650974"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="4.4806592"
+     inkscape:cy="68.02363"
      inkscape:window-x="0"
      inkscape:window-y="30"
      inkscape:window-maximized="1"
@@ -319,6 +319,18 @@
        width="103"
        x="284.5"
        y="104.5" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text5758-7"
+       y="141.62794"
+       x="359.92062"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:125%;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.07;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;enable-background:new;"
+       xml:space="preserve"><tspan
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-linejoin:round;"
+         y="141.62794"
+         x="359.92062"
+         id="tspan5760-5"
+         sodipodi:role="line">1</tspan></text>
     <rect
        height="101"
        id="rect6741-7"
@@ -329,18 +341,17 @@
        x="285.5"
        y="105.5" />
     <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:73.15240479px;line-height:125%;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System';letter-spacing:0px;word-spacing:0px;opacity:0.05;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linejoin:round;stroke-opacity:1"
-       x="291.13538"
-       y="199.42691"
-       id="text5782"
        sodipodi:linespacing="125%"
-       transform="scale(1.0056268,0.99440469)"><tspan
-         sodipodi:role="line"
-         id="tspan5784"
-         x="291.13538"
-         y="199.42691"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-linejoin:round;stroke-opacity:1">H</tspan></text>
+       id="text5774-3"
+       y="196.91608"
+       x="294.06909"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70px;line-height:125%;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.07;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;enable-background:new;stroke-linejoin:round;"
+       xml:space="preserve"><tspan
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-linejoin:round;"
+         y="196.91608"
+         x="294.06909"
+         id="tspan5776-6"
+         sodipodi:role="line">H</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text5774"
@@ -376,19 +387,6 @@
          id="tspan4178"
          x="364.98456"
          y="116.76767" /></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40.22471237px;line-height:125%;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System';letter-spacing:0px;word-spacing:0px;opacity:0.07000002;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.06637621px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
-       x="335.25195"
-       y="152.57402"
-       id="text5786"
-       sodipodi:linespacing="125%"
-       transform="scale(1.0662141,0.93789794)"><tspan
-         sodipodi:role="line"
-         id="tspan5788"
-         x="335.25195"
-         y="152.57402"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.06637621px;stroke-linejoin:round;stroke-opacity:1">1</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text5758"
