@@ -10,9 +10,19 @@
     <p>Features:</p>
      <ul>
        <li>View all the elements</li>
-       <li>Use handy shortcuts to close the app</li>
+       <li>Use handy shortcuts to close the app (Ctrl+Q)</li>
     </ul>
   </description>
+ <releases>
+    <release version="0.0.2" date="2018-04-23">
+      <description>
+        <p>0.0.2</p>
+        <ul>
+          <li>Helium release</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
  <releases>
     <release version="0.0.1" date="2018-04-21">
       <description>
@@ -35,6 +45,7 @@
   <custom>
     <value key="x-appcenter-color-primary">rgba(135, 203, 195, 256)</value>
     <value key="x-appcenter-color-primary-text">#333333</value>
+     <value key="x-appcenter-suggested-price">2</value>
   </custom>
   <url type="homepage">https://github.com/eudaldgr/elements</url>
   <url type="bugtracker">https://github.com/eudaldgr/elements/issues</url>
