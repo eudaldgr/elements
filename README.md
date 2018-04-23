@@ -12,9 +12,6 @@
 <p align="center">
     <a href="https://forthebadge.com"><img alt="forthebadge" src="https://forthebadge.com/images/badges/gluten-free.svg"></a>
 </p>
-<p align="center">
-  <a href="https://appcenter.elementary.io/com.github.eudaldgr.elements"><img src="https://appcenter.elementary.io/badge.svg?new" alt="Get it on AppCenter" /></a>
-</p>
 
 <p align="center">
     <img
@@ -27,6 +24,10 @@
 </p>
 
 ## Installation
+
+<p align="center">
+  <a href="https://appcenter.elementary.io/com.github.eudaldgr.elements"><img src="https://appcenter.elementary.io/badge.svg?new" alt="Get it on AppCenter" /></a>
+</p>
 
 ### Dependencies
 
