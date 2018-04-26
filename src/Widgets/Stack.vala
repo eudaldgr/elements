@@ -29,9 +29,7 @@ namespace Elements {
         Stack() {
             stack = new Gtk.Stack();
             stack.margin = 12;
-/*
-            stack.transition_type = Gtk.StackTransitionType.SLIDE_LEFT_RIGHT;
-*/
+//            stack.transition_type = Gtk.StackTransitionType.SLIDE_LEFT_RIGHT;
         }
 
         public static Stack get_instance() {
@@ -48,49 +46,39 @@ namespace Elements {
         public void loadViews(Gtk.Window window) {
             var main_view = new PeriodicView(Constants.MAIN_VIEW_ID);
             var electro_view = new PeriodicView(Constants.ELECTRO_VIEW_ID);
-/*
-            var properties_view = new PropertiesView("null");
+            var properties_view = new PropertiesView();
             var history_view = new HistoryView();
-*/
+
             stack.add_titled(main_view, Constants.MAIN_VIEW_ID, _("Main"));
             stack.add_titled(electro_view, Constants.ELECTRO_VIEW_ID, _("Electronegativity"));
-/*
             stack.add_titled(properties_view, Constants.PROPERTIES_VIEW_ID, _("Properties"));
             stack.add_titled(history_view, Constants.HISTORY_VIEW_ID, _("History"));
-*/
+
             stack.notify["visible-child"].connect(() => {
                 var headerBar = HeaderBar.get_instance();
 
                 if(stack.get_visible_child_name() == Constants.MAIN_VIEW_ID) {
                     headerBar.showReturnButton(false);
                     headerBar.showInfoButton(true);
-/*
-                    headerBar.showButtons(true);
-*/
+//                    headerBar.showButtons(true);
                     headerBar.showPeriodicViewMode(true);
                     headerBar.setSelectedPeriodicViewMode(0);
-/*
                     headerBar.showAtomicViewMode(false);
-*/
                 }
 
                 if(stack.get_visible_child_name() == Constants.ELECTRO_VIEW_ID) {
                     headerBar.showReturnButton(false);
                     headerBar.showInfoButton(true);
-/*
-                    headerBar.showButtons(true);
-*/
+//                    headerBar.showButtons(true);
                     headerBar.showPeriodicViewMode(true);
                     headerBar.setSelectedPeriodicViewMode(1);
-/*
                     headerBar.showAtomicViewMode(false);
-*/
                 }
-/*
+
                 if(stack.get_visible_child_name() == Constants.PROPERTIES_VIEW_ID) {
                     headerBar.showReturnButton(true);
                     headerBar.showInfoButton(false);
-                    headerBar.showButtons(true);
+//                    headerBar.showButtons(true);
                     headerBar.showPeriodicViewMode(false);
                     headerBar.showAtomicViewMode(true);
                     headerBar.setSelectedAtomicViewMode(0);
@@ -99,12 +87,12 @@ namespace Elements {
                 if(stack.get_visible_child_name() == Constants.HISTORY_VIEW_ID) {
                     headerBar.showReturnButton(true);
                     headerBar.showInfoButton(false);
-                    headerBar.showButtons(true);
+//                    headerBar.showButtons(true);
                     headerBar.showPeriodicViewMode(false);
                     headerBar.showAtomicViewMode(true);
                     headerBar.setSelectedAtomicViewMode(1);
                 }
-*/
+
             });
 
             window.add(stack);
