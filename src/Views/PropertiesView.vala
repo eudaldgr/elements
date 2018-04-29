@@ -37,6 +37,7 @@ namespace Elements {
             this.orientation = Gtk.Orientation.HORIZONTAL;
             this.margin = 5;
             this.expand = true;
+            this.row_homogeneous = true;
 
             var separator = new Gtk.Separator(Gtk.Orientation.VERTICAL);
             separator.margin_top = 25;
@@ -47,7 +48,7 @@ namespace Elements {
             main_grid.orientation = Gtk.Orientation.VERTICAL;
             main_grid.column_homogeneous = true;
             main_grid.valign = Gtk.Align.CENTER;
-            main_grid.halign = Gtk.Align.END;
+            main_grid.halign = Gtk.Align.CENTER;
             main_grid.expand = true;
             main_grid.row_spacing = 30;
             main_grid.column_spacing = 0;
@@ -125,7 +126,7 @@ namespace Elements {
             main_grid.attach(Aboiling, 3, 3);
 
             this.add(atomDraw);
-            this.add(separator);
+//            this.add(separator);
             this.add(main_grid);
         }
     }
