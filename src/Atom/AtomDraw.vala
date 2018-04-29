@@ -20,7 +20,7 @@
 */
 
 namespace Elements {
-	public class AtomDraw : Object {
+	public class AtomDraw : Gtk.DrawingArea {
 
 		static AtomDraw? instance;
 
@@ -29,13 +29,11 @@ namespace Elements {
 				instance = new AtomDraw();
 			}
 			return instance;
-		}
+	}
 
-		AtomDraw() {
-			// Create a context:
-			var surface = new Cairo.ImageSurface(Cairo.Format.ARGB32, 256, 256);
-			var context = new Cairo.Context(surface);
-
+		public AtomDraw() {
+			this.set_size_request(500, 500);
+			this.draw.connect((context) => {
 			// Coordinates:
 			double xc = 128.0;
 			double yc = 128.0;
@@ -81,8 +79,8 @@ namespace Elements {
 			context.arc(xc + orbital_1, yc, electron_radius, angle1, angle2);
 			context.fill();
 
-			// Save the image:
-			surface.write_to_png("img.png");
+			return true;
+			});
 		}
 	}
 }

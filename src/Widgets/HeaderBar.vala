@@ -80,7 +80,7 @@ namespace Elements {
             label2.name = Constants.HISTORY_VIEW_ID;
 
             atomicView_mode.append(label1);
-            atomicView_mode.append(label2);
+//            atomicView_mode.append(label2);
             atomicView_mode.no_show_all = true;
             atomicView_mode.visible = false;
             atomicView_mode.margin = 1;
@@ -98,7 +98,7 @@ namespace Elements {
         }
 */
         private void generateReturnButton() {
-            return_button.label = _("Back");
+            return_button.label = _("Periodic Table");
             return_button.no_show_all = true;
             return_button.get_style_context().add_class ("back-button");
             return_button.visible = false;

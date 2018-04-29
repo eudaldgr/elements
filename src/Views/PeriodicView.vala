@@ -34,10 +34,6 @@ namespace Elements {
             return instance;
         }
 
-        public Gtk.Grid getGrid() {
-            return this;
-        }
-
         public PeriodicView(string id) {
             headerBar.showPeriodicViewMode(true);
 
@@ -658,7 +654,7 @@ namespace Elements {
         }
 
         public void on_click(Gtk.Button btn) {
-            var label = btn.label.to_string();
+//            var label = btn.label.to_string();
 
             headerBar.custom_title = headerBar.atomicView_mode;
             headerBar.showPeriodicViewMode(false);

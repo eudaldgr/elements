@@ -43,7 +43,7 @@
   </screenshots>
   <developer_name>Eudald Gubert i Roldan</developer_name>
   <custom>
-    <value key="x-appcenter-color-primary">rgba(135, 203, 195, 256)</value>
+    <value key="x-appcenter-color-primary">rgb(135, 203, 195)</value>
     <value key="x-appcenter-color-primary-text">#333333</value>
      <value key="x-appcenter-suggested-price">2</value>
   </custom>

@@ -77,7 +77,7 @@ namespace Elements {
 
                 if(stack.get_visible_child_name() == Constants.PROPERTIES_VIEW_ID) {
                     headerBar.showReturnButton(true);
-                    headerBar.showInfoButton(false);
+                    headerBar.showInfoButton(true);
 //                    headerBar.showButtons(true);
                     headerBar.showPeriodicViewMode(false);
                     headerBar.showAtomicViewMode(true);

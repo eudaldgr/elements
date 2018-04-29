@@ -113,6 +113,8 @@ namespace Elements {
             this.add(four_eV);
             this.add(five_eV);
             this.add(six_eV);
+                } else if(stack.getStack().get_visible_child_name() == Constants.PROPERTIES_VIEW_ID) {
+            this.remove_column(0);
                 }
             });
         }
