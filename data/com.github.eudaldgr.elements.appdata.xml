@@ -16,20 +16,14 @@
  <releases>
     <release version="0.0.2" date="2018-04-23">
       <description>
-        <p>0.0.2</p>
-        <ul>
-          <li>Helium release</li>
-        </ul>
+        <p>Helium release</p>
       </description>
     </release>
   </releases>
  <releases>
     <release version="0.0.1" date="2018-04-21">
       <description>
-        <p>0.0.1</p>
-        <ul>
-          <li>First release</li>
-        </ul>
+        <p>First release</p>
       </description>
     </release>
   </releases>
@@ -45,9 +39,10 @@
   <custom>
     <value key="x-appcenter-color-primary">rgb(135, 203, 195)</value>
     <value key="x-appcenter-color-primary-text">#333333</value>
-     <value key="x-appcenter-suggested-price">2</value>
+     <value key="x-appcenter-suggested-price">5</value>
   </custom>
   <url type="homepage">https://github.com/eudaldgr/elements</url>
   <url type="bugtracker">https://github.com/eudaldgr/elements/issues</url>
   <url type="help">https://github.com/eudaldgr/elements/issues</url>
+  <url type="translate">https://github.com/eudaldgr/elements/tree/master/po</url>
 </component>
