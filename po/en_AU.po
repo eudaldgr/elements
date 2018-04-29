@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.eudaldgr.elements\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-29 13:07+0200\n"
+"POT-Creation-Date: 2018-04-29 15:31+0200\n"
 "PO-Revision-Date: 2018-04-29 13:07+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -531,35 +531,35 @@ msgstr "Tennessine"
 msgid "Oganesson"
 msgstr "Oganesson"
 
-#: src/Views/PropertiesView.vala:56
+#: src/Atom/PropertiesStructure.vala:47
 msgid "Name:"
 msgstr "Name:"
 
-#: src/Views/PropertiesView.vala:59
+#: src/Atom/PropertiesStructure.vala:50
 msgid "Symbol:"
 msgstr "Symbol:"
 
-#: src/Views/PropertiesView.vala:62
+#: src/Atom/PropertiesStructure.vala:53
 msgid "Atomic number:"
 msgstr "Atomic number:"
 
-#: src/Views/PropertiesView.vala:65
+#: src/Atom/PropertiesStructure.vala:56
 msgid "Group:"
 msgstr "Group:"
 
-#: src/Views/PropertiesView.vala:68
+#: src/Atom/PropertiesStructure.vala:59
 msgid "Atomic weigth:"
 msgstr "Atomic weigth:"
 
-#: src/Views/PropertiesView.vala:71
+#: src/Atom/PropertiesStructure.vala:62
 msgid "Electronegativity:"
 msgstr "Electronegativity:"
 
-#: src/Views/PropertiesView.vala:74
+#: src/Atom/PropertiesStructure.vala:65
 msgid "Melting point:"
 msgstr "Melting point:"
 
-#: src/Views/PropertiesView.vala:77
+#: src/Atom/PropertiesStructure.vala:68
 msgid "Boiling point:"
 msgstr "Boiling point:"
 

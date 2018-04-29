@@ -28,6 +28,7 @@ executable(
     'src/MainWindow.vala',
     'src/Atom/AtomDraw.vala',
     'src/Atom/Properties.vala',
+    'src/Atom/PropertiesStructure.vala',
     'src/Views/HistoryView.vala',
     'src/Views/PeriodicView.vala',
     'src/Views/PropertiesView.vala',
