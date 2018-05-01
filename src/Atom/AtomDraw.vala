@@ -29,59 +29,110 @@ namespace Elements {
 				instance = new AtomDraw();
 			}
 			return instance;
-	}
+		}
 
 		public AtomDraw() {
-//			this.set_size_request(500, 500);
 			this.expand = true;
-			this.valign = Gtk.Align.FILL;
+//			this.margin_top = 25;
+//			this.margin_left = 25;
+//			this.set_size_request(500, 500);
+//			this.halign = Gtk.Align.FILL;
+//			this.valign = Gtk.Align.FILL;
 
 			this.draw.connect((context) => {
 				// Coordinates:
-				double xc = 128.0;
-				double yc = 128.0;
-				double nucleus_radius = 30.0;
-				double orbital_1 = 100.0;
-				double electron_radius = 6.0;
+				double xc = 260.0;
+				double yc = 260.0;
+
+				double nucleus = 35.0;
+
+				double orbital = nucleus * 3;
+
+				double o1 = orbital + 25 * 0;
+				double o2 = orbital + 25 * 1;
+				double o3 = orbital + 25 * 2;
+				double o4 = orbital + 25 * 3;
+				double o5 = orbital + 25 * 4;
+				double o6 = orbital + 25 * 5;
+				double o7 = orbital + 25 * 6;
+
+				double electron = 9.0;
+
 				double angle1 = 0.0 * Math.PI/180;
 				double angle2 = 360.0 * Math.PI/180;
 
 				// Nucleus:
 				context.set_source_rgba(1, 0.2, 0.2, 1);
 				context.set_line_width(50.0);
-				context.arc(xc, yc, nucleus_radius, angle1, angle2);
+				context.arc(xc, yc, nucleus, angle1, angle2);
 				context.fill();
 
 				// Orbital 1:
 				context.set_source_rgba(0.83, 0.83, 0.83, 1);
 				context.set_line_width(1.0);
-				context.arc(xc, yc, orbital_1, angle1, angle2);
+				context.arc(xc, yc, o1, angle1, angle2);
 				context.stroke();
 
+				// Orbital 2:
+				context.set_source_rgba(0.83, 0.83, 0.83, 1);
+				context.set_line_width(1.0);
+				context.arc(xc, yc, o2, angle1, angle2);
+				context.stroke();
+
+				// Orbital 3:
+				context.set_source_rgba(0.83, 0.83, 0.83, 1);
+				context.set_line_width(1.0);
+				context.arc(xc, yc, o3, angle1, angle2);
+				context.stroke();
+
+				// Orbital 4:
+				context.set_source_rgba(0.83, 0.83, 0.83, 1);
+				context.set_line_width(1.0);
+				context.arc(xc, yc, o4, angle1, angle2);
+				context.stroke();
+
+				// Orbital 5:
+				context.set_source_rgba(0.83, 0.83, 0.83, 1);
+				context.set_line_width(1.0);
+				context.arc(xc, yc, o5, angle1, angle2);
+				context.stroke();
+
+				// Orbital 6:
+				context.set_source_rgba(0.83, 0.83, 0.83, 1);
+				context.set_line_width(1.0);
+				context.arc(xc, yc, o6, angle1, angle2);
+				context.stroke();
+
+				// Orbital 7:
+				context.set_source_rgba(0.83, 0.83, 0.83, 1);
+				context.set_line_width(1.0);
+				context.arc(xc, yc, o7, angle1, angle2);
+				context.stroke();
+/*
 				// Electrons s:
 				context.set_source_rgba(0.95, 0.45, 0.16, 1);
 				context.set_line_width(5.0);
-				context.arc(xc, yc - orbital_1, electron_radius, angle1, angle2);
+				context.arc(xc, yc - o1, electron, angle1, angle2);
 				context.fill();
 
 				// Electrons p:
 				context.set_source_rgba(0.97, 0.76, 0.25, 1);
 				context.set_line_width(5.0);
-				context.arc(xc, yc + orbital_1, electron_radius, angle1, angle2);
+				context.arc(xc, yc + o1, electron, angle1, angle2);
 				context.fill();
 
 				// Electrons d:
 				context.set_source_rgba(0.41, 0.72, 0.14, 1);
 				context.set_line_width(5.0);
-				context.arc(xc - orbital_1, yc, electron_radius, angle1, angle2);
+				context.arc(xc - o1, yc, electron, angle1, angle2);
 				context.fill();
 
 				// Electrons f:
 				context.set_source_rgba(0.21, 0.54, 0.9, 1);
 				context.set_line_width(5.0);
-				context.arc(xc + orbital_1, yc, electron_radius, angle1, angle2);
+				context.arc(xc + o1, yc, electron, angle1, angle2);
 				context.fill();
-
+*/
 				return true;
 			});
 		}

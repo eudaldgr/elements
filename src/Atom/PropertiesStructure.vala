@@ -35,7 +35,8 @@ namespace Elements {
             this.orientation = Gtk.Orientation.VERTICAL;
             this.valign = Gtk.Align.CENTER;
             this.halign = Gtk.Align.CENTER;
-            this.expand = true;
+//            this.expand = true;
+            this.margin_right = 50;
             this.row_spacing = 30;
             this.column_spacing = 5;
 
