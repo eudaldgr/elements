@@ -7,627 +7,629 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.eudaldgr.elements\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-29 15:31+0200\n"
-"PO-Revision-Date: 2018-04-29 13:07+0200\n"
+"POT-Creation-Date: 2018-05-03 11:24+0100\n"
+"PO-Revision-Date: 2018-05-03 11:48+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: data/com.github.eudaldgr.elements.appdata.xml:6
 #: data/com.github.eudaldgr.elements.desktop:3
 #: data/com.github.eudaldgr.elements.desktop:4
 msgid "Elements"
-msgstr ""
+msgstr "Éléments"
 
 #: data/com.github.eudaldgr.elements.appdata.xml:7
 msgid "All the elements of the universe!"
-msgstr ""
+msgstr "Tous les éléments de l'univers !"
 
 #: data/com.github.eudaldgr.elements.appdata.xml:9
 msgid "A viewer of the elements"
-msgstr ""
+msgstr "Un visionneur d'éléments"
 
 #: data/com.github.eudaldgr.elements.appdata.xml:10
 msgid "Features:"
-msgstr ""
+msgstr "Fonctionnalités :"
 
 #: data/com.github.eudaldgr.elements.appdata.xml:12
 msgid "View all the elements"
-msgstr ""
+msgstr "Afficher tous les éléments"
 
 #: data/com.github.eudaldgr.elements.appdata.xml:13
 msgid "Use handy shortcuts to close the app (Ctrl+Q)"
-msgstr ""
+msgstr "Utilise un raccourcis bien-connu pour fermer l'application (Ctrl+Q)"
 
-#: data/com.github.eudaldgr.elements.appdata.xml:44
+#: data/com.github.eudaldgr.elements.appdata.xml:67
 msgid "Eudald Gubert i Roldan"
-msgstr ""
+msgstr "Eudald Gubert i Roldan"
 
 #: data/com.github.eudaldgr.elements.desktop:5
 msgid "Awesome periodic table."
-msgstr ""
+msgstr "Un tableau périodique génial."
 
 #: data/com.github.eudaldgr.elements.desktop:8
 msgid "com.github.eudaldgr.elements"
-msgstr ""
+msgstr "com.github.eudaldgr.elements"
 
 #: data/com.github.eudaldgr.elements.desktop:12
 msgid "Science;Chemistry;Elements;"
-msgstr ""
+msgstr "Science;Chimie;Éléments;"
 
-#: src/Atom/Properties.vala:24
+#: src/Atom/Properties.vala:26
 msgid "Hydrogen"
-msgstr ""
+msgstr "Hydrogène"
 
-#: src/Atom/Properties.vala:38
+#: src/Atom/Properties.vala:40
 msgid "Helium"
-msgstr ""
+msgstr "Hélium"
 
-#: src/Atom/Properties.vala:52
+#: src/Atom/Properties.vala:54
 msgid "Lithium"
-msgstr ""
+msgstr "Lithium"
 
-#: src/Atom/Properties.vala:67
+#: src/Atom/Properties.vala:69
 msgid "Beryllium"
-msgstr ""
+msgstr "Béryllium"
 
-#: src/Atom/Properties.vala:82
+#: src/Atom/Properties.vala:84
 msgid "Boron"
-msgstr ""
+msgstr "Bore"
 
-#: src/Atom/Properties.vala:97
+#: src/Atom/Properties.vala:99
 msgid "Carbon"
-msgstr ""
+msgstr "Carbone"
 
-#: src/Atom/Properties.vala:112
+#: src/Atom/Properties.vala:114
 msgid "Nitrogen"
-msgstr ""
+msgstr "Azote"
 
-#: src/Atom/Properties.vala:127
+#: src/Atom/Properties.vala:129
 msgid "Oxygen"
-msgstr ""
+msgstr "Oxygène"
 
-#: src/Atom/Properties.vala:142
+#: src/Atom/Properties.vala:144
 msgid "Fluorine"
-msgstr ""
+msgstr "Fluor"
 
-#: src/Atom/Properties.vala:157
+#: src/Atom/Properties.vala:159
 msgid "Neon"
-msgstr ""
+msgstr "Néon"
 
-#: src/Atom/Properties.vala:172
+#: src/Atom/Properties.vala:174
 msgid "Sodium"
-msgstr ""
+msgstr "Sodium"
 
-#: src/Atom/Properties.vala:188
+#: src/Atom/Properties.vala:190
 msgid "Magnesium"
-msgstr ""
+msgstr "Magnésium"
 
-#: src/Atom/Properties.vala:204
+#: src/Atom/Properties.vala:206
 msgid "Aluminium"
-msgstr ""
+msgstr "Aluminium"
 
-#: src/Atom/Properties.vala:220
+#: src/Atom/Properties.vala:222
 msgid "Silicon"
-msgstr ""
+msgstr "Silicium"
 
-#: src/Atom/Properties.vala:236
+#: src/Atom/Properties.vala:238
 msgid "Phosphorus"
-msgstr ""
+msgstr "Phosphore"
 
-#: src/Atom/Properties.vala:252
+#: src/Atom/Properties.vala:254
 msgid "Sulfur"
-msgstr ""
+msgstr "Soufre"
 
-#: src/Atom/Properties.vala:268
+#: src/Atom/Properties.vala:270
 msgid "Chlorine"
-msgstr ""
+msgstr "Chlore"
 
-#: src/Atom/Properties.vala:284
+#: src/Atom/Properties.vala:286
 msgid "Argon"
-msgstr ""
+msgstr "Argon"
 
-#: src/Atom/Properties.vala:300
+#: src/Atom/Properties.vala:302
 msgid "Potasium"
-msgstr ""
+msgstr "Potasium"
 
-#: src/Atom/Properties.vala:317
+#: src/Atom/Properties.vala:319
 msgid "Calcium"
-msgstr ""
+msgstr "Calcium"
 
-#: src/Atom/Properties.vala:334
+#: src/Atom/Properties.vala:336
 msgid "Scandium"
-msgstr ""
+msgstr "Scandium"
 
-#: src/Atom/Properties.vala:351
+#: src/Atom/Properties.vala:353
 msgid "Titanium"
-msgstr ""
+msgstr "Titane"
 
-#: src/Atom/Properties.vala:368
+#: src/Atom/Properties.vala:370
 msgid "Vanadium"
-msgstr ""
+msgstr "Vanadium"
 
-#: src/Atom/Properties.vala:385
+#: src/Atom/Properties.vala:387
 msgid "Chromium"
-msgstr ""
+msgstr "Chrome"
 
-#: src/Atom/Properties.vala:402
+#: src/Atom/Properties.vala:404
 msgid "Manganese"
-msgstr ""
+msgstr "Manganèse"
 
-#: src/Atom/Properties.vala:419
+#: src/Atom/Properties.vala:421
 msgid "Iron"
-msgstr ""
+msgstr "Fer"
 
-#: src/Atom/Properties.vala:436
+#: src/Atom/Properties.vala:438
 msgid "Cobalt"
-msgstr ""
+msgstr "Cobalt"
 
-#: src/Atom/Properties.vala:453
+#: src/Atom/Properties.vala:455
 msgid "Nickel"
-msgstr ""
+msgstr "Nickel"
 
-#: src/Atom/Properties.vala:470
+#: src/Atom/Properties.vala:472
 msgid "Copper"
-msgstr ""
+msgstr "Cuivre"
 
-#: src/Atom/Properties.vala:487
+#: src/Atom/Properties.vala:489
 msgid "Zinc"
-msgstr ""
+msgstr "Zinc"
 
-#: src/Atom/Properties.vala:504
+#: src/Atom/Properties.vala:506
 msgid "Gallium"
-msgstr ""
+msgstr "Gallium"
 
-#: src/Atom/Properties.vala:521
+#: src/Atom/Properties.vala:523
 msgid "Germanium"
-msgstr ""
+msgstr "Germanium"
 
-#: src/Atom/Properties.vala:538
+#: src/Atom/Properties.vala:540
 msgid "Arsenic"
-msgstr ""
+msgstr "Arsenic"
 
-#: src/Atom/Properties.vala:555
+#: src/Atom/Properties.vala:557
 msgid "Selenium"
-msgstr ""
+msgstr "Sélénium"
 
-#: src/Atom/Properties.vala:572
+#: src/Atom/Properties.vala:574
 msgid "Bromine"
-msgstr ""
+msgstr "Brome"
 
-#: src/Atom/Properties.vala:589
+#: src/Atom/Properties.vala:591
 msgid "Krypton"
-msgstr ""
+msgstr "Krypton"
 
-#: src/Atom/Properties.vala:606
+#: src/Atom/Properties.vala:608
 msgid "Rubidium"
-msgstr ""
+msgstr "Rubidium"
 
-#: src/Atom/Properties.vala:624
+#: src/Atom/Properties.vala:626
 msgid "Strontium"
-msgstr ""
+msgstr "Strontium"
 
-#: src/Atom/Properties.vala:642
+#: src/Atom/Properties.vala:644
 msgid "Yttrium"
-msgstr ""
+msgstr "Yttrium"
 
-#: src/Atom/Properties.vala:660
+#: src/Atom/Properties.vala:662
 msgid "Zirconium"
-msgstr ""
+msgstr "Zirconium"
 
-#: src/Atom/Properties.vala:678
+#: src/Atom/Properties.vala:680
 msgid "Niobium"
-msgstr ""
+msgstr "Niobium"
 
-#: src/Atom/Properties.vala:696
+#: src/Atom/Properties.vala:698
 msgid "Molybdenum"
-msgstr ""
+msgstr "Molybdène"
 
-#: src/Atom/Properties.vala:714
+#: src/Atom/Properties.vala:716
 msgid "Technetium"
-msgstr ""
+msgstr "Technétium"
 
-#: src/Atom/Properties.vala:732
+#: src/Atom/Properties.vala:734
 msgid "Ruthenium"
-msgstr ""
+msgstr "Ruthénium"
 
-#: src/Atom/Properties.vala:750
+#: src/Atom/Properties.vala:752
 msgid "Rhodium"
-msgstr ""
+msgstr "Rhodium"
 
-#: src/Atom/Properties.vala:768
+#: src/Atom/Properties.vala:770
 msgid "Palladium"
-msgstr ""
+msgstr "Palladium"
 
-#: src/Atom/Properties.vala:786
+#: src/Atom/Properties.vala:788
 msgid "Silver"
-msgstr ""
+msgstr "Argent"
 
-#: src/Atom/Properties.vala:804
+#: src/Atom/Properties.vala:806
 msgid "Cadmium"
-msgstr ""
+msgstr "Cadmium"
 
-#: src/Atom/Properties.vala:822
+#: src/Atom/Properties.vala:824
 msgid "Indium"
-msgstr ""
+msgstr "Indium"
 
-#: src/Atom/Properties.vala:840
+#: src/Atom/Properties.vala:842
 msgid "Tin"
-msgstr ""
+msgstr "Étain"
 
-#: src/Atom/Properties.vala:858
+#: src/Atom/Properties.vala:860
 msgid "Antimony"
-msgstr ""
+msgstr "Antimoine"
 
-#: src/Atom/Properties.vala:876
+#: src/Atom/Properties.vala:878
 msgid "Tellurium"
-msgstr ""
+msgstr "Tellure"
 
-#: src/Atom/Properties.vala:894
+#: src/Atom/Properties.vala:896
 msgid "Iodine"
-msgstr ""
+msgstr "Iode"
 
-#: src/Atom/Properties.vala:912
+#: src/Atom/Properties.vala:914
 msgid "Xenon"
-msgstr ""
+msgstr "Xénon"
 
-#: src/Atom/Properties.vala:930
+#: src/Atom/Properties.vala:932
 msgid "Caesium"
-msgstr ""
+msgstr "Césium"
 
-#: src/Atom/Properties.vala:949
+#: src/Atom/Properties.vala:951
 msgid "Barium"
-msgstr ""
+msgstr "Baryum"
 
-#: src/Atom/Properties.vala:968
+#: src/Atom/Properties.vala:970
 msgid "Lanthanum"
-msgstr ""
+msgstr "Lanthane"
 
-#: src/Atom/Properties.vala:987
+#: src/Atom/Properties.vala:989
 msgid "Cerium"
-msgstr ""
+msgstr "Cérium"
 
-#: src/Atom/Properties.vala:1006
+#: src/Atom/Properties.vala:1008
 msgid "Praseodymium"
-msgstr ""
+msgstr "Praséodyme"
 
-#: src/Atom/Properties.vala:1025
+#: src/Atom/Properties.vala:1027
 msgid "Neodymium"
-msgstr ""
+msgstr "Néodyme"
 
-#: src/Atom/Properties.vala:1044
+#: src/Atom/Properties.vala:1046
 msgid "Promethium"
-msgstr ""
+msgstr "Prométhium"
 
-#: src/Atom/Properties.vala:1063
+#: src/Atom/Properties.vala:1065
 msgid "Samarium"
-msgstr ""
+msgstr "Samarium"
 
-#: src/Atom/Properties.vala:1082
+#: src/Atom/Properties.vala:1084
 msgid "Europium"
-msgstr ""
+msgstr "Europium"
 
-#: src/Atom/Properties.vala:1101
+#: src/Atom/Properties.vala:1103
 msgid "Gadolinium"
-msgstr ""
+msgstr "Gadolinium"
 
-#: src/Atom/Properties.vala:1120
+#: src/Atom/Properties.vala:1122
 msgid "Terbium"
-msgstr ""
+msgstr "Terbium"
 
-#: src/Atom/Properties.vala:1139
+#: src/Atom/Properties.vala:1141
 msgid "Dysprosium"
-msgstr ""
+msgstr "Dysprosium"
 
-#: src/Atom/Properties.vala:1158
+#: src/Atom/Properties.vala:1160
 msgid "Holmium"
-msgstr ""
+msgstr "Holmium"
 
-#: src/Atom/Properties.vala:1177
+#: src/Atom/Properties.vala:1179
 msgid "Erbium"
-msgstr ""
+msgstr "Erbium"
 
-#: src/Atom/Properties.vala:1196
+#: src/Atom/Properties.vala:1198
 msgid "Thulium"
-msgstr ""
+msgstr "Thulium"
 
-#: src/Atom/Properties.vala:1215
+#: src/Atom/Properties.vala:1217
 msgid "Ytterbium"
-msgstr ""
+msgstr "Ytterbium"
 
-#: src/Atom/Properties.vala:1234
+#: src/Atom/Properties.vala:1236
 msgid "Lutetium"
-msgstr ""
+msgstr "Lutécium"
 
-#: src/Atom/Properties.vala:1253
+#: src/Atom/Properties.vala:1255
 msgid "Hafnium"
-msgstr ""
+msgstr "Hafnium"
 
-#: src/Atom/Properties.vala:1272
+#: src/Atom/Properties.vala:1274
 msgid "Tantalium"
-msgstr ""
+msgstr "Tantale"
 
-#: src/Atom/Properties.vala:1291
+#: src/Atom/Properties.vala:1293
 msgid "Tungsten"
-msgstr ""
+msgstr "Tungstène"
 
-#: src/Atom/Properties.vala:1310
+#: src/Atom/Properties.vala:1312
 msgid "Rhenium"
-msgstr ""
+msgstr "Rhénium"
 
-#: src/Atom/Properties.vala:1329
+#: src/Atom/Properties.vala:1331
 msgid "Osmium"
-msgstr ""
+msgstr "Osmium"
 
-#: src/Atom/Properties.vala:1348
+#: src/Atom/Properties.vala:1350
 msgid "Iridium"
-msgstr ""
+msgstr "Iridium"
 
-#: src/Atom/Properties.vala:1367
+#: src/Atom/Properties.vala:1369
 msgid "Platinium"
-msgstr ""
+msgstr "Platine"
 
-#: src/Atom/Properties.vala:1386
+#: src/Atom/Properties.vala:1388
 msgid "Gold"
-msgstr ""
+msgstr "Or"
 
-#: src/Atom/Properties.vala:1405
+#: src/Atom/Properties.vala:1407
 msgid "Mercury"
-msgstr ""
+msgstr "Mercure"
 
-#: src/Atom/Properties.vala:1424
+#: src/Atom/Properties.vala:1426
 msgid "Thallium"
-msgstr ""
+msgstr "Thallium"
 
-#: src/Atom/Properties.vala:1443
+#: src/Atom/Properties.vala:1445
 msgid "Lead"
-msgstr ""
+msgstr "Plomb"
 
-#: src/Atom/Properties.vala:1462
+#: src/Atom/Properties.vala:1464
 msgid "Bismuth"
-msgstr ""
+msgstr "Bismuth"
 
-#: src/Atom/Properties.vala:1481
+#: src/Atom/Properties.vala:1483
 msgid "Polonium"
-msgstr ""
+msgstr "Polonium"
 
-#: src/Atom/Properties.vala:1500
+#: src/Atom/Properties.vala:1502
 msgid "Astatine"
-msgstr ""
+msgstr "Astate"
 
-#: src/Atom/Properties.vala:1519
+#: src/Atom/Properties.vala:1521
 msgid "Radon"
-msgstr ""
+msgstr "Radon"
 
-#: src/Atom/Properties.vala:1538
+#: src/Atom/Properties.vala:1540
 msgid "Francium"
-msgstr ""
+msgstr "Francium"
 
-#: src/Atom/Properties.vala:1558
+#: src/Atom/Properties.vala:1560
 msgid "Radium"
-msgstr ""
+msgstr "Radium"
 
-#: src/Atom/Properties.vala:1578
+#: src/Atom/Properties.vala:1580
 msgid "Actinium"
-msgstr ""
+msgstr "Actinium"
 
-#: src/Atom/Properties.vala:1598
+#: src/Atom/Properties.vala:1600
 msgid "Thorium"
-msgstr ""
+msgstr "Thorium"
 
-#: src/Atom/Properties.vala:1618
+#: src/Atom/Properties.vala:1620
 msgid "Protactinium"
-msgstr ""
+msgstr "Protactinium"
 
-#: src/Atom/Properties.vala:1638
+#: src/Atom/Properties.vala:1640
 msgid "Uranium"
-msgstr ""
+msgstr "Uranium"
 
-#: src/Atom/Properties.vala:1658
+#: src/Atom/Properties.vala:1660
 msgid "Neptunium"
-msgstr ""
+msgstr "Neptunium"
 
-#: src/Atom/Properties.vala:1678
+#: src/Atom/Properties.vala:1680
 msgid "Plutonium"
-msgstr ""
+msgstr "Plutonium"
 
-#: src/Atom/Properties.vala:1698
+#: src/Atom/Properties.vala:1700
 msgid "Americum"
-msgstr ""
+msgstr "Américium"
 
-#: src/Atom/Properties.vala:1718
+#: src/Atom/Properties.vala:1720
 msgid "Curium"
-msgstr ""
+msgstr "Curium"
 
-#: src/Atom/Properties.vala:1738
+#: src/Atom/Properties.vala:1740
 msgid "Berkelium"
-msgstr ""
+msgstr "Berkélium"
 
-#: src/Atom/Properties.vala:1758
+#: src/Atom/Properties.vala:1760
 msgid "Californium"
-msgstr ""
+msgstr "Californium"
 
-#: src/Atom/Properties.vala:1778
+#: src/Atom/Properties.vala:1780
 msgid "Einsteinium"
-msgstr ""
+msgstr "Einsteinium"
 
-#: src/Atom/Properties.vala:1798
+#: src/Atom/Properties.vala:1800
 msgid "Fermium"
-msgstr ""
+msgstr "Fermium"
 
-#: src/Atom/Properties.vala:1818
+#: src/Atom/Properties.vala:1820
 msgid "Mendelevium"
-msgstr ""
+msgstr "Mendélévium"
 
-#: src/Atom/Properties.vala:1838
+#: src/Atom/Properties.vala:1840
 msgid "Nobelium"
-msgstr ""
+msgstr "Nobélium"
 
-#: src/Atom/Properties.vala:1858
+#: src/Atom/Properties.vala:1860
 msgid "Lawrencium"
-msgstr ""
+msgstr "Lawrencium"
 
-#: src/Atom/Properties.vala:1878
+#: src/Atom/Properties.vala:1880
 msgid "Rutherfordium"
-msgstr ""
+msgstr "Rutherfordium"
 
-#: src/Atom/Properties.vala:1892
+#: src/Atom/Properties.vala:1894
 msgid "Dubnium"
-msgstr ""
+msgstr "Dubnium"
 
-#: src/Atom/Properties.vala:1906
+#: src/Atom/Properties.vala:1908
 msgid "Seaborgium"
-msgstr ""
+msgstr "Seaborgium"
 
-#: src/Atom/Properties.vala:1920
+#: src/Atom/Properties.vala:1922
 msgid "Bohrium"
-msgstr ""
+msgstr "Bohrium"
 
-#: src/Atom/Properties.vala:1934
+#: src/Atom/Properties.vala:1936
 msgid "Hassium"
-msgstr ""
+msgstr "Hassium"
 
-#: src/Atom/Properties.vala:1948
+#: src/Atom/Properties.vala:1950
 msgid "Meitnerium"
-msgstr ""
+msgstr "Meitnérium"
 
-#: src/Atom/Properties.vala:1962
+#: src/Atom/Properties.vala:1964
 msgid "Darmstadtium"
-msgstr ""
+msgstr "Darmstadtium"
 
-#: src/Atom/Properties.vala:1976
+#: src/Atom/Properties.vala:1978
 msgid "Roentgenium"
-msgstr ""
+msgstr "Roentgenium"
 
-#: src/Atom/Properties.vala:1990
+#: src/Atom/Properties.vala:1992
 msgid "Copernium"
-msgstr ""
+msgstr "Copernium"
 
-#: src/Atom/Properties.vala:2004
+#: src/Atom/Properties.vala:2006
 msgid "Nihonium"
-msgstr ""
+msgstr "Nihonium"
 
-#: src/Atom/Properties.vala:2018
+#: src/Atom/Properties.vala:2020
 msgid "Flerovium"
-msgstr ""
+msgstr "Flérovium"
 
-#: src/Atom/Properties.vala:2032
+#: src/Atom/Properties.vala:2034
 msgid "Moscovium"
-msgstr ""
+msgstr "Moscovium"
 
-#: src/Atom/Properties.vala:2046
+#: src/Atom/Properties.vala:2048
 msgid "Livermorium"
-msgstr ""
+msgstr "Livermorium"
 
-#: src/Atom/Properties.vala:2060
+#: src/Atom/Properties.vala:2062
 msgid "Tennessine"
-msgstr ""
+msgstr "Tennesse"
 
-#: src/Atom/Properties.vala:2074
+#: src/Atom/Properties.vala:2076
 msgid "Oganesson"
-msgstr ""
+msgstr "Oganesson"
 
-#: src/Atom/PropertiesStructure.vala:47
+#: src/Atom/PropertiesStructure.vala:48
 msgid "Name:"
-msgstr ""
+msgstr "Nom :"
 
-#: src/Atom/PropertiesStructure.vala:50
+#: src/Atom/PropertiesStructure.vala:51
 msgid "Symbol:"
-msgstr ""
+msgstr "Symbole :"
 
-#: src/Atom/PropertiesStructure.vala:53
+#: src/Atom/PropertiesStructure.vala:54
 msgid "Atomic number:"
-msgstr ""
+msgstr "Numéro atomique :"
 
-#: src/Atom/PropertiesStructure.vala:56
+#: src/Atom/PropertiesStructure.vala:57
 msgid "Group:"
-msgstr ""
+msgstr "Groupe :"
 
-#: src/Atom/PropertiesStructure.vala:59
+#: src/Atom/PropertiesStructure.vala:60
 msgid "Atomic weigth:"
-msgstr ""
+msgstr "Poids atomique :"
 
-#: src/Atom/PropertiesStructure.vala:62
+#: src/Atom/PropertiesStructure.vala:63
 msgid "Electronegativity:"
-msgstr ""
+msgstr "Électronégativité :"
 
-#: src/Atom/PropertiesStructure.vala:65
+#: src/Atom/PropertiesStructure.vala:66
 msgid "Melting point:"
-msgstr ""
+msgstr "Point de fusion :"
 
-#: src/Atom/PropertiesStructure.vala:68
+#: src/Atom/PropertiesStructure.vala:69
 msgid "Boiling point:"
-msgstr ""
+msgstr "Point d’ébullition :"
+
+#: src/Widgets/HeaderBar.vala:61 src/Widgets/Stack.vala:52
+msgid "Main"
+msgstr "Général"
+
+#: src/Widgets/HeaderBar.vala:62 src/Widgets/Stack.vala:53
+msgid "Electronegativity"
+msgstr "Électronégativité"
+
+#: src/Widgets/HeaderBar.vala:76 src/Widgets/Stack.vala:54
+msgid "Properties"
+msgstr "Propriétés"
+
+#: src/Widgets/HeaderBar.vala:77 src/Widgets/Stack.vala:55
+msgid "History"
+msgstr "Histoire"
 
 #: src/Widgets/HeaderBar.vala:101
 msgid "Periodic Table"
-msgstr ""
+msgstr "Tableau pédiodique"
 
 #: src/Widgets/HeaderBar.vala:119
 msgid "Colors code"
-msgstr ""
+msgstr "Mode de couleur"
 
 #: src/Widgets/Popover.vala:41
 msgid "Other nonmetal"
-msgstr ""
+msgstr "Autre non-métal"
 
 #: src/Widgets/Popover.vala:44
 msgid "Alkali metal"
-msgstr ""
+msgstr "Alcalin"
 
 #: src/Widgets/Popover.vala:47
 msgid "Alkaline earth metal"
-msgstr ""
+msgstr "Alcalino-terreux"
 
 #: src/Widgets/Popover.vala:50
 msgid "Transition metal"
-msgstr ""
+msgstr "Métal de transition"
 
 #: src/Widgets/Popover.vala:53
 msgid "Post transition metal"
-msgstr ""
+msgstr "Métal pauvre"
 
 #: src/Widgets/Popover.vala:56
 msgid "Metalloid"
-msgstr ""
+msgstr "Metalloïde"
 
 #: src/Widgets/Popover.vala:59
 msgid "Halogen"
-msgstr ""
+msgstr "Halogène"
 
 #: src/Widgets/Popover.vala:62
 msgid "Noble gas"
-msgstr ""
+msgstr "Gaz noble"
 
 #: src/Widgets/Popover.vala:65
 msgid "Lanthanide"
-msgstr ""
+msgstr "Lanthanide"
 
 #: src/Widgets/Popover.vala:68
 msgid "Actinide"
-msgstr ""
+msgstr "Actinide"
 
 #. /////////////////////////////////////////////////////////////////////////////
 #: src/Widgets/Popover.vala:73
 msgid "No data"
-msgstr ""
-
-#: src/Widgets/Stack.vala:52
-msgid "Main"
-msgstr ""
-
-#: src/Widgets/Stack.vala:53
-msgid "Electronegativity"
-msgstr ""
-
-#: src/Widgets/Stack.vala:54
-msgid "Properties"
-msgstr ""
-
-#: src/Widgets/Stack.vala:55
-msgid "History"
-msgstr ""
+msgstr "Aucune donnée"
