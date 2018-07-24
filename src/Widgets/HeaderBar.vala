@@ -58,8 +58,8 @@ namespace Elements {
         }
 
         private void generatePeriodicViewMode() {
-            var label1 = new Gtk.Label("Main");
-            var label2 = new Gtk.Label("Electronegativity");
+            var label1 = new Gtk.Label(_("Main"));
+            var label2 = new Gtk.Label(_("Electronegativity"));
 
             label1.name = Constants.MAIN_VIEW_ID;
             label2.name = Constants.ELECTRO_VIEW_ID;
@@ -73,8 +73,8 @@ namespace Elements {
         }
 
         private void generateAtomicViewMode() {
-            var label1 = new Gtk.Label("Properties");
-            var label2 = new Gtk.Label("History");
+            var label1 = new Gtk.Label(_("Properties"));
+            var label2 = new Gtk.Label(_("History"));
 
             label1.name = Constants.PROPERTIES_VIEW_ID;
             label2.name = Constants.HISTORY_VIEW_ID;
