@@ -56,7 +56,7 @@ namespace Elements {
 
         private void loadGresources() {
             var provider = new Gtk.CssProvider ();
-            provider.load_from_resource ("/com/github/eudaldgr/elements/app.css");
+            provider.load_from_resource ("/com/github/freeeradicals/elements/app.css");
             Gtk.StyleContext.add_provider_for_screen (
                 Gdk.Screen.get_default(),
                 provider,
@@ -64,7 +64,7 @@ namespace Elements {
             );
 
             weak Gtk.IconTheme default_theme = Gtk.IconTheme.get_default();
-            default_theme.add_resource_path("/com/github/eudaldgr/elements");
+            default_theme.add_resource_path("/com/github/freeeradicals/elements");
         }
     }
 }

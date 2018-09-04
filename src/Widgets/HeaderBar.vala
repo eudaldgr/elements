@@ -28,7 +28,7 @@ namespace Elements {
         Popover popover = Popover.get_instance();
 
 //        public Gtk.SearchEntry searchEntry = new Gtk.SearchEntry();
-        public Gtk.Button info_button = new Gtk.Button.from_icon_name("help-contents-symbolic", Gtk.IconSize.LARGE_TOOLBAR);
+        public Gtk.Button info_button = new Gtk.Button.from_icon_name("help-contents-symbolic");
         public Gtk.Button return_button = new Gtk.Button();
         public Granite.Widgets.ModeButton periodicView_mode = new Granite.Widgets.ModeButton();
         public Granite.Widgets.ModeButton atomicView_mode = new Granite.Widgets.ModeButton();

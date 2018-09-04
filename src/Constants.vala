@@ -22,10 +22,10 @@
 namespace Elements.Constants {
     public const string APP_NAME = "Elements";
     public const string EXEC_NAME = "Elements";
-    public const string DESKTOP_NAME = "com.github.eudaldgr.elements.desktop";
+    public const string DESKTOP_NAME = "com.github.freeeradicals.elements.desktop";
     public const string APPLICATION_ID = DESKTOP_NAME;
-    public const string ICON = "com.github.eudaldgr.repositories";
-    public const string MAIN_URL = "https://github.com/eudaldgr/elements";
+    public const string ICON = "com.github.freeeradicals.repositories";
+    public const string MAIN_URL = "https://github.com/FreeeRadicals/elements";
     public const string BUG_URL = MAIN_URL + "/issues";
     public const string VERSION = "0.0.2";
     public const string VERSION_INFO = "Unstable";

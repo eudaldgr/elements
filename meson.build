@@ -1,4 +1,4 @@
-project('com.github.eudaldgr.elements', 'vala', 'c')
+project('com.github.freeeradicals.elements', 'vala', 'c')
 
 gnome = import('gnome')
 i18n = import('i18n')

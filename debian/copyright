@@ -1,6 +1,6 @@
 Format: http://dep.debian.net/deps/dep5
 Upstream-Name: elements
-Source: https://github.com/eudaldgr/elements
+Source: https://github.com/FreeeRadicals/elements
 
 Files: src/* data/* debian/*
 Copyright: 2018 Eudald Gubert i Roldan

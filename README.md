@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/eudaldgr/elements/blob/master/data/icons/128/com.github.eudaldgr.elements.svg" alt="Icon" />
+  <img src="https://github.com/freeeradicals/elements/blob/master/data/icons/128/com.github.freeeradicals.elements.svg" alt="Icon" />
 </p>
 
 <h1 align="center">Elements</h1>
@@ -15,18 +15,18 @@
 
 <p align="center">
     <img
-    src="https://raw.githubusercontent.com/eudaldgr/elements/master/data/screenshots/Screenshot1.png" />
+    src="https://raw.githubusercontent.com/freeeradicals/elements/master/data/screenshots/Screenshot1.png" />
 </p>
 
 <p align="center">
     <img
-    src="https://raw.githubusercontent.com/eudaldgr/elements/master/data/screenshots/Screenshot2.png" />
+    src="https://raw.githubusercontent.com/freeeradicals/elements/master/data/screenshots/Screenshot2.png" />
 </p>
 
 ## Installation
 
 <p align="center">
-  <a href="https://appcenter.elementary.io/com.github.eudaldgr.elements"><img src="https://appcenter.elementary.io/badge.svg?new" alt="Get it on AppCenter" /></a>
+  <a href="https://appcenter.elementary.io/com.github.freeeradicals.elements"><img src="https://appcenter.elementary.io/badge.svg?new" alt="Get it on AppCenter" /></a>
 </p>
 
 ### Dependencies
@@ -47,12 +47,12 @@ sudo apt install valac libgtk-3-dev libglib2.0-dev libgranite-dev meson
 ### Building
 
 ```
-git clone https://github.com/eudaldgr/elements.git
+git clone https://github.com/freeeradicals/elements.git
 meson build && cd build
 meson configure -Dprefix=/usr
 ninja
 sudo ninja install
-com.github.eudaldgr.elements
+com.github.freeeradicals.elements
 ```
 
 ### Deconstruct

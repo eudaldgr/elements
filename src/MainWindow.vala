@@ -29,7 +29,7 @@ namespace Elements {
         private HeaderBar headerBar = HeaderBar.get_instance();
 
         construct {
-            resizable = false;
+            resizable = true;
             set_titlebar (headerBar);
 
             stack.loadViews(this);
