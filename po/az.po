@@ -1,14 +1,14 @@
-# Azerbaijani translations for com.github.eudaldgr.elements package.
-# Copyright (C) 2018 THE com.github.eudaldgr.elements'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the com.github.eudaldgr.elements package.
+# Azerbaijani translations for com.github.freeeradicals.elements package.
+# Copyright (C) 2018 THE com.github.freeeradicals.elements'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.freeeradicals.elements package.
 # Automatically generated, 2018.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: com.github.eudaldgr.elements\n"
+"Project-Id-Version: com.github.freeeradicals.elements\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-03 11:24+0100\n"
-"PO-Revision-Date: 2018-04-29 13:07+0200\n"
+"POT-Creation-Date: 2018-09-04 20:47+0200\n"
+"PO-Revision-Date: 2018-09-04 20:47+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: az\n"
@@ -16,45 +16,45 @@ msgstr ""
 "Content-Type: text/plain; charset=ASCII\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: data/com.github.eudaldgr.elements.appdata.xml:6
-#: data/com.github.eudaldgr.elements.desktop:3
-#: data/com.github.eudaldgr.elements.desktop:4
+#: data/com.github.freeeradicals.elements.appdata.xml:6
+#: data/com.github.freeeradicals.elements.desktop:3
+#: data/com.github.freeeradicals.elements.desktop:4
 msgid "Elements"
 msgstr ""
 
-#: data/com.github.eudaldgr.elements.appdata.xml:7
+#: data/com.github.freeeradicals.elements.appdata.xml:7
 msgid "All the elements of the universe!"
 msgstr ""
 
-#: data/com.github.eudaldgr.elements.appdata.xml:9
+#: data/com.github.freeeradicals.elements.appdata.xml:9
 msgid "A viewer of the elements"
 msgstr ""
 
-#: data/com.github.eudaldgr.elements.appdata.xml:10
+#: data/com.github.freeeradicals.elements.appdata.xml:10
 msgid "Features:"
 msgstr ""
 
-#: data/com.github.eudaldgr.elements.appdata.xml:12
+#: data/com.github.freeeradicals.elements.appdata.xml:12
 msgid "View all the elements"
 msgstr ""
 
-#: data/com.github.eudaldgr.elements.appdata.xml:13
+#: data/com.github.freeeradicals.elements.appdata.xml:13
 msgid "Use handy shortcuts to close the app (Ctrl+Q)"
 msgstr ""
 
-#: data/com.github.eudaldgr.elements.appdata.xml:67
-msgid "Eudald Gubert i Roldan"
+#: data/com.github.freeeradicals.elements.appdata.xml:74
+msgid "Freee Radicals Developers"
 msgstr ""
 
-#: data/com.github.eudaldgr.elements.desktop:5
+#: data/com.github.freeeradicals.elements.desktop:5
 msgid "Awesome periodic table."
 msgstr ""
 
-#: data/com.github.eudaldgr.elements.desktop:8
-msgid "com.github.eudaldgr.elements"
+#: data/com.github.freeeradicals.elements.desktop:8
+msgid "com.github.freeeradicals.elements"
 msgstr ""
 
-#: data/com.github.eudaldgr.elements.desktop:12
+#: data/com.github.freeeradicals.elements.desktop:12
 msgid "Science;Chemistry;Elements;"
 msgstr ""
 

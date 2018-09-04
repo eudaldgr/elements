@@ -19,8 +19,8 @@
 # Authored by: eudaldgr <eudaldgr@posteo.net>
 #
 
-data/com.github.eudaldgr.elements.appdata.xml
-data/com.github.eudaldgr.elements.desktop
+data/com.github.freeeradicals.elements.appdata.xml
+data/com.github.freeeradicals.elements.desktop
 src/Application.vala
 src/Constants.vala
 src/MainWindow.vala
