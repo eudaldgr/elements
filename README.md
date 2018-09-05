@@ -1,4 +1,7 @@
 <p align="center">
+[![Build Status](https://travis-ci.org/FreeeRadicals/elements.svg?branch=master)](https://travis-ci.org/FreeeRadicals/elements)
+</p>
+<p align="center">
   <img src="https://github.com/freeeradicals/elements/blob/master/data/icons/128/com.github.freeeradicals.elements.svg" alt="Icon" />
 </p>
 
