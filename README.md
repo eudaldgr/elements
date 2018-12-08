@@ -4,7 +4,7 @@
 </p>
 
 <h1 align="center">Elements</h1>
-<h3 align="center">A periodic table designed for elementary OS</h3>
+<h3 align="center">A periodic table designed for Pantheon Shell</h3>
 
 <p align="center">
     <a href="https://forthebadge.com"><img alt="forthebadge" src="https://forthebadge.com/images/badges/powered-by-oxygen.svg"></a>
