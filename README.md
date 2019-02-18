@@ -26,9 +26,11 @@
 
 ## Installation
 
-<p align="center">
-  <a href="https://appcenter.elementary.io/com.github.freeeradicals.elements"><img src="https://appcenter.elementary.io/badge.svg?new" alt="Get it on AppCenter" /></a>
-</p>
+### Arch Linux
+
+Arch Linux users can find `elements` under the name [elements-git](https://aur.archlinux.org/packages/elements-git/) in the **AUR**:
+
+`$ pacaur -S elements-git`
 
 ### Dependencies
 
