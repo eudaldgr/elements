@@ -13,7 +13,9 @@
 
 Arch Linux users can find `elements` under the name [elements-git](https://aur.archlinux.org/packages/elements-git/) in the **AUR**:
 
-`pacaur -S elements-git`
+```
+pacaur -S elements-git
+```
 
 ### Dependencies
 
