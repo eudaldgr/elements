@@ -1,11 +1,11 @@
-!(data/icons/128/com.github.freeeradicals.elements.svg)
+![Logo](data/icons/128/com.github.freeeradicals.elements.svg)
 
 # Elements
 ## A periodic table designed for Pantheon Shell
 
-!(data/screenshots/Screenshot1.png)
+![Screenshot](data/screenshots/Screenshot1.png)
 
-!(data/screenshots/Screenshot2.png)
+![Screenshot](data/screenshots/Screenshot2.png)
 
 ## Installation
 
