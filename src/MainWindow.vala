@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2018 Eudald Gubert Roldan
+* Copyright (c) 2019 eudald gubert i roldan
 *
 * This program is free software; you can redistribute it and/or
 * modify it under the terms of the GNU General Public
@@ -16,7 +16,7 @@
 * Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
 * Boston, MA 02110-1301 USA
 *
-* Authored by: eudaldgr <eudaldgr@posteo.net>
+* Authored by: eudald gubert i roldan <eudaldgr@posteo.net>
 */
 
 using Granite.Widgets;

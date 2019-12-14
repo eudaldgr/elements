@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
-  <id>com.github.freeeradicals.elements</id>
+  <id>com.github.eudaldgr.elements</id>
   <metadata_license>CC0</metadata_license>
   <project_license>GPL-3.0+</project_license>
   <name>Elements</name>
@@ -36,10 +36,10 @@
   </releases>
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/freeeradicals/elements/master/data/screenshots/Screenshot1.png</image>
+      <image>https://raw.githubusercontent.com/eudaldgr/elements/master/data/screenshots/Screenshot1.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/freeeradicals/elements/master/data/screenshots/Screenshot2.png</image>
+      <image>https://raw.githubusercontent.com/eudaldgr/elements/master/data/screenshots/Screenshot2.png</image>
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.1">
@@ -71,14 +71,14 @@
     <content_attribute id="money-purchasing">none</content_attribute>
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
-  <developer_name>Freee Radicals Developers</developer_name>
+  <developer_name>eudaldgr developer</developer_name>
   <custom>
     <value key="x-appcenter-color-primary">rgb(135, 203, 195)</value>
     <value key="x-appcenter-color-primary-text">#333333</value>
     <value key="x-appcenter-suggested-price">5</value>
   </custom>
-  <url type="homepage">https://github.com/FreeeRadicals/elements</url>
-  <url type="bugtracker">https://github.com/FreeeRadicals/elements/issues</url>
-  <url type="help">https://github.com/FreeeRadicals/elements/issues</url>
-  <url type="translate">https://github.com/FreeeRadicals/elements/tree/master/po</url>
+  <url type="homepage">https://github.com/eudaldgr/elements</url>
+  <url type="bugtracker">https://github.com/eudaldgr/elements/issues</url>
+  <url type="help">https://github.com/eudaldgr/elements/issues</url>
+  <url type="translate">https://github.com/eudaldgr/elements/tree/master/po</url>
 </component>

@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2018 Eudald Gubert Roldan
+* Copyright (c) 2019 eudald gubert i roldan
 *
 * This program is free software; you can redistribute it and/or
 * modify it under the terms of the GNU General Public
@@ -16,20 +16,20 @@
 * Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
 * Boston, MA 02110-1301 USA
 *
-* Authored by: eudaldgr <eudaldgr@posteo.net>
+* Authored by: eudald gubert i roldan <eudaldgr@posteo.net>
 */
 
 namespace Elements.Constants {
     public const string APP_NAME = "Elements";
     public const string EXEC_NAME = "Elements";
-    public const string DESKTOP_NAME = "com.github.freeeradicals.elements.desktop";
+    public const string DESKTOP_NAME = "com.github.eudaldgr.elements.desktop";
     public const string APPLICATION_ID = DESKTOP_NAME;
-    public const string ICON = "com.github.freeeradicals.repositories";
-    public const string MAIN_URL = "https://github.com/FreeeRadicals/elements";
+    public const string ICON = "com.github.eudaldgr.repositories";
+    public const string MAIN_URL = "https://github.com/eudaldgr/elements";
     public const string BUG_URL = MAIN_URL + "/issues";
-    public const string VERSION = "0.0.2";
+    public const string VERSION = "0.0.3";
     public const string VERSION_INFO = "Unstable";
-    public const string APP_YEARS = "2018";
+    public const string APP_YEARS = "2019";
 
     public const string MAIN_VIEW_ID = "main-view";
     public const string ELECTRO_VIEW_ID = "electronegativity-view";

@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2018 Eudald Gubert Roldan
+* Copyright (c) 2019 eudald gubert i roldan
 *
 * This program is free software; you can redistribute it and/or
 * modify it under the terms of the GNU General Public
@@ -16,7 +16,7 @@
 * Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
 * Boston, MA 02110-1301 USA
 *
-* Authored by: eudaldgr <eudaldgr@posteo.net>
+* Authored by: eudald gubert i roldan <eudaldgr@posteo.net>
 */
 
 using Granite.Widgets;
@@ -56,7 +56,7 @@ namespace Elements {
 
         private void loadGresources() {
             var provider = new Gtk.CssProvider ();
-            provider.load_from_resource ("/com/github/freeeradicals/elements/app.css");
+            provider.load_from_resource ("/com/github/eudaldgr/elements/app.css");
             Gtk.StyleContext.add_provider_for_screen (
                 Gdk.Screen.get_default(),
                 provider,
@@ -64,7 +64,7 @@ namespace Elements {
             );
 
             weak Gtk.IconTheme default_theme = Gtk.IconTheme.get_default();
-            default_theme.add_resource_path("/com/github/freeeradicals/elements");
+            default_theme.add_resource_path("/com/github/eudaldgr/elements");
         }
     }
 }
