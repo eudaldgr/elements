@@ -1,4 +1,4 @@
-![Logo](data/icons/128/com.github.freeeradicals.elements.svg)
+![Logo](data/icons/128/com.github.eudaldgr.elements.svg)
 
 # Elements
 ## A periodic table designed for Pantheon Shell
@@ -35,12 +35,12 @@ sudo apt install valac libgtk-3-dev libglib2.0-dev libgranite-dev meson
 ### Building
 
 ```
-git clone https://github.com/freeeradicals/elements.git
+git clone https://github.com/eudaldgr/elements.git
 meson build && cd build
 meson configure -Dprefix=/usr
 ninja
 sudo ninja install
-com.github.freeeradicals.elements
+com.github.eudaldgr.elements
 ```
 
 ### Deconstruct
