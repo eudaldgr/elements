@@ -2,7 +2,7 @@ namespace elements {
 	public const string APP_NAME = "Elements";
 	public const string EXEC_NAME = "Elements";
 	public const string DESKTOP_NAME = "com.github.eudaldgr.elements.desktop";
-	public const string APPLICATION_ID = DESKTOP_NAME;
+	public const string APP_ID = DESKTOP_NAME;
 	public const string ICON = "com.github.eudaldgr.repositories";
 	public const string MAIN_URL = "https://github.com/eudaldgr/elements";
 	public const string BUG_URL = MAIN_URL + "/issues";

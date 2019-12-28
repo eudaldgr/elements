@@ -1,46 +1,32 @@
 project('com.github.eudaldgr.elements', 'vala', 'c')
 
-gnome = import('gnome')
+elements_prefix = get_option('prefix')
+elements_datadir = join_paths(elements_prefix, get_option('datadir'))
+elements_pkgdatadir = join_paths(elements_datadir, meson.project_name())
+
+add_project_arguments (
+	language: 'vala'
+)
+
 i18n = import('i18n')
 
-conf = configuration_data()
-conf.set_quoted('GETTEXT_PACKAGE', meson.project_name())
-configure_file(output: 'config.h', configuration: conf)
-config_h_dir = include_directories('.')
-
-c_args = [
-  '-include', 'config.h'
-]
-
-add_global_arguments('-DGETTEXT_PACKAGE="@0@"'.format (meson.project_name()), language:'c')
-
+gnome = import('gnome')
 asresources = gnome.compile_resources(
-    'as-resources', 'data/' + meson.project_name() + '.gresource.xml',
-    source_dir: 'data',
-    c_name: 'as'
+	'as-resources', 'data/' + meson.project_name() + '.gresource.xml',
+	source_dir: 'data',
+	c_name: 'as'
 )
 
-executable(
-    meson.project_name(),
-    asresources,
-    'src/main.vala',
-    'src/application.vala',
-    'src/constants.vala',
-    'src/window.vala',
-    'src/lib/elements.vala',
-    'src/views/periodic.vala',
-    'src/widgets/headerBar.vala',
-    'src/widgets/popover.vala',
-    'src/widgets/stack.vala',
-    dependencies: [
-        dependency('cairo'),
-        dependency('glib-2.0'),
-        dependency('granite'),
-        dependency('gtk+-3.0'),
-        meson.get_compiler('c').find_library('m', required : false)
-    ],
-    install: true
-)
+cc = meson.get_compiler('c')
+m_dep = cc.find_library('m', required : false)
 
+application_id = meson.project_name()
+schema_path = '/com/github/eudaldgr/elements/'
+gettext_package = application_id
+
+add_global_arguments('-DGETTEXT_PACKAGE="@0@"'.format (gettext_package), language:'c')
+add_global_arguments(['-DG_LOG_DOMAIN="elements"'], language:'c')
+
+subdir('src')
 subdir('data')
 subdir('po')

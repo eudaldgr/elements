@@ -1,12 +1,14 @@
-using Granite.Widgets;
-
 public class elements.window : Gtk.ApplicationWindow {
 	private Stack stack = Stack.get_instance();
 	private HeaderBar headerBar = HeaderBar.get_instance();
+	
+	public weak elements.Application app {get; construct;}
 
-	public window (Application application) {
+	public window (elements.Application elements_app) {
 		Object (
-			application: Application
+			application: elements_app,
+			app: elements_app,
+			icon_name: "com.github.eudaldgr.elements"
 		);
 	}
 
@@ -38,7 +40,6 @@ public class elements.window : Gtk.ApplicationWindow {
 					}
 					break;
 			}
-
 			return false; 
 		});
 	}
