@@ -1,11 +1,10 @@
-<h1 align="center">
-	![Logo](data/icons/128/com.github.eudaldgr.elements.svg)
+<div align="center">
+	<span><img src="https://github.com/eudaldgr/elements/data/icons/128/com.github.eudaldgr.elements.svg"</span>
 
-	elements
-</h1>
-<h2 align="center">
-	a periodic table designed for pantheon shell
-</h2>
+	<h1>elements</h1>
+
+	<h2>a periodic table designed for pantheon shell</h2>
+</div>
 
 ![Screenshot](data/screenshots/Screenshot1.png)
 
