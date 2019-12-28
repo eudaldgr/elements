@@ -48,25 +48,6 @@
                     headerBar.setSelectedPeriodicViewMode(1);
                     headerBar.showAtomicViewMode(false);
                 }
-
-                if(stack.get_visible_child_name() == elements.PROPERTIES_VIEW_ID) {
-                    headerBar.showReturnButton(true);
-                    headerBar.showInfoButton(true);
-//                    headerBar.showButtons(true);
-                    headerBar.showPeriodicViewMode(false);
-                    headerBar.showAtomicViewMode(true);
-                    headerBar.setSelectedAtomicViewMode(0);
-                }
-
-                if(stack.get_visible_child_name() == elements.HISTORY_VIEW_ID) {
-                    headerBar.showReturnButton(true);
-                    headerBar.showInfoButton(false);
-//                    headerBar.showButtons(true);
-                    headerBar.showPeriodicViewMode(false);
-                    headerBar.showAtomicViewMode(true);
-                    headerBar.setSelectedAtomicViewMode(1);
-                }
-
             });
 
             window.add(stack);
