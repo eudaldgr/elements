@@ -1,60 +1,37 @@
-/*
-* Copyright (c) 2019 eudald gubert i roldan
-*
-* This program is free software; you can redistribute it and/or
-* modify it under the terms of the GNU General Public
-* License as published by the Free Software Foundation; either
-* version 2 of the License, or (at your option) any later version.
-*
-* This program is distributed in the hope that it will be useful,
-* but WITHOUT ANY WARRANTY; without even the implied warranty of
-* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-* General Public License for more details.
-*
-* You should have received a copy of the GNU General Public
-* License along with this program; if not, write to the
-* Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
-* Boston, MA 02110-1301 USA
-*
-* Authored by: eudald gubert i roldan <eudaldgr@posteo.net>
-*/
+public const string APP_NAME = "Elements";
+public const string EXEC_NAME = "Elements";
+public const string DESKTOP_NAME = "com.github.eudaldgr.elements.desktop";
+public const string APPLICATION_ID = DESKTOP_NAME;
+public const string ICON = "com.github.eudaldgr.repositories";
+public const string MAIN_URL = "https://github.com/eudaldgr/elements";
+public const string BUG_URL = MAIN_URL + "/issues";
+public const string VERSION = "0.0.3";
+public const string VERSION_INFO = "Unstable";
+public const string APP_YEARS = "2019";
 
-namespace Elements.Constants {
-    public const string APP_NAME = "Elements";
-    public const string EXEC_NAME = "Elements";
-    public const string DESKTOP_NAME = "com.github.eudaldgr.elements.desktop";
-    public const string APPLICATION_ID = DESKTOP_NAME;
-    public const string ICON = "com.github.eudaldgr.repositories";
-    public const string MAIN_URL = "https://github.com/eudaldgr/elements";
-    public const string BUG_URL = MAIN_URL + "/issues";
-    public const string VERSION = "0.0.3";
-    public const string VERSION_INFO = "Unstable";
-    public const string APP_YEARS = "2019";
+public const string MAIN_VIEW_ID = "main-view";
+public const string ELECTRO_VIEW_ID = "electronegativity-view";
+public const string PROPERTIES_VIEW_ID = "properties-view";
+public const string HISTORY_VIEW_ID = "history-view";
 
-    public const string MAIN_VIEW_ID = "main-view";
-    public const string ELECTRO_VIEW_ID = "electronegativity-view";
-    public const string PROPERTIES_VIEW_ID = "properties-view";
-    public const string HISTORY_VIEW_ID = "history-view";
+public const string OTHER_NONMETAL = "other-nonmetal";
+public const string NOBLE_GAS = "noble-gas";
+public const string ALKALI_METAL = "alkali-metal";
+public const string ALKALINE_EARTH_METAL = "alkaline-earth-metal";
+public const string METALLOID = "metalloid";
+public const string HALOGEN = "halogen";
+public const string POST_TRANSITION_METAL = "post-transition-metal";
+public const string TRANSITION_METAL = "transition-metal";
+public const string LANTHANIDE = "lanthanide";
+public const string ACTINIDE = "actinide";
 
-    public const string OTHER_NONMETAL = "other-nonmetal";
-    public const string NOBLE_GAS = "noble-gas";
-    public const string ALKALI_METAL = "alkali-metal";
-    public const string ALKALINE_EARTH_METAL = "alkaline-earth-metal";
-    public const string METALLOID = "metalloid";
-    public const string HALOGEN = "halogen";
-    public const string POST_TRANSITION_METAL = "post-transition-metal";
-    public const string TRANSITION_METAL = "transition-metal";
-    public const string LANTHANIDE = "lanthanide";
-    public const string ACTINIDE = "actinide";
-
-    public const string ZEROeV = "zero-eV";
-    public const string ONEeV = "one-eV";
-    public const string TWOeV = "two-eV";
-    public const string THREEeV = "three-eV";
-    public const string FOUReV = "four-eV";
-    public const string FIVEeV = "five-eV";
-    public const string SIXeV = "six-eV";
-}
+public const string ZEROeV = "zero-eV";
+public const string ONEeV = "one-eV";
+public const string TWOeV = "two-eV";
+public const string THREEeV = "three-eV";
+public const string FOUReV = "four-eV";
+public const string FIVEeV = "five-eV";
+public const string SIXeV = "six-eV";
 
 namespace Elements.Colors {
     public const Gdk.RGBA BRAND = {0.529, 0.792, 0.761, 1.0};
