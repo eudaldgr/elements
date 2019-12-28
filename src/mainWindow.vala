@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2019 eudald gubert i roldan
+* Copyright (c) 2018-2019 eudald gubert i roldan
 *
 * This program is free software; you can redistribute it and/or
 * modify it under the terms of the GNU General Public
@@ -22,7 +22,7 @@
 using Granite.Widgets;
 
 namespace Elements {
-    public class MainWindow : Gtk.Window {
+    public class mainWindow : Gtk.Window {
 
         private Stack stack = Stack.get_instance();
 

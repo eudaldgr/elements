@@ -43,7 +43,7 @@ namespace Elements {
         public override void activate() {
             loadGresources();
 
-            var window = new MainWindow();
+            var window = new mainWindow();
             window.destroy.connect (Gtk.main_quit);
             window.show_all();
         }
