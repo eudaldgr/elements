@@ -5,7 +5,6 @@
         Stack stack = Stack.get_instance();
         Popover popover = Popover.get_instance();
 
-//        public Gtk.SearchEntry searchEntry = new Gtk.SearchEntry();
         public Gtk.Button info_button = new Gtk.Button.from_icon_name("help-contents-symbolic");
         public Gtk.Button return_button = new Gtk.Button();
         public Granite.Widgets.ModeButton periodicView_mode = new Granite.Widgets.ModeButton();
@@ -13,18 +12,14 @@
 
         HeaderBar() {
             this.get_style_context().add_class("flat");
-//            Granite.Widgets.Utils.set_color_primary(this, Colors.BRAND);
 
-//            generateSearchEntry();
             generateInfoButton();
             generateReturnButton();
             generatePeriodicViewMode();
-            generateAtomicViewMode();
 
             this.show_close_button = true;
             this.custom_title = periodicView_mode;
             this.pack_start(return_button);
-//            this.pack_end(searchEntry);
             this.pack_end(info_button);
         }
 
@@ -50,31 +45,6 @@
             periodicView_mode.notify["selected"].connect(on_periodicView_mode_changed);
         }
 
-        private void generateAtomicViewMode() {
-            var label1 = new Gtk.Label(_("Properties"));
-            var label2 = new Gtk.Label(_("History"));
-
-            label1.name = elements.PROPERTIES_VIEW_ID;
-            label2.name = elements.HISTORY_VIEW_ID;
-
-            atomicView_mode.append(label1);
-//            atomicView_mode.append(label2);
-            atomicView_mode.no_show_all = true;
-            atomicView_mode.visible = false;
-            atomicView_mode.margin = 1;
-            atomicView_mode.notify["selected"].connect(on_atomicView_mode_changed);
-        }
-/*
-        private void generateSearchEntry() {
-            searchEntry.set_placeholder_text(_("Search elements"));
-            searchEntry.set_tooltip_text(_("Search for elements"));
-            searchEntry.no_show_all = true;
-            searchEntry.visible = true;
-            searchEntry.search_changed.connect (() => {
-                listManager.getList().getRepositories(searchEntry.text); 
-            });
-        }
-*/
         private void generateReturnButton() {
             return_button.label = _("Periodic Table");
             return_button.no_show_all = true;
@@ -83,7 +53,6 @@
             return_button.clicked.connect (() => {
                 this.showPeriodicViewMode(true);
                 this.custom_title = periodicView_mode;
-                this.showAtomicViewMode(false);
                 stack.getStack().visible_child_name = elements.MAIN_VIEW_ID;
             });
         }
@@ -105,14 +74,6 @@
             periodicView_mode.visible = answer;
         }
 
-        public void showAtomicViewMode(bool answer) {
-            atomicView_mode.visible = answer;
-        }
-/*
-        public void showButtons(bool answer) {
-            searchEntry.visible = answer;
-        }
-*/
         public void showReturnButton(bool answer) {
             return_button.visible = answer;
         }
@@ -125,10 +86,6 @@
             periodicView_mode.selected = answer;
         }
 
-        public void setSelectedAtomicViewMode(int answer) {
-            atomicView_mode.selected = answer;
-        }
-
          private void on_periodicView_mode_changed() {
             if(periodicView_mode.selected == 0) {
                 stack.getStack().visible_child_name = elements.MAIN_VIEW_ID;
@@ -137,11 +94,4 @@
             }
         }
 
-         private void on_atomicView_mode_changed() {
-            if(atomicView_mode.selected == 0) {
-                stack.getStack().visible_child_name = elements.PROPERTIES_VIEW_ID;
-            } else if(atomicView_mode.selected == 1) {
-                stack.getStack().visible_child_name = elements.HISTORY_VIEW_ID;
-            }
-        }
     }

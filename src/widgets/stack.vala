@@ -34,19 +34,15 @@
                 if(stack.get_visible_child_name() == elements.MAIN_VIEW_ID) {
                     headerBar.showReturnButton(false);
                     headerBar.showInfoButton(true);
-//                    headerBar.showButtons(true);
                     headerBar.showPeriodicViewMode(true);
                     headerBar.setSelectedPeriodicViewMode(0);
-                    headerBar.showAtomicViewMode(false);
                 }
 
                 if(stack.get_visible_child_name() == elements.ELECTRO_VIEW_ID) {
                     headerBar.showReturnButton(false);
                     headerBar.showInfoButton(true);
-//                    headerBar.showButtons(true);
                     headerBar.showPeriodicViewMode(true);
                     headerBar.setSelectedPeriodicViewMode(1);
-                    headerBar.showAtomicViewMode(false);
                 }
             });
 
