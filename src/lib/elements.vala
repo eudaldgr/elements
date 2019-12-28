@@ -1,9 +1,9 @@
 // ELECTRON = {s, p, d, f}
 
-namespace elements.H {
+namespace H {
     public const string ID = "H";
     public const string NAME = _("Hydrogen");
-    public const string GROUP = Constants.OTHER_NONMETAL;
+    public const string GROUP = elements.OTHER_NONMETAL;
     public const string ATOMIC_NUMBER = "1";
     public const string ELECTRONEGATIVITY = "2.2";
     public const string ATOMIC_WEIGTH = "1.0079";
@@ -14,10 +14,10 @@ namespace elements.H {
     };
 }
 
-namespace elements.He {
+namespace He {
     public const string ID = "He";
     public const string NAME = _("Helium");
-    public const string GROUP = Constants.NOBLE_GAS;
+    public const string GROUP = elements.NOBLE_GAS;
     public const string ATOMIC_NUMBER = "2";
     public const string ELECTRONEGATIVITY = "no data";
     public const string ATOMIC_WEIGTH = "4.0026";
@@ -28,10 +28,10 @@ namespace elements.He {
     };
 }
 
-namespace elements.Li {
+namespace Li {
     public const string ID = "Li";
     public const string NAME = _("Lithium");
-    public const string GROUP = Constants.ALKALI_METAL;
+    public const string GROUP = elements.ALKALI_METAL;
     public const string ATOMIC_NUMBER = "3";
     public const string ELECTRONEGATIVITY = "0.98";
     public const string ATOMIC_WEIGTH = "6.94";
@@ -43,10 +43,10 @@ namespace elements.Li {
     };
 }
 
-namespace elements.Be {
+namespace Be {
     public const string ID = "Be";
     public const string NAME = _("Beryllium");
-    public const string GROUP = Constants.ALKALINE_EARTH_METAL;
+    public const string GROUP = elements.ALKALINE_EARTH_METAL;
     public const string ATOMIC_NUMBER = "4";
     public const string ELECTRONEGATIVITY = "1.57";
     public const string ATOMIC_WEIGTH = "9.0121831";
@@ -58,10 +58,10 @@ namespace elements.Be {
     };
 }
 
-namespace elements.B {
+namespace B {
     public const string ID = "B";
     public const string NAME = _("Boron");
-    public const string GROUP = Constants.METALLOID;
+    public const string GROUP = elements.METALLOID;
     public const string ATOMIC_NUMBER = "5";
     public const string ELECTRONEGATIVITY = "2.04";
     public const string ATOMIC_WEIGTH = "10.81";
@@ -73,10 +73,10 @@ namespace elements.B {
     };
 }
 
-namespace elements.C {
+namespace C {
     public const string ID = "C";
     public const string NAME = _("Carbon");
-    public const string GROUP = Constants.OTHER_NONMETAL;
+    public const string GROUP = elements.OTHER_NONMETAL;
     public const string ATOMIC_NUMBER = "6";
     public const string ELECTRONEGATIVITY = "2.55";
     public const string ATOMIC_WEIGTH = "12.011";
@@ -88,10 +88,10 @@ namespace elements.C {
     };
 }
 
-namespace elements.N {
+namespace N {
     public const string ID = "N";
     public const string NAME = _("Nitrogen");
-    public const string GROUP = Constants.OTHER_NONMETAL;
+    public const string GROUP = elements.OTHER_NONMETAL;
     public const string ATOMIC_NUMBER = "7";
     public const string ELECTRONEGATIVITY = "3.04";
     public const string ATOMIC_WEIGTH = "14.007";
@@ -103,10 +103,10 @@ namespace elements.N {
     };
 }
 
-namespace elements.O {
+namespace O {
     public const string ID = "O";
     public const string NAME = _("Oxygen");
-    public const string GROUP = Constants.OTHER_NONMETAL;
+    public const string GROUP = elements.OTHER_NONMETAL;
     public const string ATOMIC_NUMBER = "8";
     public const string ELECTRONEGATIVITY = "3.44";
     public const string ATOMIC_WEIGTH = "15.999";
@@ -118,10 +118,10 @@ namespace elements.O {
     };
 }
 
-namespace elements.F {
+namespace F {
     public const string ID = "F";
     public const string NAME = _("Fluorine");
-    public const string GROUP = Constants.HALOGEN;
+    public const string GROUP = elements.HALOGEN;
     public const string ATOMIC_NUMBER = "9";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -133,10 +133,10 @@ namespace elements.F {
     public const string BOILING_POINT = "85.03";
 }
 
-namespace elements.Ne {
+namespace Ne {
     public const string ID = "Ne";
     public const string NAME = _("Neon");
-    public const string GROUP = Constants.NOBLE_GAS;
+    public const string GROUP = elements.NOBLE_GAS;
     public const string ATOMIC_NUMBER = "10";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -148,10 +148,10 @@ namespace elements.Ne {
     public const string BOILING_POINT = "27.104";
 }
 
-namespace elements.Na {
+namespace Na {
     public const string ID = "Na";
     public const string NAME = _("Sodium");
-    public const string GROUP = Constants.ALKALI_METAL;
+    public const string GROUP = elements.ALKALI_METAL;
     public const string ATOMIC_NUMBER = "11";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -164,10 +164,10 @@ namespace elements.Na {
     public const string BOILING_POINT = "208.029";
 }
 
-namespace elements.Mg {
+namespace Mg {
     public const string ID = "Mg";
     public const string NAME = _("Magnesium");
-    public const string GROUP = Constants.ALKALINE_EARTH_METAL;
+    public const string GROUP = elements.ALKALINE_EARTH_METAL;
     public const string ATOMIC_NUMBER = "12";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -180,10 +180,10 @@ namespace elements.Mg {
     public const string BOILING_POINT = "1363";
 }
 
-namespace elements.Al {
+namespace Al {
     public const string ID = "Al";
     public const string NAME = _("Aluminium");
-    public const string GROUP = Constants.POST_TRANSITION_METAL;
+    public const string GROUP = elements.POST_TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "13";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -196,10 +196,10 @@ namespace elements.Al {
     public const string BOILING_POINT = "2743";
 }
 
-namespace elements.Si {
+namespace Si {
     public const string ID = "Si";
     public const string NAME = _("Silicon");
-    public const string GROUP = Constants.METALLOID;
+    public const string GROUP = elements.METALLOID;
     public const string ATOMIC_NUMBER = "14";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -212,10 +212,10 @@ namespace elements.Si {
     public const string BOILING_POINT = "3538";
 }
 
-namespace elements.P {
+namespace P {
     public const string ID = "P";
     public const string NAME = _("Phosphorus");
-    public const string GROUP = Constants.OTHER_NONMETAL;
+    public const string GROUP = elements.OTHER_NONMETAL;
     public const string ATOMIC_NUMBER = "15";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -228,10 +228,10 @@ namespace elements.P {
     public const string BOILING_POINT = "-";
 }
 
-namespace elements.S {
+namespace S {
     public const string ID = "S";
     public const string NAME = _("Sulfur");
-    public const string GROUP = Constants.OTHER_NONMETAL;
+    public const string GROUP = elements.OTHER_NONMETAL;
     public const string ATOMIC_NUMBER = "16";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -244,10 +244,10 @@ namespace elements.S {
     public const string BOILING_POINT = "717.8";
 }
 
-namespace elements.Cl {
+namespace Cl {
     public const string ID = "Cl";
     public const string NAME = _("Chlorine");
-    public const string GROUP = Constants.HALOGEN;
+    public const string GROUP = elements.HALOGEN;
     public const string ATOMIC_NUMBER = "17";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -260,10 +260,10 @@ namespace elements.Cl {
     public const string BOILING_POINT = "239.11";
 }
 
-namespace elements.Ar {
+namespace Ar {
     public const string ID = "Ar";
     public const string NAME = _("Argon");
-    public const string GROUP = Constants.NOBLE_GAS;
+    public const string GROUP = elements.NOBLE_GAS;
     public const string ATOMIC_NUMBER = "18";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -276,10 +276,10 @@ namespace elements.Ar {
     public const string BOILING_POINT = "87.302";
 }
 
-namespace elements.K {
+namespace K {
     public const string ID = "K";
     public const string NAME = _("Potasium");
-    public const string GROUP = Constants.ALKALI_METAL;
+    public const string GROUP = elements.ALKALI_METAL;
     public const string ATOMIC_NUMBER = "19";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -293,10 +293,10 @@ namespace elements.K {
     public const string BOILING_POINT = "1032";
 }
 
-namespace elements.Ca {
+namespace Ca {
     public const string ID = "Ca";
     public const string NAME = _("Calcium");
-    public const string GROUP = Constants.ALKALINE_EARTH_METAL;
+    public const string GROUP = elements.ALKALINE_EARTH_METAL;
     public const string ATOMIC_NUMBER = "20";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -310,10 +310,10 @@ namespace elements.Ca {
     public const string BOILING_POINT = "1757";
 }
 
-namespace elements.Sc {
+namespace Sc {
     public const string ID = "Sc";
     public const string NAME = _("Scandium");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "21";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -327,10 +327,10 @@ namespace elements.Sc {
     public const string BOILING_POINT = "3109";
 }
 
-namespace elements.Ti {
+namespace Ti {
     public const string ID = "Ti";
     public const string NAME = _("Titanium");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "22";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -344,10 +344,10 @@ namespace elements.Ti {
     public const string BOILING_POINT = "3560";
 }
 
-namespace elements.V {
+namespace V {
     public const string ID = "V";
     public const string NAME = _("Vanadium");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "23";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -361,10 +361,10 @@ namespace elements.V {
     public const string BOILING_POINT = "3680";
 }
 
-namespace elements.Cr {
+namespace Cr {
     public const string ID = "Cr";
     public const string NAME = _("Chromium");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "24";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -378,10 +378,10 @@ namespace elements.Cr {
     public const string BOILING_POINT = "2944";
 }
 
-namespace elements.Mn {
+namespace Mn {
     public const string ID = "Mn";
     public const string NAME = _("Manganese");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "25";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -395,10 +395,10 @@ namespace elements.Mn {
     public const string BOILING_POINT = "2334";
 }
 
-namespace elements.Fe {
+namespace Fe {
     public const string ID = "Fe";
     public const string NAME = _("Iron");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "26";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -412,10 +412,10 @@ namespace elements.Fe {
     public const string BOILING_POINT = "3134";
 }
 
-namespace elements.Co {
+namespace Co {
     public const string ID = "Co";
     public const string NAME = _("Cobalt");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "27";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -429,10 +429,10 @@ namespace elements.Co {
     public const string BOILING_POINT = "3200";
 }
 
-namespace elements.Ni {
+namespace Ni {
     public const string ID = "Ni";
     public const string NAME = _("Nickel");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "28";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -446,10 +446,10 @@ namespace elements.Ni {
     public const string BOILING_POINT = "3003";
 }
 
-namespace elements.Cu {
+namespace Cu {
     public const string ID = "Cu";
     public const string NAME = _("Copper");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "29";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -463,10 +463,10 @@ namespace elements.Cu {
     public const string BOILING_POINT = "2835";
 }
 
-namespace elements.Zn {
+namespace Zn {
     public const string ID = "Zn";
     public const string NAME = _("Zinc");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "30";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -480,10 +480,10 @@ namespace elements.Zn {
     public const string BOILING_POINT = "1180";
 }
 
-namespace elements.Ga {
+namespace Ga {
     public const string ID = "Ga";
     public const string NAME = _("Gallium");
-    public const string GROUP = Constants.POST_TRANSITION_METAL;
+    public const string GROUP = elements.POST_TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "31";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -497,10 +497,10 @@ namespace elements.Ga {
     public const string BOILING_POINT = "2673";
 }
 
-namespace elements.Ge {
+namespace Ge {
     public const string ID = "Ge";
     public const string NAME = _("Germanium");
-    public const string GROUP = Constants.METALLOID;
+    public const string GROUP = elements.METALLOID;
     public const string ATOMIC_NUMBER = "32";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -514,10 +514,10 @@ namespace elements.Ge {
     public const string BOILING_POINT = "3106";
 }
 
-namespace elements.As {
+namespace As {
     public const string ID = "As";
     public const string NAME = _("Arsenic");
-    public const string GROUP = Constants.METALLOID;
+    public const string GROUP = elements.METALLOID;
     public const string ATOMIC_NUMBER = "33";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -531,10 +531,10 @@ namespace elements.As {
     public const string BOILING_POINT = "-";
 }
 
-namespace elements.Se {
+namespace Se {
     public const string ID = "Se";
     public const string NAME = _("Selenium");
-    public const string GROUP = Constants.OTHER_NONMETAL;
+    public const string GROUP = elements.OTHER_NONMETAL;
     public const string ATOMIC_NUMBER = "34";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -548,10 +548,10 @@ namespace elements.Se {
     public const string BOILING_POINT = "958";
 }
 
-namespace elements.Br {
+namespace Br {
     public const string ID = "Br";
     public const string NAME = _("Bromine");
-    public const string GROUP = Constants.HALOGEN;
+    public const string GROUP = elements.HALOGEN;
     public const string ATOMIC_NUMBER = "35";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -565,10 +565,10 @@ namespace elements.Br {
     public const string BOILING_POINT = "332.0";
 }
 
-namespace elements.Kr {
+namespace Kr {
     public const string ID = "Kr";
     public const string NAME = _("Krypton");
-    public const string GROUP = Constants.NOBLE_GAS;
+    public const string GROUP = elements.NOBLE_GAS;
     public const string ATOMIC_NUMBER = "36";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -582,10 +582,10 @@ namespace elements.Kr {
     public const string BOILING_POINT = "119.93";
 }
 
-namespace elements.Rb {
+namespace Rb {
     public const string ID = "Rb";
     public const string NAME = _("Rubidium");
-    public const string GROUP = Constants.ALKALI_METAL;
+    public const string GROUP = elements.ALKALI_METAL;
     public const string ATOMIC_NUMBER = "37";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -600,10 +600,10 @@ namespace elements.Rb {
     public const string BOILING_POINT = "961";
 }
 
-namespace elements.Sr {
+namespace Sr {
     public const string ID = "Sr";
     public const string NAME = _("Strontium");
-    public const string GROUP = Constants.ALKALINE_EARTH_METAL;
+    public const string GROUP = elements.ALKALINE_EARTH_METAL;
     public const string ATOMIC_NUMBER = "38";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -618,10 +618,10 @@ namespace elements.Sr {
     public const string BOILING_POINT = "1650";
 }
 
-namespace elements.Y {
+namespace Y {
     public const string ID = "Y";
     public const string NAME = _("Yttrium");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "39";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -636,10 +636,10 @@ namespace elements.Y {
     public const string BOILING_POINT = "3203";
 }
 
-namespace elements.Zr {
+namespace Zr {
     public const string ID = "Zr";
     public const string NAME = _("Zirconium");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "40";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -654,10 +654,10 @@ namespace elements.Zr {
     public const string BOILING_POINT = "4650";
 }
 
-namespace elements.Nb {
+namespace Nb {
     public const string ID = "Nb";
     public const string NAME = _("Niobium");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "41";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -672,10 +672,10 @@ namespace elements.Nb {
     public const string BOILING_POINT = "5017";
 }
 
-namespace elements.Mo {
+namespace Mo {
     public const string ID = "Mo";
     public const string NAME = _("Molybdenum");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "42";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -690,10 +690,10 @@ namespace elements.Mo {
     public const string BOILING_POINT = "4912";
 }
 
-namespace elements.Tc {
+namespace Tc {
     public const string ID = "Tc";
     public const string NAME = _("Technetium");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "43";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -708,10 +708,10 @@ namespace elements.Tc {
     public const string BOILING_POINT = "4538";
 }
 
-namespace elements.Ru {
+namespace Ru {
     public const string ID = "Ru";
     public const string NAME = _("Ruthenium");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "44";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -726,10 +726,10 @@ namespace elements.Ru {
     public const string BOILING_POINT = "4423";
 }
 
-namespace elements.Rh {
+namespace Rh {
     public const string ID = "Rh";
     public const string NAME = _("Rhodium");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "45";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -744,10 +744,10 @@ namespace elements.Rh {
     public const string BOILING_POINT = "3968";
 }
 
-namespace elements.Pd {
+namespace Pd {
     public const string ID = "Pd";
     public const string NAME = _("Palladium");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "46";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -762,10 +762,10 @@ namespace elements.Pd {
     public const string BOILING_POINT = "3236";
 }
 
-namespace elements.Ag {
+namespace Ag {
     public const string ID = "Ag";
     public const string NAME = _("Silver");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "47";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -780,10 +780,10 @@ namespace elements.Ag {
     public const string BOILING_POINT = "2435";
 }
 
-namespace elements.Cd {
+namespace Cd {
     public const string ID = "Cd";
     public const string NAME = _("Cadmium");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "48";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -798,10 +798,10 @@ namespace elements.Cd {
     public const string BOILING_POINT = "1040";
 }
 
-namespace elements.In {
+namespace In {
     public const string ID = "In";
     public const string NAME = _("Indium");
-    public const string GROUP = Constants.POST_TRANSITION_METAL;
+    public const string GROUP = elements.POST_TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "49";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -816,10 +816,10 @@ namespace elements.In {
     public const string BOILING_POINT = "2345";
 }
 
-namespace elements.Sn {
+namespace Sn {
     public const string ID = "Sn";
     public const string NAME = _("Tin");
-    public const string GROUP = Constants.POST_TRANSITION_METAL;
+    public const string GROUP = elements.POST_TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "50";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -834,10 +834,10 @@ namespace elements.Sn {
     public const string BOILING_POINT = "2875";
 }
 
-namespace elements.Sb {
+namespace Sb {
     public const string ID = "Sb";
     public const string NAME = _("Antimony");
-    public const string GROUP = Constants.METALLOID;
+    public const string GROUP = elements.METALLOID;
     public const string ATOMIC_NUMBER = "51";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -852,10 +852,10 @@ namespace elements.Sb {
     public const string BOILING_POINT = "1908";
 }
 
-namespace elements.Te {
+namespace Te {
     public const string ID = "Te";
     public const string NAME = _("Tellurium");
-    public const string GROUP = Constants.METALLOID;
+    public const string GROUP = elements.METALLOID;
     public const string ATOMIC_NUMBER = "52";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -870,10 +870,10 @@ namespace elements.Te {
     public const string BOILING_POINT = "1261";
 }
 
-namespace elements.I {
+namespace I {
     public const string ID = "I";
     public const string NAME = _("Iodine");
-    public const string GROUP = Constants.HALOGEN;
+    public const string GROUP = elements.HALOGEN;
     public const string ATOMIC_NUMBER = "53";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -888,10 +888,10 @@ namespace elements.I {
     public const string BOILING_POINT = "457.4";
 }
 
-namespace elements.Xe {
+namespace Xe {
     public const string ID = "Xe";
     public const string NAME = _("Xenon");
-    public const string GROUP = Constants.NOBLE_GAS;
+    public const string GROUP = elements.NOBLE_GAS;
     public const string ATOMIC_NUMBER = "54";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -906,10 +906,10 @@ namespace elements.Xe {
     public const string BOILING_POINT = "165.051";
 }
 
-namespace elements.Cs {
+namespace Cs {
     public const string ID = "Cs";
     public const string NAME = _("Caesium");
-    public const string GROUP = Constants.ALKALI_METAL;
+    public const string GROUP = elements.ALKALI_METAL;
     public const string ATOMIC_NUMBER = "55";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -925,10 +925,10 @@ namespace elements.Cs {
     public const string BOILING_POINT = "944";
 }
 
-namespace elements.Ba {
+namespace Ba {
     public const string ID = "Ba";
     public const string NAME = _("Barium");
-    public const string GROUP = Constants.ALKALINE_EARTH_METAL;
+    public const string GROUP = elements.ALKALINE_EARTH_METAL;
     public const string ATOMIC_NUMBER = "56";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -944,10 +944,10 @@ namespace elements.Ba {
     public const string BOILING_POINT = "2118";
 }
 
-namespace elements.La {
+namespace La {
     public const string ID = "La";
     public const string NAME = _("Lanthanum");
-    public const string GROUP = Constants.LANTHANIDE;
+    public const string GROUP = elements.LANTHANIDE;
     public const string ATOMIC_NUMBER = "57";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -963,10 +963,10 @@ namespace elements.La {
     public const string BOILING_POINT = "3737";
 }
 
-namespace elements.Ce {
+namespace Ce {
     public const string ID = "Ce";
     public const string NAME = _("Cerium");
-    public const string GROUP = Constants.LANTHANIDE;
+    public const string GROUP = elements.LANTHANIDE;
     public const string ATOMIC_NUMBER = "58";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -982,10 +982,10 @@ namespace elements.Ce {
     public const string BOILING_POINT = "3716";
 }
 
-namespace elements.Pr {
+namespace Pr {
     public const string ID = "Pr";
     public const string NAME = _("Praseodymium");
-    public const string GROUP = Constants.LANTHANIDE;
+    public const string GROUP = elements.LANTHANIDE;
     public const string ATOMIC_NUMBER = "59";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1001,10 +1001,10 @@ namespace elements.Pr {
     public const string BOILING_POINT = "3403";
 }
 
-namespace elements.Nd {
+namespace Nd {
     public const string ID = "Nd";
     public const string NAME = _("Neodymium");
-    public const string GROUP = Constants.LANTHANIDE;
+    public const string GROUP = elements.LANTHANIDE;
     public const string ATOMIC_NUMBER = "60";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1020,10 +1020,10 @@ namespace elements.Nd {
     public const string BOILING_POINT = "3347";
 }
 
-namespace elements.Pm {
+namespace Pm {
     public const string ID = "Pm";
     public const string NAME = _("Promethium");
-    public const string GROUP = Constants.LANTHANIDE;
+    public const string GROUP = elements.LANTHANIDE;
     public const string ATOMIC_NUMBER = "61";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1039,10 +1039,10 @@ namespace elements.Pm {
     public const string BOILING_POINT = "3273";
 }
 
-namespace elements.Sm {
+namespace Sm {
     public const string ID = "Sm";
     public const string NAME = _("Samarium");
-    public const string GROUP = Constants.LANTHANIDE;
+    public const string GROUP = elements.LANTHANIDE;
     public const string ATOMIC_NUMBER = "62";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1058,10 +1058,10 @@ namespace elements.Sm {
     public const string BOILING_POINT = "2173";
 }
 
-namespace elements.Eu {
+namespace Eu {
     public const string ID = "Eu";
     public const string NAME = _("Europium");
-    public const string GROUP = Constants.LANTHANIDE;
+    public const string GROUP = elements.LANTHANIDE;
     public const string ATOMIC_NUMBER = "63";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1077,10 +1077,10 @@ namespace elements.Eu {
     public const string BOILING_POINT = "1802";
 }
 
-namespace elements.Gd {
+namespace Gd {
     public const string ID = "Gd";
     public const string NAME = _("Gadolinium");
-    public const string GROUP = Constants.LANTHANIDE;
+    public const string GROUP = elements.LANTHANIDE;
     public const string ATOMIC_NUMBER = "64";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1096,10 +1096,10 @@ namespace elements.Gd {
     public const string BOILING_POINT = "3273";
 }
 
-namespace elements.Tb {
+namespace Tb {
     public const string ID = "Tb";
     public const string NAME = _("Terbium");
-    public const string GROUP = Constants.LANTHANIDE;
+    public const string GROUP = elements.LANTHANIDE;
     public const string ATOMIC_NUMBER = "65";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1115,10 +1115,10 @@ namespace elements.Tb {
     public const string BOILING_POINT = "3396";
 }
 
-namespace elements.Dy {
+namespace Dy {
     public const string ID = "Dy";
     public const string NAME = _("Dysprosium");
-    public const string GROUP = Constants.LANTHANIDE;
+    public const string GROUP = elements.LANTHANIDE;
     public const string ATOMIC_NUMBER = "66";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1134,10 +1134,10 @@ namespace elements.Dy {
     public const string BOILING_POINT = "2840";
 }
 
-namespace elements.Ho {
+namespace Ho {
     public const string ID = "Ho";
     public const string NAME = _("Holmium");
-    public const string GROUP = Constants.LANTHANIDE;
+    public const string GROUP = elements.LANTHANIDE;
     public const string ATOMIC_NUMBER = "67";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1153,10 +1153,10 @@ namespace elements.Ho {
     public const string BOILING_POINT = "2873";
 }
 
-namespace elements.Er {
+namespace Er {
     public const string ID = "Er";
     public const string NAME = _("Erbium");
-    public const string GROUP = Constants.LANTHANIDE;
+    public const string GROUP = elements.LANTHANIDE;
     public const string ATOMIC_NUMBER = "68";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1172,10 +1172,10 @@ namespace elements.Er {
     public const string BOILING_POINT = "3141";
 }
 
-namespace elements.Tm {
+namespace Tm {
     public const string ID = "Tm";
     public const string NAME = _("Thulium");
-    public const string GROUP = Constants.LANTHANIDE;
+    public const string GROUP = elements.LANTHANIDE;
     public const string ATOMIC_NUMBER = "69";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1191,10 +1191,10 @@ namespace elements.Tm {
     public const string BOILING_POINT = "2223";
 }
 
-namespace elements.Yb {
+namespace Yb {
     public const string ID = "Yb";
     public const string NAME = _("Ytterbium");
-    public const string GROUP = Constants.LANTHANIDE;
+    public const string GROUP = elements.LANTHANIDE;
     public const string ATOMIC_NUMBER = "70";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1210,10 +1210,10 @@ namespace elements.Yb {
     public const string BOILING_POINT = "1469";
 }
 
-namespace elements.Lu {
+namespace Lu {
     public const string ID = "Lu";
     public const string NAME = _("Lutetium");
-    public const string GROUP = Constants.LANTHANIDE;
+    public const string GROUP = elements.LANTHANIDE;
     public const string ATOMIC_NUMBER = "71";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1229,10 +1229,10 @@ namespace elements.Lu {
     public const string BOILING_POINT = "3675";
 }
 
-namespace elements.Hf {
+namespace Hf {
     public const string ID = "Hf";
     public const string NAME = _("Hafnium");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "72";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1248,10 +1248,10 @@ namespace elements.Hf {
     public const string BOILING_POINT = "4876";
 }
 
-namespace elements.Ta {
+namespace Ta {
     public const string ID = "Ta";
     public const string NAME = _("Tantalium");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "73";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1267,10 +1267,10 @@ namespace elements.Ta {
     public const string BOILING_POINT = "5731";
 }
 
-namespace elements.W {
+namespace W {
     public const string ID = "W";
     public const string NAME = _("Tungsten");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "74";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1286,10 +1286,10 @@ namespace elements.W {
     public const string BOILING_POINT = "6203";
 }
 
-namespace elements.Re {
+namespace Re {
     public const string ID = "Re";
     public const string NAME = _("Rhenium");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "75";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1305,10 +1305,10 @@ namespace elements.Re {
     public const string BOILING_POINT = "5903";
 }
 
-namespace elements.Os {
+namespace Os {
     public const string ID = "Os";
     public const string NAME = _("Osmium");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "76";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1324,10 +1324,10 @@ namespace elements.Os {
     public const string BOILING_POINT = "5285";
 }
 
-namespace elements.Ir {
+namespace Ir {
     public const string ID = "Ir";
     public const string NAME = _("Iridium");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "77";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1343,10 +1343,10 @@ namespace elements.Ir {
     public const string BOILING_POINT = "4403";
 }
 
-namespace elements.Pt {
+namespace Pt {
     public const string ID = "Pt";
     public const string NAME = _("Platinium");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "78";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1362,10 +1362,10 @@ namespace elements.Pt {
     public const string BOILING_POINT = "4098";
 }
 
-namespace elements.Au {
+namespace Au {
     public const string ID = "Au";
     public const string NAME = _("Gold");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "79";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1381,10 +1381,10 @@ namespace elements.Au {
     public const string BOILING_POINT = "3243";
 }
 
-namespace elements.Hg {
+namespace Hg {
     public const string ID = "Hg";
     public const string NAME = _("Mercury");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "80";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1400,10 +1400,10 @@ namespace elements.Hg {
     public const string BOILING_POINT = "629.88";
 }
 
-namespace elements.Tl {
+namespace Tl {
     public const string ID = "Tl";
     public const string NAME = _("Thallium");
-    public const string GROUP = Constants.POST_TRANSITION_METAL;
+    public const string GROUP = elements.POST_TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "81";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1419,10 +1419,10 @@ namespace elements.Tl {
     public const string BOILING_POINT = "1746";
 }
 
-namespace elements.Pb {
+namespace Pb {
     public const string ID = "Pb";
     public const string NAME = _("Lead");
-    public const string GROUP = Constants.POST_TRANSITION_METAL;
+    public const string GROUP = elements.POST_TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "82";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1438,10 +1438,10 @@ namespace elements.Pb {
     public const string BOILING_POINT = "2022";
 }
 
-namespace elements.Bi {
+namespace Bi {
     public const string ID = "Bi";
     public const string NAME = _("Bismuth");
-    public const string GROUP = Constants.POST_TRANSITION_METAL;
+    public const string GROUP = elements.POST_TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "83";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1457,10 +1457,10 @@ namespace elements.Bi {
     public const string BOILING_POINT = "1837";
 }
 
-namespace elements.Po {
+namespace Po {
     public const string ID = "Po";
     public const string NAME = _("Polonium");
-    public const string GROUP = Constants.METALLOID;
+    public const string GROUP = elements.METALLOID;
     public const string ATOMIC_NUMBER = "84";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1476,10 +1476,10 @@ namespace elements.Po {
     public const string BOILING_POINT = "1235";
 }
 
-namespace elements.At {
+namespace At {
     public const string ID = "At";
     public const string NAME = _("Astatine");
-    public const string GROUP = Constants.HALOGEN;
+    public const string GROUP = elements.HALOGEN;
     public const string ATOMIC_NUMBER = "85";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1495,10 +1495,10 @@ namespace elements.At {
     public const string BOILING_POINT = "610";
 }
 
-namespace elements.Rn {
+namespace Rn {
     public const string ID = "Rn";
     public const string NAME = _("Radon");
-    public const string GROUP = Constants.NOBLE_GAS;
+    public const string GROUP = elements.NOBLE_GAS;
     public const string ATOMIC_NUMBER = "86";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1514,10 +1514,10 @@ namespace elements.Rn {
     public const string BOILING_POINT = "211.5";
 }
 
-namespace elements.Fr {
+namespace Fr {
     public const string ID = "Fr";
     public const string NAME = _("Francium");
-    public const string GROUP = Constants.ALKALI_METAL;
+    public const string GROUP = elements.ALKALI_METAL;
     public const string ATOMIC_NUMBER = "87";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1534,10 +1534,10 @@ namespace elements.Fr {
     public const string BOILING_POINT = "950";
 }
 
-namespace elements.Ra {
+namespace Ra {
     public const string ID = "Ra";
     public const string NAME = _("Radium");
-    public const string GROUP = Constants.ALKALINE_EARTH_METAL;
+    public const string GROUP = elements.ALKALINE_EARTH_METAL;
     public const string ATOMIC_NUMBER = "88";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1554,10 +1554,10 @@ namespace elements.Ra {
     public const string BOILING_POINT = "2010";
 }
 
-namespace elements.Ac {
+namespace Ac {
     public const string ID = "Ac";
     public const string NAME = _("Actinium");
-    public const string GROUP = Constants.ACTINIDE;
+    public const string GROUP = elements.ACTINIDE;
     public const string ATOMIC_NUMBER = "89";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1574,10 +1574,10 @@ namespace elements.Ac {
     public const string BOILING_POINT = "3500";
 }
 
-namespace elements.Th {
+namespace Th {
     public const string ID = "Th";
     public const string NAME = _("Thorium");
-    public const string GROUP = Constants.ACTINIDE;
+    public const string GROUP = elements.ACTINIDE;
     public const string ATOMIC_NUMBER = "90";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1594,10 +1594,10 @@ namespace elements.Th {
     public const string BOILING_POINT = "5061";
 }
 
-namespace elements.Pa {
+namespace Pa {
     public const string ID = "Pa";
     public const string NAME = _("Protactinium");
-    public const string GROUP = Constants.ACTINIDE;
+    public const string GROUP = elements.ACTINIDE;
     public const string ATOMIC_NUMBER = "91";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1614,10 +1614,10 @@ namespace elements.Pa {
     public const string BOILING_POINT = "4300";
 }
 
-namespace elements.U {
+namespace U {
     public const string ID = "U";
     public const string NAME = _("Uranium");
-    public const string GROUP = Constants.ACTINIDE;
+    public const string GROUP = elements.ACTINIDE;
     public const string ATOMIC_NUMBER = "92";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1634,10 +1634,10 @@ namespace elements.U {
     public const string BOILING_POINT = "4404";
 }
 
-namespace elements.Np {
+namespace Np {
     public const string ID = "Np";
     public const string NAME = _("Neptunium");
-    public const string GROUP = Constants.ACTINIDE;
+    public const string GROUP = elements.ACTINIDE;
     public const string ATOMIC_NUMBER = "93";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1654,10 +1654,10 @@ namespace elements.Np {
     public const string BOILING_POINT = "4447";
 }
 
-namespace elements.Pu {
+namespace Pu {
     public const string ID = "Pu";
     public const string NAME = _("Plutonium");
-    public const string GROUP = Constants.ACTINIDE;
+    public const string GROUP = elements.ACTINIDE;
     public const string ATOMIC_NUMBER = "94";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1674,10 +1674,10 @@ namespace elements.Pu {
     public const string BOILING_POINT = "3505";
 }
 
-namespace elements.Am {
+namespace Am {
     public const string ID = "Am";
     public const string NAME = _("Americum");
-    public const string GROUP = Constants.ACTINIDE;
+    public const string GROUP = elements.ACTINIDE;
     public const string ATOMIC_NUMBER = "95";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1694,10 +1694,10 @@ namespace elements.Am {
     public const string BOILING_POINT = "2880";
 }
 
-namespace elements.Cm {
+namespace Cm {
     public const string ID = "Cm";
     public const string NAME = _("Curium");
-    public const string GROUP = Constants.ACTINIDE;
+    public const string GROUP = elements.ACTINIDE;
     public const string ATOMIC_NUMBER = "96";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1714,10 +1714,10 @@ namespace elements.Cm {
     public const string BOILING_POINT = "3383";
 }
 
-namespace elements.Bk {
+namespace Bk {
     public const string ID = "Bk";
     public const string NAME = _("Berkelium");
-    public const string GROUP = Constants.ACTINIDE;
+    public const string GROUP = elements.ACTINIDE;
     public const string ATOMIC_NUMBER = "97";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1734,10 +1734,10 @@ namespace elements.Bk {
     public const string BOILING_POINT = "2900";
 }
 
-namespace elements.Cf {
+namespace Cf {
     public const string ID = "Cf";
     public const string NAME = _("Californium");
-    public const string GROUP = Constants.ACTINIDE;
+    public const string GROUP = elements.ACTINIDE;
     public const string ATOMIC_NUMBER = "98";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1754,10 +1754,10 @@ namespace elements.Cf {
     public const string BOILING_POINT = "1743";
 }
 
-namespace elements.Es {
+namespace Es {
     public const string ID = "Es";
     public const string NAME = _("Einsteinium");
-    public const string GROUP = Constants.ACTINIDE;
+    public const string GROUP = elements.ACTINIDE;
     public const string ATOMIC_NUMBER = "99";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1774,10 +1774,10 @@ namespace elements.Es {
     public const string BOILING_POINT = "1269";
 }
 
-namespace elements.Fm {
+namespace Fm {
     public const string ID = "Fm";
     public const string NAME = _("Fermium");
-    public const string GROUP = Constants.ACTINIDE;
+    public const string GROUP = elements.ACTINIDE;
     public const string ATOMIC_NUMBER = "100";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1794,10 +1794,10 @@ namespace elements.Fm {
     public const string BOILING_POINT = "-";
 }
 
-namespace elements.Md {
+namespace Md {
     public const string ID = "Md";
     public const string NAME = _("Mendelevium");
-    public const string GROUP = Constants.ACTINIDE;
+    public const string GROUP = elements.ACTINIDE;
     public const string ATOMIC_NUMBER = "101";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1814,10 +1814,10 @@ namespace elements.Md {
     public const string BOILING_POINT = "-";
 }
 
-namespace elements.No {
+namespace No {
     public const string ID = "No";
     public const string NAME = _("Nobelium");
-    public const string GROUP = Constants.ACTINIDE;
+    public const string GROUP = elements.ACTINIDE;
     public const string ATOMIC_NUMBER = "102";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1834,10 +1834,10 @@ namespace elements.No {
     public const string BOILING_POINT = "-";
 }
 
-namespace elements.Lr {
+namespace Lr {
     public const string ID = "Lr";
     public const string NAME = _("Lawrencium");
-    public const string GROUP = Constants.ACTINIDE;
+    public const string GROUP = elements.ACTINIDE;
     public const string ATOMIC_NUMBER = "103";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1854,10 +1854,10 @@ namespace elements.Lr {
     public const string BOILING_POINT = "-";
 }
 
-namespace elements.Rf {
+namespace Rf {
     public const string ID = "Rf";
     public const string NAME = _("Rutherfordium");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "104";
     public const int[,] ELECTRON = {
 
@@ -1868,10 +1868,10 @@ namespace elements.Rf {
     public const string BOILING_POINT = "?";
 }
 
-namespace elements.Db {
+namespace Db {
     public const string ID = "Db";
     public const string NAME = _("Dubnium");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "105";
     public const int[,] ELECTRON = {
 
@@ -1882,10 +1882,10 @@ namespace elements.Db {
     public const string BOILING_POINT = "?";
 }
 
-namespace elements.Sg {
+namespace Sg {
     public const string ID = "Sg";
     public const string NAME = _("Seaborgium");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "106";
     public const int[,] ELECTRON = {
 
@@ -1896,10 +1896,10 @@ namespace elements.Sg {
     public const string BOILING_POINT = "?";
 }
 
-namespace elements.Bh {
+namespace Bh {
     public const string ID = "Bh";
     public const string NAME = _("Bohrium");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "107";
     public const int[,] ELECTRON = {
 
@@ -1910,10 +1910,10 @@ namespace elements.Bh {
     public const string BOILING_POINT = "?";
 }
 
-namespace elements.Hs {
+namespace Hs {
     public const string ID = "Hs";
     public const string NAME = _("Hassium");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "108";
     public const int[,] ELECTRON = {
 
@@ -1924,10 +1924,10 @@ namespace elements.Hs {
     public const string BOILING_POINT = "?";
 }
 
-namespace elements.Mt {
+namespace Mt {
     public const string ID = "Mt";
     public const string NAME = _("Meitnerium");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "109";
     public const int[,] ELECTRON = {
 
@@ -1938,10 +1938,10 @@ namespace elements.Mt {
     public const string BOILING_POINT = "?";
 }
 
-namespace elements.Ds {
+namespace Ds {
     public const string ID = "Ds";
     public const string NAME = _("Darmstadtium");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "110";
     public const int[,] ELECTRON = {
 
@@ -1952,10 +1952,10 @@ namespace elements.Ds {
     public const string BOILING_POINT = "?";
 }
 
-namespace elements.Rg {
+namespace Rg {
     public const string ID = "Rg";
     public const string NAME = _("Roentgenium");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "111";
     public const int[,] ELECTRON = {
 
@@ -1966,10 +1966,10 @@ namespace elements.Rg {
     public const string BOILING_POINT = "?";
 }
 
-namespace elements.Cn {
+namespace Cn {
     public const string ID = "Cn";
     public const string NAME = _("Copernium");
-    public const string GROUP = Constants.TRANSITION_METAL;
+    public const string GROUP = elements.TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "112";
     public const int[,] ELECTRON = {
 
@@ -1980,10 +1980,10 @@ namespace elements.Cn {
     public const string BOILING_POINT = "?";
 }
 
-namespace elements.Nh {
+namespace Nh {
     public const string ID = "Nh";
     public const string NAME = _("Nihonium");
-    public const string GROUP = Constants.POST_TRANSITION_METAL;
+    public const string GROUP = elements.POST_TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "113";
     public const int[,] ELECTRON = {
 
@@ -1994,10 +1994,10 @@ namespace elements.Nh {
     public const string BOILING_POINT = "?";
 }
 
-namespace elements.Fl {
+namespace Fl {
     public const string ID = "Fl";
     public const string NAME = _("Flerovium");
-    public const string GROUP = Constants.POST_TRANSITION_METAL;
+    public const string GROUP = elements.POST_TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "114";
     public const int[,] ELECTRON = {
 
@@ -2008,10 +2008,10 @@ namespace elements.Fl {
     public const string BOILING_POINT = "?";
 }
 
-namespace elements.Mc {
+namespace Mc {
     public const string ID = "Mc";
     public const string NAME = _("Moscovium");
-    public const string GROUP = Constants.POST_TRANSITION_METAL;
+    public const string GROUP = elements.POST_TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "115";
     public const int[,] ELECTRON = {
 
@@ -2022,10 +2022,10 @@ namespace elements.Mc {
     public const string BOILING_POINT = "?";
 }
 
-namespace elements.Lv {
+namespace Lv {
     public const string ID = "Lv";
     public const string NAME = _("Livermorium");
-    public const string GROUP = Constants.POST_TRANSITION_METAL;
+    public const string GROUP = elements.POST_TRANSITION_METAL;
     public const string ATOMIC_NUMBER = "116";
     public const int[,] ELECTRON = {
 
@@ -2036,10 +2036,10 @@ namespace elements.Lv {
     public const string BOILING_POINT = "?";
 }
 
-namespace elements.Ts {
+namespace Ts {
     public const string ID = "Ts";
     public const string NAME = _("Tennessine");
-    public const string GROUP = Constants.HALOGEN;
+    public const string GROUP = elements.HALOGEN;
     public const string ATOMIC_NUMBER = "117";
     public const int[,] ELECTRON = {
 
@@ -2050,10 +2050,10 @@ namespace elements.Ts {
     public const string BOILING_POINT = "?";
 }
 
-namespace elements.Og {
+namespace Og {
     public const string ID = "Og";
     public const string NAME = _("Oganesson");
-    public const string GROUP = Constants.NOBLE_GAS;
+    public const string GROUP = elements.NOBLE_GAS;
     public const string ATOMIC_NUMBER = "118";
     public const int[,] ELECTRON = {
 
