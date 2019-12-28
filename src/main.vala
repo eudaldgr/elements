@@ -1,5 +1,4 @@
 public static int main(string[] args) {
-    new elements().run(args);
-    Gtk.main();
-    return 0;
+	var elements = new Application();
+	return elements.run(args);
 }

@@ -39,8 +39,8 @@
             var label1 = new Gtk.Label(_("Main"));
             var label2 = new Gtk.Label(_("Electronegativity"));
 
-            label1.name = Constants.MAIN_VIEW_ID;
-            label2.name = Constants.ELECTRO_VIEW_ID;
+            label1.name = elements.MAIN_VIEW_ID;
+            label2.name = elements.ELECTRO_VIEW_ID;
 
             periodicView_mode.append(label1);
             periodicView_mode.append(label2);
@@ -54,8 +54,8 @@
             var label1 = new Gtk.Label(_("Properties"));
             var label2 = new Gtk.Label(_("History"));
 
-            label1.name = Constants.PROPERTIES_VIEW_ID;
-            label2.name = Constants.HISTORY_VIEW_ID;
+            label1.name = elements.PROPERTIES_VIEW_ID;
+            label2.name = elements.HISTORY_VIEW_ID;
 
             atomicView_mode.append(label1);
 //            atomicView_mode.append(label2);
@@ -84,7 +84,7 @@
                 this.showPeriodicViewMode(true);
                 this.custom_title = periodicView_mode;
                 this.showAtomicViewMode(false);
-                stack.getStack().visible_child_name = Constants.MAIN_VIEW_ID;
+                stack.getStack().visible_child_name = elements.MAIN_VIEW_ID;
             });
         }
 
@@ -131,17 +131,17 @@
 
          private void on_periodicView_mode_changed() {
             if(periodicView_mode.selected == 0) {
-                stack.getStack().visible_child_name = Constants.MAIN_VIEW_ID;
+                stack.getStack().visible_child_name = elements.MAIN_VIEW_ID;
             } else if(periodicView_mode.selected == 1) {
-                stack.getStack().visible_child_name = Constants.ELECTRO_VIEW_ID;
+                stack.getStack().visible_child_name = elements.ELECTRO_VIEW_ID;
             }
         }
 
          private void on_atomicView_mode_changed() {
             if(atomicView_mode.selected == 0) {
-                stack.getStack().visible_child_name = Constants.PROPERTIES_VIEW_ID;
+                stack.getStack().visible_child_name = elements.PROPERTIES_VIEW_ID;
             } else if(atomicView_mode.selected == 1) {
-                stack.getStack().visible_child_name = Constants.HISTORY_VIEW_ID;
+                stack.getStack().visible_child_name = elements.HISTORY_VIEW_ID;
             }
         }
     }

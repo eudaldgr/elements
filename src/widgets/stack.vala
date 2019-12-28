@@ -22,20 +22,16 @@
         }
 
         public void loadViews(Gtk.Window window) {
-            var main_view = new PeriodicView(Constants.MAIN_VIEW_ID);
-            var electro_view = new PeriodicView(Constants.ELECTRO_VIEW_ID);
-            var properties_view = new PropertiesView();
-            var history_view = new HistoryView();
+            var main_view = new PeriodicView(elements.MAIN_VIEW_ID);
+            var electro_view = new PeriodicView(elements.ELECTRO_VIEW_ID);
 
-            stack.add_titled(main_view, Constants.MAIN_VIEW_ID, _("Main"));
-            stack.add_titled(electro_view, Constants.ELECTRO_VIEW_ID, _("Electronegativity"));
-            stack.add_titled(properties_view, Constants.PROPERTIES_VIEW_ID, _("Properties"));
-            stack.add_titled(history_view, Constants.HISTORY_VIEW_ID, _("History"));
+            stack.add_titled(main_view, elements.MAIN_VIEW_ID, _("Main"));
+            stack.add_titled(electro_view, elements.ELECTRO_VIEW_ID, _("Electronegativity"));
 
             stack.notify["visible-child"].connect(() => {
                 var headerBar = HeaderBar.get_instance();
 
-                if(stack.get_visible_child_name() == Constants.MAIN_VIEW_ID) {
+                if(stack.get_visible_child_name() == elements.MAIN_VIEW_ID) {
                     headerBar.showReturnButton(false);
                     headerBar.showInfoButton(true);
 //                    headerBar.showButtons(true);
@@ -44,7 +40,7 @@
                     headerBar.showAtomicViewMode(false);
                 }
 
-                if(stack.get_visible_child_name() == Constants.ELECTRO_VIEW_ID) {
+                if(stack.get_visible_child_name() == elements.ELECTRO_VIEW_ID) {
                     headerBar.showReturnButton(false);
                     headerBar.showInfoButton(true);
 //                    headerBar.showButtons(true);
@@ -53,7 +49,7 @@
                     headerBar.showAtomicViewMode(false);
                 }
 
-                if(stack.get_visible_child_name() == Constants.PROPERTIES_VIEW_ID) {
+                if(stack.get_visible_child_name() == elements.PROPERTIES_VIEW_ID) {
                     headerBar.showReturnButton(true);
                     headerBar.showInfoButton(true);
 //                    headerBar.showButtons(true);
@@ -62,7 +58,7 @@
                     headerBar.setSelectedAtomicViewMode(0);
                 }
 
-                if(stack.get_visible_child_name() == Constants.HISTORY_VIEW_ID) {
+                if(stack.get_visible_child_name() == elements.HISTORY_VIEW_ID) {
                     headerBar.showReturnButton(true);
                     headerBar.showInfoButton(false);
 //                    headerBar.showButtons(true);

@@ -1,6 +1,5 @@
     public class PeriodicView : Gtk.Grid {
 
-        Stack stack = Stack.get_instance();
         HeaderBar headerBar = HeaderBar.get_instance();
 
         static PeriodicView? instance;
