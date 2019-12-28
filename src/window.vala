@@ -1,6 +1,6 @@
 using Granite.Widgets;
 
-public class elements.window : Gtk.Window {
+public class elements.window : Gtk.ApplicationWindow {
 	private Stack stack = Stack.get_instance();
 	private HeaderBar headerBar = HeaderBar.get_instance();
 

@@ -14,7 +14,7 @@ public class Application : Granite.Application {
         loadGresources();
 
         var window = new elements.window();
-        window.destroy.connect (Gtk.main_quit);
+        window.destroy.connect(Gtk.main_quit);
         window.show_all();
     }
 
