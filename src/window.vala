@@ -4,7 +4,16 @@ public class elements.window : Gtk.ApplicationWindow {
 	private Stack stack = Stack.get_instance();
 	private HeaderBar headerBar = HeaderBar.get_instance();
 
+	public window (Application application) {
+		Object (
+			application: Application
+		);
+	}
+
 	construct {
+        destroy.connect(Gtk.main_quit);
+        show_all();
+
 		resizable = true;
 		set_titlebar (headerBar);
 

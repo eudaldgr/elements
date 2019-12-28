@@ -1,21 +1,19 @@
 using Granite.Widgets;
 
 public class Application : Granite.Application {
-    construct {
-        application_id = elements.APPLICATION_ID;
-        program_name = elements.APP_NAME;
-
-        exec_name = elements.EXEC_NAME;
-        app_launcher = elements.DESKTOP_NAME;
-        build_version = elements.VERSION;
+	construct {
+		application_id = elements.APPLICATION_ID;
+		program_name = elements.APP_NAME;
+		exec_name = elements.EXEC_NAME;
+		app_launcher = elements.DESKTOP_NAME;
+		build_version = elements.VERSION;
     }
 
     public override void activate() {
-        loadGresources();
+        var window = new elements.window(this);
+		add_window(window);
 
-        var window = new elements.window();
-        window.destroy.connect(Gtk.main_quit);
-        window.show_all();
+        loadGresources();
     }
 
     private void loadGresources() {
