@@ -12,7 +12,7 @@
 
 ### arch gnu/linux
 
-arch gnu/linux users can find `elements` under the name [elements-git](https://aur.archlinux.org/packages/elements-git/) in the **AUR**:
+arch gnu/linux users can find `elements` under the name [elements-git](https://aur.archlinux.org/packages/elements-git/) in the **aur**:
 
 ```
 pacaur -S elements-git
