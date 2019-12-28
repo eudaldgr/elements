@@ -1,7 +1,6 @@
 using Granite.Widgets;
 
 public class Application : Granite.Application {
-
     construct {
         application_id = Constants.APPLICATION_ID;
         program_name = Constants.APP_NAME;
@@ -18,13 +17,7 @@ public class Application : Granite.Application {
         window.destroy.connect (Gtk.main_quit);
         window.show_all();
     }
-/*
-    public static int main(string[] args) {
-        new App().run(args);
-        Gtk.main();
-        return 0;
-    }
-*/
+
     private void loadGresources() {
         var provider = new Gtk.CssProvider ();
         provider.load_from_resource ("/com/github/eudaldgr/elements/app.css");
