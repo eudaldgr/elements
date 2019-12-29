@@ -14,7 +14,6 @@
             this.get_style_context().add_class("flat");
 
             generateInfoButton();
-            generateReturnButton();
             generatePeriodicViewMode();
 
             this.show_close_button = true;

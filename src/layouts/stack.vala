@@ -32,14 +32,12 @@
                 var headerBar = HeaderBar.get_instance();
 
                 if(stack.get_visible_child_name() == elements.MAIN_VIEW_ID) {
-                    headerBar.showReturnButton(false);
                     headerBar.showInfoButton(true);
                     headerBar.showPeriodicViewMode(true);
                     headerBar.setSelectedPeriodicViewMode(0);
                 }
 
                 if(stack.get_visible_child_name() == elements.ELECTRO_VIEW_ID) {
-                    headerBar.showReturnButton(false);
                     headerBar.showInfoButton(true);
                     headerBar.showPeriodicViewMode(true);
                     headerBar.setSelectedPeriodicViewMode(1);
