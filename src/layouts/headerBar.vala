@@ -6,9 +6,7 @@
         Popover popover = Popover.get_instance();
 
         public Gtk.Button info_button = new Gtk.Button.from_icon_name("help-contents-symbolic");
-        public Gtk.Button return_button = new Gtk.Button();
         public Granite.Widgets.ModeButton periodicView_mode = new Granite.Widgets.ModeButton();
-        public Granite.Widgets.ModeButton atomicView_mode = new Granite.Widgets.ModeButton();
 
         HeaderBar() {
             this.get_style_context().add_class("flat");
@@ -18,7 +16,6 @@
 
             this.show_close_button = true;
             this.custom_title = periodicView_mode;
-            this.pack_start(return_button);
             this.pack_end(info_button);
         }
 
