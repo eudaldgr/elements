@@ -29,8 +29,8 @@ public class HeaderBar : Gtk.HeaderBar {
 		var label1 = new Gtk.Label(_("Main"));
 		var label2 = new Gtk.Label(_("Electronegativity"));
 
-		label1.name = elements.MAIN_VIEW_ID;
-		label2.name = elements.ELECTRO_VIEW_ID;
+		label1.name = Elements.MAIN_VIEW_ID;
+		label2.name = Elements.ELECTRO_VIEW_ID;
 
 		periodicView_mode.append(label1);
 		periodicView_mode.append(label2);
@@ -67,9 +67,9 @@ public class HeaderBar : Gtk.HeaderBar {
 
 	private void on_periodicView_mode_changed() {
 		if(periodicView_mode.selected == 0) {
-			stack.getStack().visible_child_name = elements.MAIN_VIEW_ID;
+			stack.getStack().visible_child_name = Elements.MAIN_VIEW_ID;
 		} else if(periodicView_mode.selected == 1) {
-			stack.getStack().visible_child_name = elements.ELECTRO_VIEW_ID;
+			stack.getStack().visible_child_name = Elements.ELECTRO_VIEW_ID;
 		}
 	}
 }

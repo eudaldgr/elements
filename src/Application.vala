@@ -1,24 +1,37 @@
-public class elements.Application : Gtk.Application {
-	construct {
-		application_id = elements.APP_ID;
+public class elements : Gtk.Application {
+	public static GLib.Settings settings;
+
+	public elements () {
+		Object (
+		application_id: "com.github.eudaldgr.elements",
+		flags: ApplicationFlags.FLAGS_NONE
+		);
     }
 
-    public override void activate() {
-		Gtk.Settings.get_default ().set_property ("gtk-icon-theme-name","elementary");
-		Gtk.Settings.get_default ().set_property ("gtk-theme-name","elementary");
-/////////
+	static construct {
+		settings = new Settings ("com.github.eudaldgr.elements");
+	}
+
+    public override void activate () {
         var provider = new Gtk.CssProvider ();
-        provider.load_from_resource ("/com/github/eudaldgr/elements/app.css");
-        Gtk.StyleContext.add_provider_for_screen (
-            Gdk.Screen.get_default(),
-            provider,
-            Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
-        );
-/////////
-		weak Gtk.IconTheme default_theme = Gtk.IconTheme.get_default();
-		default_theme.add_resource_path("/com/github/eudaldgr/elements");
+        provider.load_from_resource ("/com/github/eudaldgr/elements/styles/global.css");
+        Gtk.StyleContext.add_provider_for_screen (Gdk.Screen.get_default (), provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
-        var window = new elements.window(this);
-		this.add_window(window);
-    }
+        var app_window = new MainWindow (this);
+		app_window.show ();
+
+        var quit_action = new SimpleAction ("quit", null);
+        add_action (quit_action);
+		set_accels_for_action ("app.quit", {"<Control>q"});
+		quit_action.activate.connect (() => {
+            if (app_window != null) {
+                app_window.destroy ();
+            }
+        });
+	}
+
+	public static int main (string[] args) {
+		var app = new elements ();
+		return app.run (args);
+	}
 }

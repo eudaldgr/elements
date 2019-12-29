@@ -1,4 +1,4 @@
-namespace elements {
+namespace Elements {
 	public const string APP_NAME = "Elements";
 	public const string EXEC_NAME = "Elements";
 	public const string DESKTOP_NAME = "com.github.eudaldgr.elements.desktop";

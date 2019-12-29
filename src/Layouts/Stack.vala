@@ -22,22 +22,22 @@
         }
 
         public void loadViews(Gtk.Window window) {
-            var main_view = new PeriodicView(elements.MAIN_VIEW_ID);
-            var electro_view = new PeriodicView(elements.ELECTRO_VIEW_ID);
+            var main_view = new PeriodicView(Elements.MAIN_VIEW_ID);
+            var electro_view = new PeriodicView(Elements.ELECTRO_VIEW_ID);
 
-            stack.add_titled(main_view, elements.MAIN_VIEW_ID, _("Main"));
-            stack.add_titled(electro_view, elements.ELECTRO_VIEW_ID, _("Electronegativity"));
+            stack.add_titled(main_view, Elements.MAIN_VIEW_ID, _("Main"));
+            stack.add_titled(electro_view, Elements.ELECTRO_VIEW_ID, _("Electronegativity"));
 
             stack.notify["visible-child"].connect(() => {
                 var headerBar = HeaderBar.get_instance();
 
-                if(stack.get_visible_child_name() == elements.MAIN_VIEW_ID) {
+                if(stack.get_visible_child_name() == Elements.MAIN_VIEW_ID) {
                     headerBar.showInfoButton(true);
                     headerBar.showPeriodicViewMode(true);
                     headerBar.setSelectedPeriodicViewMode(0);
                 }
 
-                if(stack.get_visible_child_name() == elements.ELECTRO_VIEW_ID) {
+                if(stack.get_visible_child_name() == Elements.ELECTRO_VIEW_ID) {
                     headerBar.showInfoButton(true);
                     headerBar.showPeriodicViewMode(true);
                     headerBar.setSelectedPeriodicViewMode(1);
