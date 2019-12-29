@@ -7,7 +7,7 @@ executable(
 	join_paths('Layouts', 'Popover.vala'),
 	join_paths('Layouts', 'Stack.vala'),
 	join_paths('Lib', 'Elements.vala'),
-	join_paths('Views', 'Default.vala'),
+	join_paths('Views', 'Main.vala'),
 	asresources,
 	dependencies: [
 		dependency('glib-2.0'),

@@ -1,8 +1,6 @@
 public class MainWindow : Gtk.ApplicationWindow {
-	private Stack stack = Stack.get_instance();
-	private HeaderBar headerBar = HeaderBar.get_instance();
-	
-	public weak elements app {get; construct;}
+	private Stack stack = Stack.get_instance ();
+	private HeaderBar headerBar = HeaderBar.get_instance ();
 
 	public MainWindow (Gtk.Application application) {
 		Object (
@@ -12,11 +10,11 @@ public class MainWindow : Gtk.ApplicationWindow {
 	}
 
 	construct {
-        show_all();
+        show_all ();
 
 		resizable = true;
 		set_titlebar (headerBar);
 
-		stack.loadViews(this);
+		stack.loadViews (this);
 	}
 }
