@@ -1,40 +1,21 @@
-conf_data = configuration_data()
-conf_data.set('PROJECT_NAME', meson.project_name())
-conf_data.set('PREFIX', elements_prefix)
-conf_data.set('DATADIR', elements_datadir)
-conf_data.set('PKGDATADIR',elements_pkgdatadir)
-conf_data.set('GETTEXT_PACKAGE', gettext_package)
-conf_data.set('VERSION', '0.0.1')
-conf_data.set('APP_ID', application_id)
-
-config_header = configure_file(
-	input: 'config.vala.in',
-	output: 'config.vala',
-	configuration: conf_data
-)
-
 executable(
-	application_id,
-	'main.vala',
-	'application.vala',
-	'window.vala',
-	'constants.vala',
-
-	'layouts/headerBar.vala',
-	'layouts/popover.vala',
-	'layouts/stack.vala',
-
-	'lib/elements.vala',
-
-	'views/periodic.vala',
-
+	meson.project_name(),
+	join_paths('Application.vala'),
+	join_paths('Constants.vala'),
+	join_paths('Main.vala'),
+	join_paths('Window.vala'),
+	join_paths('Layouts', 'HeaderBar.vala'),
+	join_paths('Layouts', 'Popover.vala'),
+	join_paths('Layouts', 'Stack.vala'),
+	join_paths('Lib', 'Elements.vala'),
+	join_paths('Views', 'Default.vala'),
 	asresources,
-	config_header,
 	dependencies: [
 		dependency('glib-2.0'),
+		dependency('gio-2.0'),
 		dependency('granite'),
 		dependency('gtk+-3.0'),
-		m_dep
+		meson.get_compiler('c').find_library('m', required : false)
 	],
 	install: true
 )
