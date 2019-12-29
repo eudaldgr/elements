@@ -45,18 +45,6 @@
             periodicView_mode.notify["selected"].connect(on_periodicView_mode_changed);
         }
 
-        private void generateReturnButton() {
-            return_button.label = _("Periodic Table");
-            return_button.no_show_all = true;
-            return_button.get_style_context().add_class ("back-button");
-            return_button.visible = false;
-            return_button.clicked.connect (() => {
-                this.showPeriodicViewMode(true);
-                this.custom_title = periodicView_mode;
-                stack.getStack().visible_child_name = elements.MAIN_VIEW_ID;
-            });
-        }
-
         private void generateInfoButton() {
             var pop = new Gtk.Popover(info_button);
             pop.position = Gtk.PositionType.BOTTOM;
@@ -72,10 +60,6 @@
 
         public void showPeriodicViewMode(bool answer) {
             periodicView_mode.visible = answer;
-        }
-
-        public void showReturnButton(bool answer) {
-            return_button.visible = answer;
         }
 
         public void showInfoButton(bool answer) {

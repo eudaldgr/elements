@@ -31,7 +31,6 @@ executable(
 	asresources,
 	config_header,
 	dependencies: [
-		dependency('cairo'),
 		dependency('glib-2.0'),
 		dependency('granite'),
 		dependency('gtk+-3.0'),
