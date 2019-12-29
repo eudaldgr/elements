@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+	<schema path="/com/github/eudaldgr/elements/" id="com.github.eudaldgr.elements">
+		<key name="pos_x" type="i">
+			<default>360</default>
+			<summary>horizontal position</summary>
+			<description>the saved horizontal position of our window</description>
+		</key>
+
+		<key name="pos_y" type="i">
+			<default>360</default>
+			<summary>vertical position</summary>
+			<description>the saved vertical position of our window</description>
+		</key>
+
+		<key name="window_width" type="i">
+			<default>600</default>
+			<summary>window width</summary>
+			<description>the saved width of our window</description>
+		</key>
+
+		<key name="window_height" type="i">
+			<default>400</default>
+			<summary>window height</summary>
+			<description>the saved height of our window</description>
+		</key>
+	</schema>
+</schemalist>
