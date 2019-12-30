@@ -1,4 +1,5 @@
 public class HeaderBar : Gtk.HeaderBar {
+
 	static HeaderBar? instance;
 
 	Stack stack = Stack.get_instance();
