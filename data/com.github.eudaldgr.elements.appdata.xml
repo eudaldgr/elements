@@ -3,16 +3,23 @@
 	<id>com.github.eudaldgr.elements</id>
 	<metadata_license>CC0</metadata_license>
 	<project_license>GPL-3.0+</project_license>
-	<name>Elements</name>
-	<summary>All the elements of the universe!</summary>
+	<name>elements</name>
+	<summary>all the elements of the universe!</summary>
 	<description>
-		<p>A viewer of the elements</p>
-		<p>Features:</p>
+		<p>a viewer of the elements</p>
+		<p>features:</p>
 		<ul>
-			<li>View all the elements</li>
-			<li>Use handy shortcuts to close the app (Ctrl+Q)</li>
+			<li>view all the elements</li>
+			<li>use handy shortcuts to close the app (Ctrl+Q)</li>
 		</ul>
 	</description>
+	<releases>
+		<release version="0.0.4" date="2020-01-01">
+			<description>
+				<p>berilium release</p>
+			</description>
+		</release>
+	</releases>
 	<releases>
 		<release version="0.0.3" date="2018-08-27">
 			<description>
@@ -71,7 +78,7 @@
 		<content_attribute id="money-purchasing">none</content_attribute>
 		<content_attribute id="money-gambling">none</content_attribute>
 	</content_rating>
-	<developer_name>eudaldgr developer</developer_name>
+	<developer_name>eudald gubert i roldan</developer_name>
 	<custom>
 		<value key="x-appcenter-color-primary">rgb(135, 203, 195)</value>
 		<value key="x-appcenter-color-primary-text">#333333</value>
