@@ -1,15 +1,4 @@
 namespace Elements {
-	public const string APP_NAME = "Elements";
-	public const string EXEC_NAME = "Elements";
-	public const string DESKTOP_NAME = "com.github.eudaldgr.elements.desktop";
-	public const string APP_ID = DESKTOP_NAME;
-	public const string ICON = "com.github.eudaldgr.repositories";
-	public const string MAIN_URL = "https://github.com/eudaldgr/elements";
-	public const string BUG_URL = MAIN_URL + "/issues";
-	public const string VERSION = "0.0.3";
-	public const string VERSION_INFO = "Unstable";
-	public const string APP_YEARS = "2019";
-
 	public const string MAIN_VIEW_ID = "main_view";
 	public const string ELECTRO_VIEW_ID = "electronegativity_view";
 
