@@ -10,10 +10,8 @@ namespace Elements {
 	public const string VERSION_INFO = "Unstable";
 	public const string APP_YEARS = "2019";
 
-	public const string MAIN_VIEW_ID = "main-view";
-	public const string ELECTRO_VIEW_ID = "electronegativity-view";
-	public const string PROPERTIES_VIEW_ID = "properties-view";
-	public const string HISTORY_VIEW_ID = "history-view";
+	public const string MAIN_VIEW_ID = "main_view";
+	public const string ELECTRO_VIEW_ID = "electronegativity_view";
 
 	public const string OTHER_NONMETAL = "other-nonmetal";
 	public const string NOBLE_GAS = "noble-gas";
