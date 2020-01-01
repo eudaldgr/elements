@@ -10,7 +10,7 @@ public class MainWindow : Gtk.ApplicationWindow {
 	construct {
 		show_all ();
 
-		resizable = true;
+		resizable = false;
 		set_titlebar (headerBar);
 
 		stack.loadViews (this);

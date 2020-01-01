@@ -1,5 +1,4 @@
 public class PeriodicView : Gtk.Grid {
-
 	HeaderBar headerBar = HeaderBar.get_instance ();
 
 	static PeriodicView? instance;
@@ -19,7 +18,7 @@ public class PeriodicView : Gtk.Grid {
 		this.row_homogeneous = true;
 		this.column_homogeneous = true;
 
-		for (int i = 0; i < 121; i++) {
+		for (int i = 0; i < ATOMS.SYMBOL.length; i++) {
 			var tmp = new Gtk.Label (ATOMS.SYMBOL[i]);
 			this.attach (tmp, ATOMS.POSITION[i,0], ATOMS.POSITION[i,1]);
 
