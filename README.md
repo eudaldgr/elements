@@ -1,39 +1,39 @@
 <div align="center">
 	<span align="center"><img src="https://github.com/eudaldgr/elements/blob/master/data/icons/128.svg" alt="Icon"></span>
-	<h1>elements</h1>
-	<h3>a periodic table designed for pantheon shell</h3>
+	<h1>Elements</h1>
+	<h3>A periodic table designed for pantheon shell</h3>
 </div>
 
 ![Screenshot](data/screenshots/Screenshot1.png)
 
 ![Screenshot](data/screenshots/Screenshot2.png)
 
-## installation
+## Installation
 
-### arch gnu/linux
+### Arch GNU/Linux
 
-arch gnu/linux users can find `elements` under the name [elements-git](https://aur.archlinux.org/packages/elements-git/) in the **aur**:
+Arch GNU/Linux users can find `Elements` under the name [elements-git](https://aur.archlinux.org/packages/elements-git/) in the **aur**:
 
 ```
 pacaur -S elements-git
 ```
 
-### dependencies
+### Dependencies
 
-these dependencies must be present before building
+These dependencies must be present before building
  - `valac`
  - `meson`
  - `gtk+-3.0`
  - `granite`
  - `glib2.0`
 
-you can install these on a ubuntu-based system by executing this command:
+You can install these on a ubuntu-based system by executing this command:
 
 ```
 sudo apt install valac libgtk-3-dev libglib2.0-dev libgranite-dev meson
 ```
 
-### building
+### Building
 
 ```
 git clone https://github.com/eudaldgr/elements.git
@@ -44,7 +44,7 @@ sudo ninja install
 com.github.eudaldgr.elements
 ```
 
-### deconstruct
+### Deconstruct
 
 ```
 sudo ninja uninstall
