@@ -24,9 +24,7 @@ public class elements : Gtk.Application {
 		add_action (quit_action);
 		set_accels_for_action ("app.quit", {"<Control>q"});
 		quit_action.activate.connect (() => {
-			if (app_window != null) {
-				app_window.destroy ();
-			}
+			app_window.destroy ();
 		});
 	}
 

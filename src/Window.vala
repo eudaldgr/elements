@@ -4,7 +4,8 @@ public class MainWindow : Gtk.ApplicationWindow {
 
 	public MainWindow (Gtk.Application application) {
 		Object (application: application,
-		icon_name: "com.github.eudaldgr.elements");
+		icon_name: "com.github.eudaldgr.elements",
+		title: _("elements"));
 	}
 
 	construct {
