@@ -7,6 +7,7 @@ executable(
 	join_paths('Layouts', 'Popover.vala'),
 	join_paths('Layouts', 'Stack.vala'),
 	join_paths('Lib', 'Elements.vala'),
+	join_paths('Lib', 'Types.vala'),
 	join_paths('Views', 'Main.vala'),
 	asresources,
 	dependencies: [
