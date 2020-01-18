@@ -1,7 +1,7 @@
 executable(
 	meson.project_name(),
 	join_paths('Application.vala'),
-	join_paths('Window.vala'),
+	join_paths('MainWindow.vala'),
 	join_paths('Layouts', 'HeaderBar.vala'),
 	join_paths('Layouts', 'Popover.vala'),
 	join_paths('Layouts', 'Stack.vala'),
