@@ -6,7 +6,7 @@ namespace TYPES {
 		{"Transition metal",		"2.02 - 2.67"},
 		{"Post transition metal",	"2.68 - 3.33"},
 		{"Metalloid",				"3.34 - 3.99"},
-		{"Halogen",					"=> 4.00"},
+		{"Halogen",                 "=> 4.00"},
 		{"Noble gas",				""},
 		{"Lanthanide",				""},
 		{"Actinide",				""}
