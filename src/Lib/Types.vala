@@ -20,8 +20,8 @@ namespace TYPES {
 		{"post-transition-metal",	"four-eV"},
 		{"metalloid",				"five-eV"},
 		{"halogen",					"six-eV"},
-		{"noble-gas",				""},
-		{"lanthanide",				""},
-		{"actinide",				""}
+		{"noble-gas",				"seven-eV"},
+		{"lanthanide",				"eight-eV"},
+		{"actinide",				"nine-eV"}
 	};
 }
