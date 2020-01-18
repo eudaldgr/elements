@@ -1,4 +1,4 @@
-label {
+.grid {
 	border : 0px;
 	font-size : 17px;
 	color : white;
@@ -9,7 +9,7 @@ label {
 /* with buttons => padding : 15px 10px;*/
 
 /***************
- *    Main     *
+ *    main     *
  **************/
 
 .alkali-metal {

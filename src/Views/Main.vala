@@ -19,15 +19,17 @@ public class PeriodicView : Gtk.Grid {
 		this.column_homogeneous = true;
 
 		for (int i = 0; i < ATOMS.SYMBOL.length; i++) {
-			var tmp = new Gtk.Label (ATOMS.SYMBOL[i]);
-			this.attach (tmp, ATOMS.POSITION[i,0], ATOMS.POSITION[i,1]);
+			var elements = new Gtk.Label (ATOMS.SYMBOL[i]);
+			elements.get_style_context ().add_class ("grid");
+			
+			this.attach (elements, ATOMS.POSITION[i,0], ATOMS.POSITION[i,1]);
 
 			switch (id) {
 				case "electronegativity_view":
-					tmp.get_style_context ().add_class (ATOMS.STYLE[i,1]);
+					elements.get_style_context ().add_class (ATOMS.STYLE[i,1]);
 					break;
 				default:
-					tmp.get_style_context ().add_class (ATOMS.STYLE[i,0]);
+					elements.get_style_context ().add_class (ATOMS.STYLE[i,0]);
 					break;
 			}
 		}

@@ -16,19 +16,27 @@ public class Popover : Gtk.Grid {
 
 		stack.getStack ().notify["visible-child"].connect ( () => {
 			this.remove_column (0);
+
 			for (int i = 0; i < TYPES.NAME[0,i].length; i++) {
+				var button = new Gtk.Button ();
+				button.get_style_context ().add_class ("grid");
+
+				this.add (button);
+
 				switch (stack.getStack ().get_visible_child_name ()) {
 					case "electronegativity_view":
-						var tmp = new Gtk.Label (TYPES.NAME[i,1]);
-						tmp.get_style_context ().add_class (TYPES.CSS_TAG[i,1]);
-						this.add (tmp);
+						button.label = TYPES.NAME[i,1];
+						button.get_style_context ().add_class (TYPES.CSS_TAG[i,1]);
 						break;
 					default:
-						var tmp = new Gtk.Label (TYPES.NAME[i,0]);
-						tmp.get_style_context ().add_class (TYPES.CSS_TAG[i,0]);
-						this.add (tmp);
+						button.label = TYPES.NAME[i,0];
+						button.get_style_context ().add_class (TYPES.CSS_TAG[i,0]);
 						break;
 				}
+
+				button.clicked.connect (() => {
+					
+				});
 			}
 		});
 	}
