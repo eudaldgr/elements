@@ -3,6 +3,7 @@
 namespace ATOMS {
 	public const string[] SYMBOL = {
 		null,
+		////
 		"H" ,
 		"He",
 		"Li",
@@ -128,6 +129,7 @@ namespace ATOMS {
 
 	public const int[,] POSITION = {
 		{0,   8},
+		////////
 		{0,   1},
 		{17,  1},
 		{0,   2},
@@ -253,133 +255,134 @@ namespace ATOMS {
 
 	public const string[,] STYLE = {
 		null,                            null,
-		{Elements.OTHER_NONMETAL,        Elements.THREEeV},
-		{Elements.NOBLE_GAS,             Elements.ZEROeV },
-		{Elements.ALKALI_METAL,          Elements.ONEeV  },
-		{Elements.ALKALINE_EARTH_METAL,  Elements.TWOeV  },
-		{Elements.METALLOID,             Elements.THREEeV},
-		{Elements.OTHER_NONMETAL,        Elements.FOUReV },
-		{Elements.OTHER_NONMETAL,        Elements.FIVEeV },
-		{Elements.OTHER_NONMETAL,        Elements.FIVEeV },
-		{Elements.HALOGEN,               Elements.SIXeV  },
-		{Elements.NOBLE_GAS,             Elements.ZEROeV },
-		{Elements.ALKALI_METAL,          Elements.ONEeV  },
-		{Elements.ALKALINE_EARTH_METAL,  Elements.ONEeV  },
-		{Elements.POST_TRANSITION_METAL, Elements.TWOeV  },
-		{Elements.METALLOID,             Elements.TWOeV  },
-		{Elements.OTHER_NONMETAL,        Elements.THREEeV},
-		{Elements.OTHER_NONMETAL,        Elements.FOUReV },
-		{Elements.HALOGEN,               Elements.FIVEeV },
-		{Elements.NOBLE_GAS,             Elements.ZEROeV },
-		{Elements.ALKALI_METAL,          Elements.ONEeV  },
-		{Elements.ALKALINE_EARTH_METAL,  Elements.ONEeV  },
-		{Elements.TRANSITION_METAL,      Elements.TWOeV  },
-		{Elements.TRANSITION_METAL,      Elements.TWOeV  },
-		{Elements.TRANSITION_METAL,      Elements.TWOeV  },
-		{Elements.TRANSITION_METAL,      Elements.TWOeV  },
-		{Elements.TRANSITION_METAL,      Elements.TWOeV  },
-		{Elements.TRANSITION_METAL,      Elements.TWOeV  },
-		{Elements.TRANSITION_METAL,      Elements.THREEeV},
-		{Elements.TRANSITION_METAL,      Elements.TWOeV  },
-		{Elements.TRANSITION_METAL,      Elements.THREEeV},
-		{Elements.TRANSITION_METAL,      Elements.TWOeV  },
-		{Elements.POST_TRANSITION_METAL, Elements.TWOeV  },
-		{Elements.METALLOID,             Elements.TWOeV  },
-		{Elements.METALLOID,             Elements.THREEeV},
-		{Elements.OTHER_NONMETAL,        Elements.FOUReV },
-		{Elements.HALOGEN,               Elements.FOUReV },
-		{Elements.NOBLE_GAS,             Elements.FOUReV },
-		{Elements.ALKALI_METAL,          Elements.ONEeV  },
-		{Elements.ALKALINE_EARTH_METAL,  Elements.ONEeV  },
-		{Elements.TRANSITION_METAL,      Elements.ONEeV  },
-		{Elements.TRANSITION_METAL,      Elements.TWOeV  },
-		{Elements.TRANSITION_METAL,      Elements.TWOeV  },
-		{Elements.TRANSITION_METAL,      Elements.TWOeV  },
-		{Elements.TRANSITION_METAL,      Elements.THREEeV},
-		{Elements.TRANSITION_METAL,      Elements.THREEeV},
-		{Elements.TRANSITION_METAL,      Elements.THREEeV},
-		{Elements.TRANSITION_METAL,      Elements.THREEeV},
-		{Elements.TRANSITION_METAL,      Elements.THREEeV},
-		{Elements.TRANSITION_METAL,      Elements.TWOeV  },
-		{Elements.POST_TRANSITION_METAL, Elements.TWOeV  },
-		{Elements.POST_TRANSITION_METAL, Elements.TWOeV  },
-		{Elements.METALLOID,             Elements.THREEeV},
-		{Elements.METALLOID,             Elements.THREEeV},
-		{Elements.HALOGEN,               Elements.FOUReV },
-		{Elements.NOBLE_GAS,             Elements.THREEeV},
-		{Elements.ALKALI_METAL,          Elements.ONEeV  },
-		{Elements.ALKALINE_EARTH_METAL,  Elements.ONEeV  },
-		{Elements.LANTHANIDE,            Elements.ONEeV  },
-		{Elements.LANTHANIDE,            Elements.ONEeV  },
-		{Elements.LANTHANIDE,            Elements.ONEeV  },
-		{Elements.LANTHANIDE,            Elements.ONEeV  },
-		{Elements.LANTHANIDE,            Elements.ONEeV  },
-		{Elements.LANTHANIDE,            Elements.ONEeV  },
-		{Elements.LANTHANIDE,            Elements.ONEeV  },
-		{Elements.LANTHANIDE,            Elements.ONEeV  },
-		{Elements.LANTHANIDE,            Elements.ONEeV  },
-		{Elements.LANTHANIDE,            Elements.ONEeV  },
-		{Elements.LANTHANIDE,            Elements.ONEeV  },
-		{Elements.LANTHANIDE,            Elements.ONEeV  },
-		{Elements.LANTHANIDE,            Elements.ONEeV  },
-		{Elements.LANTHANIDE,            Elements.ONEeV  },
-		{Elements.LANTHANIDE,            Elements.ONEeV  },
-		{Elements.TRANSITION_METAL,      Elements.TWOeV  },
-		{Elements.TRANSITION_METAL,      Elements.TWOeV  },
-		{Elements.TRANSITION_METAL,      Elements.TWOeV  },
-		{Elements.TRANSITION_METAL,      Elements.THREEeV},
-		{Elements.TRANSITION_METAL,      Elements.THREEeV},
-		{Elements.TRANSITION_METAL,      Elements.THREEeV},
-		{Elements.TRANSITION_METAL,      Elements.THREEeV},
-		{Elements.TRANSITION_METAL,      Elements.FOUReV },
-		{Elements.TRANSITION_METAL,      Elements.THREEeV},
-		{Elements.POST_TRANSITION_METAL, Elements.TWOeV  },
-		{Elements.POST_TRANSITION_METAL, Elements.THREEeV},
-		{Elements.POST_TRANSITION_METAL, Elements.THREEeV},
-		{Elements.METALLOID,             Elements.THREEeV},
-		{Elements.HALOGEN,               Elements.THREEeV},
-		{Elements.NOBLE_GAS,             Elements.THREEeV},
-		{Elements.ALKALI_METAL,          Elements.ONEeV  },
-		{Elements.ALKALINE_EARTH_METAL,  Elements.ONEeV  },
-		{Elements.ACTINIDE,              Elements.ONEeV  },
-		{Elements.ACTINIDE,              Elements.ONEeV  },
-		{Elements.ACTINIDE,              Elements.ONEeV  },
-		{Elements.ACTINIDE,              Elements.TWOeV  },
-		{Elements.ACTINIDE,              Elements.TWOeV  },
-		{Elements.ACTINIDE,              Elements.TWOeV  },
-		{Elements.ACTINIDE,              Elements.ONEeV  },
-		{Elements.ACTINIDE,              Elements.ONEeV  },
-		{Elements.ACTINIDE,              Elements.ONEeV  },
-		{Elements.ACTINIDE,              Elements.ONEeV  },
-		{Elements.ACTINIDE,              Elements.ONEeV  },
-		{Elements.ACTINIDE,              Elements.ONEeV  },
-		{Elements.ACTINIDE,              Elements.ONEeV  },
-		{Elements.ACTINIDE,              Elements.ONEeV  },
-		{Elements.ACTINIDE,              Elements.ONEeV  },
-		{Elements.TRANSITION_METAL,      Elements.ZEROeV },
-		{Elements.TRANSITION_METAL,      Elements.ZEROeV },
-		{Elements.TRANSITION_METAL,      Elements.ZEROeV },
-		{Elements.TRANSITION_METAL,      Elements.ZEROeV },
-		{Elements.TRANSITION_METAL,      Elements.ZEROeV },
-		{Elements.TRANSITION_METAL,      Elements.ZEROeV },
-		{Elements.TRANSITION_METAL,      Elements.ZEROeV },
-		{Elements.TRANSITION_METAL,      Elements.ZEROeV },
-		{Elements.TRANSITION_METAL,      Elements.ZEROeV },
-		{Elements.POST_TRANSITION_METAL, Elements.ZEROeV },
-		{Elements.POST_TRANSITION_METAL, Elements.ZEROeV },
-		{Elements.POST_TRANSITION_METAL, Elements.ZEROeV },
-		{Elements.POST_TRANSITION_METAL, Elements.ZEROeV },
-		{Elements.HALOGEN,               Elements.ZEROeV },
-		{Elements.NOBLE_GAS,             Elements.ZEROeV },
-		//////////////////////////////////////////////////
-		{Elements.LANTHANIDE,            Elements.ZEROeV },
-		{Elements.ACTINIDE,              Elements.ZEROeV }
+		/////////////////////////////////////
+		{"other-nonmetal",        "three-eV"},
+		{"noble-gas",             "zero-eV" },
+		{"alkali-metal",          "one-eV"  },
+		{"alkaline-earth-metal",  "two-eV"  },
+		{"metalloid",             "three-eV"},
+		{"other-nonmetal",        "four-eV" },
+		{"other-nonmetal",        "five-eV" },
+		{"other-nonmetal",        "five-eV" },
+		{"halogen",               "six-eV"  },
+		{"noble-gas",             "zero-eV" },
+		{"alkali-metal",          "one-eV"  },
+		{"alkaline-earth-metal",  "one-eV"  },
+		{"post-transition-metal", "two-eV"  },
+		{"metalloid",             "two-eV"  },
+		{"other-nonmetal",        "three-eV"},
+		{"other-nonmetal",        "four-eV" },
+		{"halogen",               "five-eV" },
+		{"noble-gas",             "zero-eV" },
+		{"alkali-metal",          "one-eV"  },
+		{"alkaline-earth-metal",  "one-eV"  },
+		{"transition-metal",      "two-eV"  },
+		{"transition-metal",      "two-eV"  },
+		{"transition-metal",      "two-eV"  },
+		{"transition-metal",      "two-eV"  },
+		{"transition-metal",      "two-eV"  },
+		{"transition-metal",      "two-eV"  },
+		{"transition-metal",      "three-eV"},
+		{"transition-metal",      "two-eV"  },
+		{"transition-metal",      "three-eV"},
+		{"transition-metal",      "two-eV"  },
+		{"post-transition-metal", "two-eV"  },
+		{"metalloid",             "two-eV"  },
+		{"metalloid",             "three-eV"},
+		{"other-nonmetal",        "four-eV" },
+		{"halogen",               "four-eV" },
+		{"noble-gas",             "four-eV" },
+		{"alkali-metal",          "one-eV"  },
+		{"alkaline-earth-metal",  "one-eV"  },
+		{"transition-metal",      "one-eV"  },
+		{"transition-metal",      "two-eV"  },
+		{"transition-metal",      "two-eV"  },
+		{"transition-metal",      "two-eV"  },
+		{"transition-metal",      "three-eV"},
+		{"transition-metal",      "three-eV"},
+		{"transition-metal",      "three-eV"},
+		{"transition-metal",      "three-eV"},
+		{"transition-metal",      "three-eV"},
+		{"transition-metal",      "two-eV"  },
+		{"post-transition-metal", "two-eV"  },
+		{"post-transition-metal", "two-eV"  },
+		{"metalloid",             "three-eV"},
+		{"metalloid",             "three-eV"},
+		{"halogen",               "four-eV" },
+		{"noble-gas",             "three-eV"},
+		{"alkali-metal",          "one-eV"  },
+		{"alkaline-earth-metal",  "one-eV"  },
+		{"lanthanide",            "one-eV"  },
+		{"lanthanide",            "one-eV"  },
+		{"lanthanide",            "one-eV"  },
+		{"lanthanide",            "one-eV"  },
+		{"lanthanide",            "one-eV"  },
+		{"lanthanide",            "one-eV"  },
+		{"lanthanide",            "one-eV"  },
+		{"lanthanide",            "one-eV"  },
+		{"lanthanide",            "one-eV"  },
+		{"lanthanide",            "one-eV"  },
+		{"lanthanide",            "one-eV"  },
+		{"lanthanide",            "one-eV"  },
+		{"lanthanide",            "one-eV"  },
+		{"lanthanide",            "one-eV"  },
+		{"lanthanide",            "one-eV"  },
+		{"transition-metal",      "two-eV"  },
+		{"transition-metal",      "two-eV"  },
+		{"transition-metal",      "two-eV"  },
+		{"transition-metal",      "three-eV"},
+		{"transition-metal",      "three-eV"},
+		{"transition-metal",      "three-eV"},
+		{"transition-metal",      "three-eV"},
+		{"transition-metal",      "four-eV" },
+		{"transition-metal",      "three-eV"},
+		{"post-transition-metal", "two-eV"  },
+		{"post-transition-metal", "three-eV"},
+		{"post-transition-metal", "three-eV"},
+		{"metalloid",             "three-eV"},
+		{"halogen",               "three-eV"},
+		{"noble-gas",             "three-eV"},
+		{"alkali-metal",          "one-eV"  },
+		{"alkaline-earth-metal",  "one-eV"  },
+		{"actinide",              "one-eV"  },
+		{"actinide",              "one-eV"  },
+		{"actinide",              "one-eV"  },
+		{"actinide",              "two-eV"  },
+		{"actinide",              "two-eV"  },
+		{"actinide",              "two-eV"  },
+		{"actinide",              "one-eV"  },
+		{"actinide",              "one-eV"  },
+		{"actinide",              "one-eV"  },
+		{"actinide",              "one-eV"  },
+		{"actinide",              "one-eV"  },
+		{"actinide",              "one-eV"  },
+		{"actinide",              "one-eV"  },
+		{"actinide",              "one-eV"  },
+		{"actinide",              "one-eV"  },
+		{"transition-metal",      "zero-eV" },
+		{"transition-metal",      "zero-eV" },
+		{"transition-metal",      "zero-eV" },
+		{"transition-metal",      "zero-eV" },
+		{"transition-metal",      "zero-eV" },
+		{"transition-metal",      "zero-eV" },
+		{"transition-metal",      "zero-eV" },
+		{"transition-metal",      "zero-eV" },
+		{"transition-metal",      "zero-eV" },
+		{"post-transition-metal", "zero-eV" },
+		{"post-transition-metal", "zero-eV" },
+		{"post-transition-metal", "zero-eV" },
+		{"post-transition-metal", "zero-eV" },
+		{"halogen",               "zero-eV" },
+		{"noble-gas",             "zero-eV" },
+		/////////////////////////////////////
+		{"lanthanide",            "zero-eV" },
+		{"actinide",              "zero-eV" }
 	};
 }
-
+/*
 namespace H {
     public const string NAME = _("Hydrogen");
-    public const string GROUP = Elements.OTHER_NONMETAL;
+    public const string GROUP = "other-nonmetal";
     public const string ATOMIC_NUMBER = "1";
     public const string ELECTRONEGATIVITY = "2.2";
     public const string ATOMIC_WEIGTH = "1.0079";
@@ -393,7 +396,7 @@ namespace H {
 namespace He {
     public const string ID = "He";
     public const string NAME = _("Helium");
-    public const string GROUP = Elements.NOBLE_GAS;
+    public const string GROUP = "noble-gas";
     public const string ATOMIC_NUMBER = "2";
     public const string ELECTRONEGATIVITY = "no data";
     public const string ATOMIC_WEIGTH = "4.0026";
@@ -407,7 +410,7 @@ namespace He {
 namespace Li {
     public const string ID = "Li";
     public const string NAME = _("Lithium");
-    public const string GROUP = Elements.ALKALI_METAL;
+    public const string GROUP = "alkali-metal";
     public const string ATOMIC_NUMBER = "3";
     public const string ELECTRONEGATIVITY = "0.98";
     public const string ATOMIC_WEIGTH = "6.94";
@@ -422,7 +425,7 @@ namespace Li {
 namespace Be {
     public const string ID = "Be";
     public const string NAME = _("Beryllium");
-    public const string GROUP = Elements.ALKALINE_EARTH_METAL;
+    public const string GROUP = "alkaline-earth-metal";
     public const string ATOMIC_NUMBER = "4";
     public const string ELECTRONEGATIVITY = "1.57";
     public const string ATOMIC_WEIGTH = "9.0121831";
@@ -437,7 +440,7 @@ namespace Be {
 namespace B {
     public const string ID = "B";
     public const string NAME = _("Boron");
-    public const string GROUP = Elements.METALLOID;
+    public const string GROUP = "metalloid";
     public const string ATOMIC_NUMBER = "5";
     public const string ELECTRONEGATIVITY = "2.04";
     public const string ATOMIC_WEIGTH = "10.81";
@@ -452,7 +455,7 @@ namespace B {
 namespace C {
     public const string ID = "C";
     public const string NAME = _("Carbon");
-    public const string GROUP = Elements.OTHER_NONMETAL;
+    public const string GROUP = "other-nonmetal";
     public const string ATOMIC_NUMBER = "6";
     public const string ELECTRONEGATIVITY = "2.55";
     public const string ATOMIC_WEIGTH = "12.011";
@@ -467,7 +470,7 @@ namespace C {
 namespace N {
     public const string ID = "N";
     public const string NAME = _("Nitrogen");
-    public const string GROUP = Elements.OTHER_NONMETAL;
+    public const string GROUP = "other-nonmetal";
     public const string ATOMIC_NUMBER = "7";
     public const string ELECTRONEGATIVITY = "3.04";
     public const string ATOMIC_WEIGTH = "14.007";
@@ -482,7 +485,7 @@ namespace N {
 namespace O {
     public const string ID = "O";
     public const string NAME = _("Oxygen");
-    public const string GROUP = Elements.OTHER_NONMETAL;
+    public const string GROUP = "other-nonmetal";
     public const string ATOMIC_NUMBER = "8";
     public const string ELECTRONEGATIVITY = "3.44";
     public const string ATOMIC_WEIGTH = "15.999";
@@ -497,7 +500,7 @@ namespace O {
 namespace F {
     public const string ID = "F";
     public const string NAME = _("Fluorine");
-    public const string GROUP = Elements.HALOGEN;
+    public const string GROUP = "halogen";
     public const string ATOMIC_NUMBER = "9";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -512,7 +515,7 @@ namespace F {
 namespace Ne {
     public const string ID = "Ne";
     public const string NAME = _("Neon");
-    public const string GROUP = Elements.NOBLE_GAS;
+    public const string GROUP = "noble-gas";
     public const string ATOMIC_NUMBER = "10";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -527,7 +530,7 @@ namespace Ne {
 namespace Na {
     public const string ID = "Na";
     public const string NAME = _("Sodium");
-    public const string GROUP = Elements.ALKALI_METAL;
+    public const string GROUP = "alkali-metal";
     public const string ATOMIC_NUMBER = "11";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -543,7 +546,7 @@ namespace Na {
 namespace Mg {
     public const string ID = "Mg";
     public const string NAME = _("Magnesium");
-    public const string GROUP = Elements.ALKALINE_EARTH_METAL;
+    public const string GROUP = "alkaline-earth-metal";
     public const string ATOMIC_NUMBER = "12";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -559,7 +562,7 @@ namespace Mg {
 namespace Al {
     public const string ID = "Al";
     public const string NAME = _("Aluminium");
-    public const string GROUP = Elements.POST_TRANSITION_METAL;
+    public const string GROUP = "post-transition-metal";
     public const string ATOMIC_NUMBER = "13";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -575,7 +578,7 @@ namespace Al {
 namespace Si {
     public const string ID = "Si";
     public const string NAME = _("Silicon");
-    public const string GROUP = Elements.METALLOID;
+    public const string GROUP = "metalloid";
     public const string ATOMIC_NUMBER = "14";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -591,7 +594,7 @@ namespace Si {
 namespace P {
     public const string ID = "P";
     public const string NAME = _("Phosphorus");
-    public const string GROUP = Elements.OTHER_NONMETAL;
+    public const string GROUP = "other-nonmetal";
     public const string ATOMIC_NUMBER = "15";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -607,7 +610,7 @@ namespace P {
 namespace S {
     public const string ID = "S";
     public const string NAME = _("Sulfur");
-    public const string GROUP = Elements.OTHER_NONMETAL;
+    public const string GROUP = "other-nonmetal";
     public const string ATOMIC_NUMBER = "16";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -623,7 +626,7 @@ namespace S {
 namespace Cl {
     public const string ID = "Cl";
     public const string NAME = _("Chlorine");
-    public const string GROUP = Elements.HALOGEN;
+    public const string GROUP = "halogen";
     public const string ATOMIC_NUMBER = "17";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -639,7 +642,7 @@ namespace Cl {
 namespace Ar {
     public const string ID = "Ar";
     public const string NAME = _("Argon");
-    public const string GROUP = Elements.NOBLE_GAS;
+    public const string GROUP = "noble-gas";
     public const string ATOMIC_NUMBER = "18";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -655,7 +658,7 @@ namespace Ar {
 namespace K {
     public const string ID = "K";
     public const string NAME = _("Potasium");
-    public const string GROUP = Elements.ALKALI_METAL;
+    public const string GROUP = "alkali-metal";
     public const string ATOMIC_NUMBER = "19";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -672,7 +675,7 @@ namespace K {
 namespace Ca {
     public const string ID = "Ca";
     public const string NAME = _("Calcium");
-    public const string GROUP = Elements.ALKALINE_EARTH_METAL;
+    public const string GROUP = "alkaline-earth-metal";
     public const string ATOMIC_NUMBER = "20";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -689,7 +692,7 @@ namespace Ca {
 namespace Sc {
     public const string ID = "Sc";
     public const string NAME = _("Scandium");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "21";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -706,7 +709,7 @@ namespace Sc {
 namespace Ti {
     public const string ID = "Ti";
     public const string NAME = _("Titanium");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "22";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -723,7 +726,7 @@ namespace Ti {
 namespace V {
     public const string ID = "V";
     public const string NAME = _("Vanadium");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "23";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -740,7 +743,7 @@ namespace V {
 namespace Cr {
     public const string ID = "Cr";
     public const string NAME = _("Chromium");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "24";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -757,7 +760,7 @@ namespace Cr {
 namespace Mn {
     public const string ID = "Mn";
     public const string NAME = _("Manganese");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "25";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -774,7 +777,7 @@ namespace Mn {
 namespace Fe {
     public const string ID = "Fe";
     public const string NAME = _("Iron");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "26";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -791,7 +794,7 @@ namespace Fe {
 namespace Co {
     public const string ID = "Co";
     public const string NAME = _("Cobalt");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "27";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -808,7 +811,7 @@ namespace Co {
 namespace Ni {
     public const string ID = "Ni";
     public const string NAME = _("Nickel");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "28";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -825,7 +828,7 @@ namespace Ni {
 namespace Cu {
     public const string ID = "Cu";
     public const string NAME = _("Copper");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "29";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -842,7 +845,7 @@ namespace Cu {
 namespace Zn {
     public const string ID = "Zn";
     public const string NAME = _("Zinc");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "30";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -859,7 +862,7 @@ namespace Zn {
 namespace Ga {
     public const string ID = "Ga";
     public const string NAME = _("Gallium");
-    public const string GROUP = Elements.POST_TRANSITION_METAL;
+    public const string GROUP = "post-transition-metal";
     public const string ATOMIC_NUMBER = "31";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -876,7 +879,7 @@ namespace Ga {
 namespace Ge {
     public const string ID = "Ge";
     public const string NAME = _("Germanium");
-    public const string GROUP = Elements.METALLOID;
+    public const string GROUP = "metalloid";
     public const string ATOMIC_NUMBER = "32";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -893,7 +896,7 @@ namespace Ge {
 namespace As {
     public const string ID = "As";
     public const string NAME = _("Arsenic");
-    public const string GROUP = Elements.METALLOID;
+    public const string GROUP = "metalloid";
     public const string ATOMIC_NUMBER = "33";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -910,7 +913,7 @@ namespace As {
 namespace Se {
     public const string ID = "Se";
     public const string NAME = _("Selenium");
-    public const string GROUP = Elements.OTHER_NONMETAL;
+    public const string GROUP = "other-nonmetal";
     public const string ATOMIC_NUMBER = "34";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -927,7 +930,7 @@ namespace Se {
 namespace Br {
     public const string ID = "Br";
     public const string NAME = _("Bromine");
-    public const string GROUP = Elements.HALOGEN;
+    public const string GROUP = "halogen";
     public const string ATOMIC_NUMBER = "35";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -944,7 +947,7 @@ namespace Br {
 namespace Kr {
     public const string ID = "Kr";
     public const string NAME = _("Krypton");
-    public const string GROUP = Elements.NOBLE_GAS;
+    public const string GROUP = "noble-gas";
     public const string ATOMIC_NUMBER = "36";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -961,7 +964,7 @@ namespace Kr {
 namespace Rb {
     public const string ID = "Rb";
     public const string NAME = _("Rubidium");
-    public const string GROUP = Elements.ALKALI_METAL;
+    public const string GROUP = "alkali-metal";
     public const string ATOMIC_NUMBER = "37";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -979,7 +982,7 @@ namespace Rb {
 namespace Sr {
     public const string ID = "Sr";
     public const string NAME = _("Strontium");
-    public const string GROUP = Elements.ALKALINE_EARTH_METAL;
+    public const string GROUP = "alkaline-earth-metal";
     public const string ATOMIC_NUMBER = "38";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -997,7 +1000,7 @@ namespace Sr {
 namespace Y {
     public const string ID = "Y";
     public const string NAME = _("Yttrium");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "39";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1015,7 +1018,7 @@ namespace Y {
 namespace Zr {
     public const string ID = "Zr";
     public const string NAME = _("Zirconium");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "40";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1033,7 +1036,7 @@ namespace Zr {
 namespace Nb {
     public const string ID = "Nb";
     public const string NAME = _("Niobium");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "41";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1051,7 +1054,7 @@ namespace Nb {
 namespace Mo {
     public const string ID = "Mo";
     public const string NAME = _("Molybdenum");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "42";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1069,7 +1072,7 @@ namespace Mo {
 namespace Tc {
     public const string ID = "Tc";
     public const string NAME = _("Technetium");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "43";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1087,7 +1090,7 @@ namespace Tc {
 namespace Ru {
     public const string ID = "Ru";
     public const string NAME = _("Ruthenium");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "44";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1105,7 +1108,7 @@ namespace Ru {
 namespace Rh {
     public const string ID = "Rh";
     public const string NAME = _("Rhodium");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "45";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1123,7 +1126,7 @@ namespace Rh {
 namespace Pd {
     public const string ID = "Pd";
     public const string NAME = _("Palladium");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "46";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1141,7 +1144,7 @@ namespace Pd {
 namespace Ag {
     public const string ID = "Ag";
     public const string NAME = _("Silver");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "47";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1159,7 +1162,7 @@ namespace Ag {
 namespace Cd {
     public const string ID = "Cd";
     public const string NAME = _("Cadmium");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "48";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1177,7 +1180,7 @@ namespace Cd {
 namespace In {
     public const string ID = "In";
     public const string NAME = _("Indium");
-    public const string GROUP = Elements.POST_TRANSITION_METAL;
+    public const string GROUP = "post-transition-metal";
     public const string ATOMIC_NUMBER = "49";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1195,7 +1198,7 @@ namespace In {
 namespace Sn {
     public const string ID = "Sn";
     public const string NAME = _("Tin");
-    public const string GROUP = Elements.POST_TRANSITION_METAL;
+    public const string GROUP = "post-transition-metal";
     public const string ATOMIC_NUMBER = "50";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1213,7 +1216,7 @@ namespace Sn {
 namespace Sb {
     public const string ID = "Sb";
     public const string NAME = _("Antimony");
-    public const string GROUP = Elements.METALLOID;
+    public const string GROUP = "metalloid";
     public const string ATOMIC_NUMBER = "51";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1231,7 +1234,7 @@ namespace Sb {
 namespace Te {
     public const string ID = "Te";
     public const string NAME = _("Tellurium");
-    public const string GROUP = Elements.METALLOID;
+    public const string GROUP = "metalloid";
     public const string ATOMIC_NUMBER = "52";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1249,7 +1252,7 @@ namespace Te {
 namespace I {
     public const string ID = "I";
     public const string NAME = _("Iodine");
-    public const string GROUP = Elements.HALOGEN;
+    public const string GROUP = "halogen";
     public const string ATOMIC_NUMBER = "53";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1267,7 +1270,7 @@ namespace I {
 namespace Xe {
     public const string ID = "Xe";
     public const string NAME = _("Xenon");
-    public const string GROUP = Elements.NOBLE_GAS;
+    public const string GROUP = "noble-gas";
     public const string ATOMIC_NUMBER = "54";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1285,7 +1288,7 @@ namespace Xe {
 namespace Cs {
     public const string ID = "Cs";
     public const string NAME = _("Caesium");
-    public const string GROUP = Elements.ALKALI_METAL;
+    public const string GROUP = "alkali-metal";
     public const string ATOMIC_NUMBER = "55";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1304,7 +1307,7 @@ namespace Cs {
 namespace Ba {
     public const string ID = "Ba";
     public const string NAME = _("Barium");
-    public const string GROUP = Elements.ALKALINE_EARTH_METAL;
+    public const string GROUP = "alkaline-earth-metal";
     public const string ATOMIC_NUMBER = "56";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1323,7 +1326,7 @@ namespace Ba {
 namespace La {
     public const string ID = "La";
     public const string NAME = _("Lanthanum");
-    public const string GROUP = Elements.LANTHANIDE;
+    public const string GROUP = "lanthanide";
     public const string ATOMIC_NUMBER = "57";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1342,7 +1345,7 @@ namespace La {
 namespace Ce {
     public const string ID = "Ce";
     public const string NAME = _("Cerium");
-    public const string GROUP = Elements.LANTHANIDE;
+    public const string GROUP = "lanthanide";
     public const string ATOMIC_NUMBER = "58";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1361,7 +1364,7 @@ namespace Ce {
 namespace Pr {
     public const string ID = "Pr";
     public const string NAME = _("Praseodymium");
-    public const string GROUP = Elements.LANTHANIDE;
+    public const string GROUP = "lanthanide";
     public const string ATOMIC_NUMBER = "59";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1380,7 +1383,7 @@ namespace Pr {
 namespace Nd {
     public const string ID = "Nd";
     public const string NAME = _("Neodymium");
-    public const string GROUP = Elements.LANTHANIDE;
+    public const string GROUP = "lanthanide";
     public const string ATOMIC_NUMBER = "60";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1399,7 +1402,7 @@ namespace Nd {
 namespace Pm {
     public const string ID = "Pm";
     public const string NAME = _("Promethium");
-    public const string GROUP = Elements.LANTHANIDE;
+    public const string GROUP = "lanthanide";
     public const string ATOMIC_NUMBER = "61";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1418,7 +1421,7 @@ namespace Pm {
 namespace Sm {
     public const string ID = "Sm";
     public const string NAME = _("Samarium");
-    public const string GROUP = Elements.LANTHANIDE;
+    public const string GROUP = "lanthanide";
     public const string ATOMIC_NUMBER = "62";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1437,7 +1440,7 @@ namespace Sm {
 namespace Eu {
     public const string ID = "Eu";
     public const string NAME = _("Europium");
-    public const string GROUP = Elements.LANTHANIDE;
+    public const string GROUP = "lanthanide";
     public const string ATOMIC_NUMBER = "63";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1456,7 +1459,7 @@ namespace Eu {
 namespace Gd {
     public const string ID = "Gd";
     public const string NAME = _("Gadolinium");
-    public const string GROUP = Elements.LANTHANIDE;
+    public const string GROUP = "lanthanide";
     public const string ATOMIC_NUMBER = "64";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1475,7 +1478,7 @@ namespace Gd {
 namespace Tb {
     public const string ID = "Tb";
     public const string NAME = _("Terbium");
-    public const string GROUP = Elements.LANTHANIDE;
+    public const string GROUP = "lanthanide";
     public const string ATOMIC_NUMBER = "65";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1494,7 +1497,7 @@ namespace Tb {
 namespace Dy {
     public const string ID = "Dy";
     public const string NAME = _("Dysprosium");
-    public const string GROUP = Elements.LANTHANIDE;
+    public const string GROUP = "lanthanide";
     public const string ATOMIC_NUMBER = "66";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1513,7 +1516,7 @@ namespace Dy {
 namespace Ho {
     public const string ID = "Ho";
     public const string NAME = _("Holmium");
-    public const string GROUP = Elements.LANTHANIDE;
+    public const string GROUP = "lanthanide";
     public const string ATOMIC_NUMBER = "67";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1532,7 +1535,7 @@ namespace Ho {
 namespace Er {
     public const string ID = "Er";
     public const string NAME = _("Erbium");
-    public const string GROUP = Elements.LANTHANIDE;
+    public const string GROUP = "lanthanide";
     public const string ATOMIC_NUMBER = "68";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1551,7 +1554,7 @@ namespace Er {
 namespace Tm {
     public const string ID = "Tm";
     public const string NAME = _("Thulium");
-    public const string GROUP = Elements.LANTHANIDE;
+    public const string GROUP = "lanthanide";
     public const string ATOMIC_NUMBER = "69";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1570,7 +1573,7 @@ namespace Tm {
 namespace Yb {
     public const string ID = "Yb";
     public const string NAME = _("Ytterbium");
-    public const string GROUP = Elements.LANTHANIDE;
+    public const string GROUP = "lanthanide";
     public const string ATOMIC_NUMBER = "70";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1589,7 +1592,7 @@ namespace Yb {
 namespace Lu {
     public const string ID = "Lu";
     public const string NAME = _("Lutetium");
-    public const string GROUP = Elements.LANTHANIDE;
+    public const string GROUP = "lanthanide";
     public const string ATOMIC_NUMBER = "71";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1608,7 +1611,7 @@ namespace Lu {
 namespace Hf {
     public const string ID = "Hf";
     public const string NAME = _("Hafnium");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "72";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1627,7 +1630,7 @@ namespace Hf {
 namespace Ta {
     public const string ID = "Ta";
     public const string NAME = _("Tantalium");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "73";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1646,7 +1649,7 @@ namespace Ta {
 namespace W {
     public const string ID = "W";
     public const string NAME = _("Tungsten");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "74";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1665,7 +1668,7 @@ namespace W {
 namespace Re {
     public const string ID = "Re";
     public const string NAME = _("Rhenium");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "75";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1684,7 +1687,7 @@ namespace Re {
 namespace Os {
     public const string ID = "Os";
     public const string NAME = _("Osmium");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "76";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1703,7 +1706,7 @@ namespace Os {
 namespace Ir {
     public const string ID = "Ir";
     public const string NAME = _("Iridium");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "77";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1722,7 +1725,7 @@ namespace Ir {
 namespace Pt {
     public const string ID = "Pt";
     public const string NAME = _("Platinium");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "78";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1741,7 +1744,7 @@ namespace Pt {
 namespace Au {
     public const string ID = "Au";
     public const string NAME = _("Gold");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "79";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1760,7 +1763,7 @@ namespace Au {
 namespace Hg {
     public const string ID = "Hg";
     public const string NAME = _("Mercury");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "80";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1779,7 +1782,7 @@ namespace Hg {
 namespace Tl {
     public const string ID = "Tl";
     public const string NAME = _("Thallium");
-    public const string GROUP = Elements.POST_TRANSITION_METAL;
+    public const string GROUP = "post-transition-metal";
     public const string ATOMIC_NUMBER = "81";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1798,7 +1801,7 @@ namespace Tl {
 namespace Pb {
     public const string ID = "Pb";
     public const string NAME = _("Lead");
-    public const string GROUP = Elements.POST_TRANSITION_METAL;
+    public const string GROUP = "post-transition-metal";
     public const string ATOMIC_NUMBER = "82";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1817,7 +1820,7 @@ namespace Pb {
 namespace Bi {
     public const string ID = "Bi";
     public const string NAME = _("Bismuth");
-    public const string GROUP = Elements.POST_TRANSITION_METAL;
+    public const string GROUP = "post-transition-metal";
     public const string ATOMIC_NUMBER = "83";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1836,7 +1839,7 @@ namespace Bi {
 namespace Po {
     public const string ID = "Po";
     public const string NAME = _("Polonium");
-    public const string GROUP = Elements.METALLOID;
+    public const string GROUP = "metalloid";
     public const string ATOMIC_NUMBER = "84";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1855,7 +1858,7 @@ namespace Po {
 namespace At {
     public const string ID = "At";
     public const string NAME = _("Astatine");
-    public const string GROUP = Elements.HALOGEN;
+    public const string GROUP = "halogen";
     public const string ATOMIC_NUMBER = "85";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1874,7 +1877,7 @@ namespace At {
 namespace Rn {
     public const string ID = "Rn";
     public const string NAME = _("Radon");
-    public const string GROUP = Elements.NOBLE_GAS;
+    public const string GROUP = "noble-gas";
     public const string ATOMIC_NUMBER = "86";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1893,7 +1896,7 @@ namespace Rn {
 namespace Fr {
     public const string ID = "Fr";
     public const string NAME = _("Francium");
-    public const string GROUP = Elements.ALKALI_METAL;
+    public const string GROUP = "alkali-metal";
     public const string ATOMIC_NUMBER = "87";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1913,7 +1916,7 @@ namespace Fr {
 namespace Ra {
     public const string ID = "Ra";
     public const string NAME = _("Radium");
-    public const string GROUP = Elements.ALKALINE_EARTH_METAL;
+    public const string GROUP = "alkaline-earth-metal";
     public const string ATOMIC_NUMBER = "88";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1933,7 +1936,7 @@ namespace Ra {
 namespace Ac {
     public const string ID = "Ac";
     public const string NAME = _("Actinium");
-    public const string GROUP = Elements.ACTINIDE;
+    public const string GROUP = "actinide";
     public const string ATOMIC_NUMBER = "89";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1953,7 +1956,7 @@ namespace Ac {
 namespace Th {
     public const string ID = "Th";
     public const string NAME = _("Thorium");
-    public const string GROUP = Elements.ACTINIDE;
+    public const string GROUP = "actinide";
     public const string ATOMIC_NUMBER = "90";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1973,7 +1976,7 @@ namespace Th {
 namespace Pa {
     public const string ID = "Pa";
     public const string NAME = _("Protactinium");
-    public const string GROUP = Elements.ACTINIDE;
+    public const string GROUP = "actinide";
     public const string ATOMIC_NUMBER = "91";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -1993,7 +1996,7 @@ namespace Pa {
 namespace U {
     public const string ID = "U";
     public const string NAME = _("Uranium");
-    public const string GROUP = Elements.ACTINIDE;
+    public const string GROUP = "actinide";
     public const string ATOMIC_NUMBER = "92";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -2013,7 +2016,7 @@ namespace U {
 namespace Np {
     public const string ID = "Np";
     public const string NAME = _("Neptunium");
-    public const string GROUP = Elements.ACTINIDE;
+    public const string GROUP = "actinide";
     public const string ATOMIC_NUMBER = "93";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -2033,7 +2036,7 @@ namespace Np {
 namespace Pu {
     public const string ID = "Pu";
     public const string NAME = _("Plutonium");
-    public const string GROUP = Elements.ACTINIDE;
+    public const string GROUP = "actinide";
     public const string ATOMIC_NUMBER = "94";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -2053,7 +2056,7 @@ namespace Pu {
 namespace Am {
     public const string ID = "Am";
     public const string NAME = _("Americum");
-    public const string GROUP = Elements.ACTINIDE;
+    public const string GROUP = "actinide";
     public const string ATOMIC_NUMBER = "95";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -2073,7 +2076,7 @@ namespace Am {
 namespace Cm {
     public const string ID = "Cm";
     public const string NAME = _("Curium");
-    public const string GROUP = Elements.ACTINIDE;
+    public const string GROUP = "actinide";
     public const string ATOMIC_NUMBER = "96";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -2093,7 +2096,7 @@ namespace Cm {
 namespace Bk {
     public const string ID = "Bk";
     public const string NAME = _("Berkelium");
-    public const string GROUP = Elements.ACTINIDE;
+    public const string GROUP = "actinide";
     public const string ATOMIC_NUMBER = "97";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -2113,7 +2116,7 @@ namespace Bk {
 namespace Cf {
     public const string ID = "Cf";
     public const string NAME = _("Californium");
-    public const string GROUP = Elements.ACTINIDE;
+    public const string GROUP = "actinide";
     public const string ATOMIC_NUMBER = "98";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -2133,7 +2136,7 @@ namespace Cf {
 namespace Es {
     public const string ID = "Es";
     public const string NAME = _("Einsteinium");
-    public const string GROUP = Elements.ACTINIDE;
+    public const string GROUP = "actinide";
     public const string ATOMIC_NUMBER = "99";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -2153,7 +2156,7 @@ namespace Es {
 namespace Fm {
     public const string ID = "Fm";
     public const string NAME = _("Fermium");
-    public const string GROUP = Elements.ACTINIDE;
+    public const string GROUP = "actinide";
     public const string ATOMIC_NUMBER = "100";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -2173,7 +2176,7 @@ namespace Fm {
 namespace Md {
     public const string ID = "Md";
     public const string NAME = _("Mendelevium");
-    public const string GROUP = Elements.ACTINIDE;
+    public const string GROUP = "actinide";
     public const string ATOMIC_NUMBER = "101";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -2193,7 +2196,7 @@ namespace Md {
 namespace No {
     public const string ID = "No";
     public const string NAME = _("Nobelium");
-    public const string GROUP = Elements.ACTINIDE;
+    public const string GROUP = "actinide";
     public const string ATOMIC_NUMBER = "102";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -2213,7 +2216,7 @@ namespace No {
 namespace Lr {
     public const string ID = "Lr";
     public const string NAME = _("Lawrencium");
-    public const string GROUP = Elements.ACTINIDE;
+    public const string GROUP = "actinide";
     public const string ATOMIC_NUMBER = "103";
     public const int[,] ELECTRON = {
       {2, 0, 0, 0},
@@ -2233,7 +2236,7 @@ namespace Lr {
 namespace Rf {
     public const string ID = "Rf";
     public const string NAME = _("Rutherfordium");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "104";
     public const int[,] ELECTRON = {
 
@@ -2247,7 +2250,7 @@ namespace Rf {
 namespace Db {
     public const string ID = "Db";
     public const string NAME = _("Dubnium");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "105";
     public const int[,] ELECTRON = {
 
@@ -2261,7 +2264,7 @@ namespace Db {
 namespace Sg {
     public const string ID = "Sg";
     public const string NAME = _("Seaborgium");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "106";
     public const int[,] ELECTRON = {
 
@@ -2275,7 +2278,7 @@ namespace Sg {
 namespace Bh {
     public const string ID = "Bh";
     public const string NAME = _("Bohrium");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "107";
     public const int[,] ELECTRON = {
 
@@ -2289,7 +2292,7 @@ namespace Bh {
 namespace Hs {
     public const string ID = "Hs";
     public const string NAME = _("Hassium");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "108";
     public const int[,] ELECTRON = {
 
@@ -2303,7 +2306,7 @@ namespace Hs {
 namespace Mt {
     public const string ID = "Mt";
     public const string NAME = _("Meitnerium");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "109";
     public const int[,] ELECTRON = {
 
@@ -2317,7 +2320,7 @@ namespace Mt {
 namespace Ds {
     public const string ID = "Ds";
     public const string NAME = _("Darmstadtium");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "110";
     public const int[,] ELECTRON = {
 
@@ -2331,7 +2334,7 @@ namespace Ds {
 namespace Rg {
     public const string ID = "Rg";
     public const string NAME = _("Roentgenium");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "111";
     public const int[,] ELECTRON = {
 
@@ -2345,7 +2348,7 @@ namespace Rg {
 namespace Cn {
     public const string ID = "Cn";
     public const string NAME = _("Copernium");
-    public const string GROUP = Elements.TRANSITION_METAL;
+    public const string GROUP = "transition-metal";
     public const string ATOMIC_NUMBER = "112";
     public const int[,] ELECTRON = {
 
@@ -2359,7 +2362,7 @@ namespace Cn {
 namespace Nh {
     public const string ID = "Nh";
     public const string NAME = _("Nihonium");
-    public const string GROUP = Elements.POST_TRANSITION_METAL;
+    public const string GROUP = "post-transition-metal";
     public const string ATOMIC_NUMBER = "113";
     public const int[,] ELECTRON = {
 
@@ -2373,7 +2376,7 @@ namespace Nh {
 namespace Fl {
     public const string ID = "Fl";
     public const string NAME = _("Flerovium");
-    public const string GROUP = Elements.POST_TRANSITION_METAL;
+    public const string GROUP = "post-transition-metal";
     public const string ATOMIC_NUMBER = "114";
     public const int[,] ELECTRON = {
 
@@ -2387,7 +2390,7 @@ namespace Fl {
 namespace Mc {
     public const string ID = "Mc";
     public const string NAME = _("Moscovium");
-    public const string GROUP = Elements.POST_TRANSITION_METAL;
+    public const string GROUP = "post-transition-metal";
     public const string ATOMIC_NUMBER = "115";
     public const int[,] ELECTRON = {
 
@@ -2401,7 +2404,7 @@ namespace Mc {
 namespace Lv {
     public const string ID = "Lv";
     public const string NAME = _("Livermorium");
-    public const string GROUP = Elements.POST_TRANSITION_METAL;
+    public const string GROUP = "post-transition-metal";
     public const string ATOMIC_NUMBER = "116";
     public const int[,] ELECTRON = {
 
@@ -2415,7 +2418,7 @@ namespace Lv {
 namespace Ts {
     public const string ID = "Ts";
     public const string NAME = _("Tennessine");
-    public const string GROUP = Elements.HALOGEN;
+    public const string GROUP = "halogen";
     public const string ATOMIC_NUMBER = "117";
     public const int[,] ELECTRON = {
 
@@ -2429,7 +2432,7 @@ namespace Ts {
 namespace Og {
     public const string ID = "Og";
     public const string NAME = _("Oganesson");
-    public const string GROUP = Elements.NOBLE_GAS;
+    public const string GROUP = "noble-gas";
     public const string ATOMIC_NUMBER = "118";
     public const int[,] ELECTRON = {
 
@@ -2439,3 +2442,4 @@ namespace Og {
     public const string MELTING_POINT = "?";
     public const string BOILING_POINT = "?";
 }
+*/

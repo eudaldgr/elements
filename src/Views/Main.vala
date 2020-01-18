@@ -5,7 +5,7 @@ public class PeriodicView : Gtk.Grid {
 
 	public static PeriodicView get_instance() {
 		if (instance == null) {
-			instance = new PeriodicView (Elements.MAIN_VIEW_ID);
+			instance = new PeriodicView ("main_view");
 		}
 		return instance;
 	}
