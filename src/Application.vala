@@ -14,7 +14,7 @@ public class elements : Gtk.Application {
 
 	public override void activate () {
 		var provider = new Gtk.CssProvider ();
-		provider.load_from_resource ("/com/github/eudaldgr/elements/styles/global.css");
+		provider.load_from_resource ("/com/github/eudaldgr/elements/stylesheet.css");
 		Gtk.StyleContext.add_provider_for_screen (Gdk.Screen.get_default (), provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
 		var app_window = new MainWindow (this);
