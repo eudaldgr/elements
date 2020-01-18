@@ -2,10 +2,8 @@ public class elements : Gtk.Application {
 	public static GLib.Settings settings;
 
 	public elements () {
-		Object (
-		application_id: "com.github.eudaldgr.elements",
-		flags: ApplicationFlags.FLAGS_NONE
-		);
+		Object (application_id: "com.github.eudaldgr.elements",
+		flags: ApplicationFlags.FLAGS_NONE);
 	}
 
 	static construct {
