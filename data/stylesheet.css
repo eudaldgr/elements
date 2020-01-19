@@ -1,13 +1,17 @@
 .grid {
     border : 0px;
-    font-size : 17px;
+    font-size : 25px;
     color : white;
     border-radius : 3px;
-    padding : 15px 15px;
+    min-height : 55px;
+    min-width : 55px;
 }
 
 .pop {
+    font-size : 20px;
+    min-height : 0px;
     min-width : 170px;
+    padding : 15px 15px;
 }
 
 /* with buttons => padding : 15px 10px;*/
