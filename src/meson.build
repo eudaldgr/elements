@@ -10,6 +10,7 @@ executable(
     join_paths('Views', 'Main.vala'),
     asresources,
     dependencies: [
+        dependency('gee-0.8'),
         dependency('glib-2.0'),
         dependency('gio-2.0'),
         dependency('granite'),
