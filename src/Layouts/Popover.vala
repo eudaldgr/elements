@@ -18,7 +18,7 @@ public class Popover : Gtk.Grid {
             this.remove_column (0);
 
             for (int i = 0; i < TYPES.NAME[0,i].length; i++) {
-                var button = new Gtk.Button ();
+                var button = new Gtk.Label ("");
                 button.get_style_context ().add_class ("grid");
 
                 this.add (button);
@@ -34,9 +34,8 @@ public class Popover : Gtk.Grid {
                         break;
                 }
 
-                button.clicked.connect (() => {
-                    
-                });
+                //button.clicked.connect (() => {
+                //});
             }
         });
     }
