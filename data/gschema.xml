@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-	<schema path="/com/github/eudaldgr/elements/" id="com.github.eudaldgr.elements">
-		<key name="pos-x" type="i">
-			<default>360</default>
-			<summary>horizontal position</summary>
-			<description>the saved horizontal position of our window</description>
-		</key>
-
-		<key name="pos-y" type="i">
-			<default>360</default>
-			<summary>vertical position</summary>
-			<description>the saved vertical position of our window</description>
-		</key>
-
-		<key name="window-width" type="i">
-			<default>1160</default>
-			<summary>window width</summary>
-			<description>the saved width of our window</description>
-		</key>
-
-		<key name="window-height" type="i">
-			<default>795</default>
-			<summary>window height</summary>
-			<description>the saved height of our window</description>
-		</key>
-	</schema>
+  <schema path="/com/github/eudaldgr/elements/" id="com.github.eudaldgr.elements">
+    <key name="window-maximized" type="b">
+      <default>false</default>
+      <summary>Maximized</summary>
+      <description>Whether the window is maximized</description>
+    </key>
+    <key name="window-position" type="(ii)">
+      <default>(1024, 750)</default>
+      <summary>Window position</summary>
+      <description>Most recent window position (x, y)</description>
+    </key>
+    <key name="window-size" type="(ii)">
+      <default>(-1, -1)</default>
+      <summary>Window size</summary>
+      <description>Most recent window size (width, height)</description>
+    </key>
+  </schema>
 </schemalist>
