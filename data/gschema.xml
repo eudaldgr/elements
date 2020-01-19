@@ -3,17 +3,17 @@
   <schema path="/com/github/eudaldgr/elements/" id="com.github.eudaldgr.elements">
     <key name="window-maximized" type="b">
       <default>false</default>
-      <summary>Maximized</summary>
-      <description>Whether the window is maximized</description>
+      <summary>Whether the window was maximized on last run</summary>
+      <description>Whether the window was maximized on last run</description>
     </key>
     <key name="window-position" type="(ii)">
-      <default>(1024, 750)</default>
+      <default>(-1, -1)</default>
       <summary>Window position</summary>
       <description>Most recent window position (x, y)</description>
     </key>
     <key name="window-size" type="(ii)">
-      <default>(-1, -1)</default>
-      <summary>Window size</summary>
+      <default>(1920, 1080)</default>
+      <summary>Most recent window size</summary>
       <description>Most recent window size (width, height)</description>
     </key>
   </schema>
