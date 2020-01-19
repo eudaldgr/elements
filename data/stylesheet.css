@@ -6,6 +6,10 @@
     padding : 15px 15px;
 }
 
+.pop {
+    min-width : 170px;
+}
+
 /* with buttons => padding : 15px 10px;*/
 
 /***************
@@ -57,39 +61,39 @@
  **************/
 
 .zero-eV {
-    background : rgba(149, 163, 171, 1);
+    background : rgba(171, 172, 174, 1);
 }
 
 .one-eV {
-    background : rgba(247, 196, 31, 1);
+    background : rgba(255, 194, 33, 1);
 }
 
 .two-eV {
-    background : rgba(255, 179, 0, 1);
+    background : rgba(255, 189, 32, 1);
 }
 
 .three-eV {
-    background : rgba(255, 136, 0, 1);
+    background : rgba(245, 163, 38, 1);
 }
 
 .four-eV {
-    background : rgba(245, 6, 29, 1);
+    background : rgba(234, 140, 44, 1);
 }
 
 .five-eV {
-    background : rgba(192, 1, 42, 1);
+    background : rgba(224, 120, 49, 1);
 }
 
 .six-eV {
-    background : rgba(148, 5, 51, 1);
+    background : rgba(215, 103, 53, 1);
 }
 
 .seven-eV {
-    background : rgba(148, 5, 51, 1);
+    background : rgba(206, 88, 58, 1);
 }
 
 .eight-eV {
-    background : rgba(148, 5, 51, 1);
+    background : rgba(187, 65, 60, 1);
 }
 
 .nine-eV {
