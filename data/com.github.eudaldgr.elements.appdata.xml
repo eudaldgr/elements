@@ -3,14 +3,14 @@
   <id>com.github.eudaldgr.elements</id>
   <metadata_license>CC0</metadata_license>
   <project_license>GPL-3.0+</project_license>
-  <name>elements</name>
-  <summary>all the elements of the universe!</summary>
+  <name>Elements</name>
+  <summary>All the elements of the universe!</summary>
   <description>
-    <p>a viewer of the elements</p>
-    <p>features:</p>
+    <p>A viewer of the elements</p>
+    <p>Features:</p>
     <ul>
-      <li>view all the elements</li>
-      <li>use handy shortcuts to close the app (Ctrl+Q)</li>
+      <li>View all the elements</li>
+      <li>Use handy shortcuts to close the app Ctrl + q</li>
     </ul>
   </description>
   <releases>
@@ -19,22 +19,16 @@
         <p>berilium release</p>
       </description>
     </release>
-  </releases>
-  <releases>
     <release version="0.0.3" date="2018-08-27">
       <description>
         <p>Lithium release</p>
       </description>
     </release>
-  </releases>
-  <releases>
     <release version="0.0.2" date="2018-04-23">
       <description>
         <p>Helium release</p>
       </description>
     </release>
-  </releases>
-  <releases>
     <release version="0.0.1" date="2018-04-21">
       <description>
         <p>First release</p>
@@ -46,7 +40,7 @@
       <image>https://raw.githubusercontent.com/eudaldgr/elements/master/data/screenshots/Screenshot1.png</image>
     </screenshot>
     <screenshot>
-    <image>https://raw.githubusercontent.com/eudaldgr/elements/master/data/screenshots/Screenshot2.png</image>
+      <image>https://raw.githubusercontent.com/eudaldgr/elements/master/data/screenshots/Screenshot2.png</image>
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.1">
