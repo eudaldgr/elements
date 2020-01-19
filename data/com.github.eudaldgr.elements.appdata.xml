@@ -6,17 +6,27 @@
   <name>Elements</name>
   <summary>All the elements of the universe!</summary>
   <description>
-    <p>A viewer of the elements</p>
+    <p>⚗️ A viewer of the elements</p>
     <p>Features:</p>
     <ul>
-      <li>View all the elements</li>
-      <li>Use handy shortcuts to close the app Ctrl + q</li>
+      <li>View all the known elements!!</li>
+      <li>Use handy shortcuts to close the app Ctrl+q</li>
     </ul>
   </description>
   <releases>
+    <release version="0.0.5" date="2020-01-19">
+      <description>
+        <p>Boron release</p>
+        <p>Elements is back!</p>
+          <ul>
+            <li>Completely rewrited and thiner</li>
+            <li>Added: Now remembers window state and position</li>
+          </ul>
+      </description>
+    </release>
     <release version="0.0.4" date="2020-01-01">
       <description>
-        <p>berilium release</p>
+        <p>Beryllium release</p>
       </description>
     </release>
     <release version="0.0.3" date="2018-08-27">
