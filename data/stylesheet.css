@@ -1,9 +1,9 @@
 .grid {
-	border : 0px;
-	font-size : 17px;
-	color : white;
-	border-radius : 3px;
-	padding : 15px 15px;
+    border : 0px;
+    font-size : 17px;
+    color : white;
+    border-radius : 3px;
+    padding : 15px 15px;
 }
 
 /* with buttons => padding : 15px 10px;*/
@@ -13,43 +13,43 @@
  **************/
 
 .alkali-metal {
-	background : rgba(247, 175, 142, 1);
+    background : rgba(247, 175, 142, 1);
 }
 
 .alkaline-earth-metal {
-	background : rgba(246, 212, 122, 1);
+    background : rgba(246, 212, 122, 1);
 }
 
 .transition-metal {
-	background : rgba(246, 233, 123, 1);
+    background : rgba(246, 233, 123, 1);
 }
 
 .post-transition-metal {
-	background : rgba(193, 230, 160, 1);
+    background : rgba(193, 230, 160, 1);
 }
 
 .metalloid {
-	background : rgba(164, 218, 163, 1);
+    background : rgba(164, 218, 163, 1);
 }
 
 .other-nonmetal {
-	background : rgba(135, 202, 194, 1);
+    background : rgba(135, 202, 194, 1);
 }
 
 .halogen {
-	background : rgba(142, 218, 234, 1);
+    background : rgba(142, 218, 234, 1);
 }
 
 .noble-gas {
-	background : rgba(146, 204, 251, 1);
+    background : rgba(146, 204, 251, 1);
 }
 
 .lanthanide {
-	background : rgba(206, 134, 217, 1);
+    background : rgba(206, 134, 217, 1);
 }
 
 .actinide {
-	background : rgba(238, 139, 177, 1);
+    background : rgba(238, 139, 177, 1);
 }
 
 /***************
@@ -57,41 +57,41 @@
  **************/
 
 .zero-eV {
-	background : rgba(149, 163, 171, 1);
+    background : rgba(149, 163, 171, 1);
 }
 
 .one-eV {
-	background : rgba(247, 196, 31, 1);
+    background : rgba(247, 196, 31, 1);
 }
 
 .two-eV {
-	background : rgba(255, 179, 0, 1);
+    background : rgba(255, 179, 0, 1);
 }
 
 .three-eV {
-	background : rgba(255, 136, 0, 1);
+    background : rgba(255, 136, 0, 1);
 }
 
 .four-eV {
-	background : rgba(245, 6, 29, 1);
+    background : rgba(245, 6, 29, 1);
 }
 
 .five-eV {
-	background : rgba(192, 1, 42, 1);
+    background : rgba(192, 1, 42, 1);
 }
 
 .six-eV {
-	background : rgba(148, 5, 51, 1);
+    background : rgba(148, 5, 51, 1);
 }
 
 .seven-eV {
-	background : rgba(148, 5, 51, 1);
+    background : rgba(148, 5, 51, 1);
 }
 
 .eight-eV {
-	background : rgba(148, 5, 51, 1);
+    background : rgba(148, 5, 51, 1);
 }
 
 .nine-eV {
-	background : rgba(148, 5, 51, 1);
+    background : rgba(148, 5, 51, 1);
 }

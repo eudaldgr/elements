@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-	<gresource prefix="/com/github/eudaldgr/elements">
-		<file alias="stylesheet.css">stylesheet.css</file>
-	</gresource>
+  <gresource prefix="/com/github/eudaldgr/elements">
+    <file alias="stylesheet.css">stylesheet.css</file>
+  </gresource>
 </gresources>
