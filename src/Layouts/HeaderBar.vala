@@ -66,10 +66,13 @@ public class HeaderBar : Gtk.HeaderBar {
 	}
 
 	private void on_periodicView_mode_changed () {
-		if (periodicView_mode.selected == 0) {
-			stack.getStack ().visible_child_name = "main_view";
-		} else if (periodicView_mode.selected == 1) {
-			stack.getStack ().visible_child_name = "electronegativity_view";
+		switch (periodicView_mode.selected) {
+			case 1:
+				stack.getStack ().visible_child_name = "electronegativity_view";
+				break;
+			default:
+				stack.getStack ().visible_child_name = "main_view";
+				break;
 		}
 	}
 }
