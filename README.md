@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/eudaldgr/elements.svg?branch=master)](https://travis-ci.com/eudaldgr/elements)
 <div align="center">
 	<span align="center"><img src="https://github.com/eudaldgr/elements/blob/master/data/icons/128.svg" alt="Icon"></span>
 	<h1>Elements</h1>
@@ -9,6 +10,10 @@
 ![Screenshot](data/screenshots/Screenshot2.png)
 
 ## Installation
+
+<p align="center">
+  <a href="https://appcenter.elementary.io/com.github.eudaldgr.elements"><img src="https://appcenter.elementary.io/badge.svg?new" alt="Get it on AppCenter" /></a>
+</p>
 
 ### Arch GNU/Linux
 
