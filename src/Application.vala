@@ -1,4 +1,5 @@
 public class Elements : Gtk.Application {
+
     public Elements () {
         Object (application_id: "com.github.eudaldgr.elements",
         flags: ApplicationFlags.FLAGS_NONE);
