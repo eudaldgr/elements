@@ -34,20 +34,14 @@ public class HeaderBar : Gtk.HeaderBar {
 
         periodicView_mode.append (label1);
         periodicView_mode.append (label2);
-        //periodicView_mode.no_show_all = true;
-        //periodicView_mode.visible = false;
-        //periodicView_mode.margin = 1;
         periodicView_mode.notify["selected"].connect (on_periodicView_mode_changed);
     }
 
     private void generateInfoButton () {
         var pop = new Gtk.Popover (info_button);
-        //pop.position = Gtk.PositionType.BOTTOM;
-        //pop.set_size_request (250, 400);
         pop.add (popover);
 
         info_button.tooltip_text = _("Colors code");
-        //info_button.no_show_all = true;
         info_button.clicked.connect ( () => {
             pop.show_all ();
         });
