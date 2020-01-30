@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-29 13:25+0900\n"
+"POT-Creation-Date: 2020-01-30 07:15+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,6 @@ msgstr ""
 
 #: data/com.github.eudaldgr.elements.appdata.xml.in:6
 #: data/com.github.eudaldgr.elements.desktop.in:3
-#: data/com.github.eudaldgr.elements.desktop.in:4
 msgid "Elements"
 msgstr ""
 
@@ -79,8 +78,12 @@ msgstr ""
 msgid "Eudald Gubert i Roldan"
 msgstr ""
 
+#: data/com.github.eudaldgr.elements.desktop.in:4
+msgid "Periodic Table"
+msgstr ""
+
 #: data/com.github.eudaldgr.elements.desktop.in:5
-msgid "Awesome periodic table."
+msgid "View all the known elements"
 msgstr ""
 
 #: data/com.github.eudaldgr.elements.desktop.in:8

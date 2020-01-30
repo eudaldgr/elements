@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Elements
-GenericName=Elements
-Comment=Awesome periodic table.
+GenericName=Periodic Table
+Comment=View all the known elements
 Categories=Science;
 Exec=com.github.eudaldgr.elements
 Icon=com.github.eudaldgr.elements
