@@ -1,0 +1,95 @@
+# French translations for extra package.
+# Copyright (C) 2020 THE extra'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the extra package.
+# Nathan Bonnemains (@NathanBnm), 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-30 15:48+0100\n"
+"PO-Revision-Date: 2020-01-30 15:48+0100\n"
+"Last-Translator: Nathan Bonnemains (@NathanBnm)\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: data/com.github.eudaldgr.elements.appdata.xml.in:6
+#: data/com.github.eudaldgr.elements.desktop.in:3
+msgid "Elements"
+msgstr "Éléments"
+
+#: data/com.github.eudaldgr.elements.appdata.xml.in:7
+msgid "All the elements of the universe!"
+msgstr "Tous les éléments de l'univers !"
+
+#: data/com.github.eudaldgr.elements.appdata.xml.in:9
+msgid "⚗️ A viewer of the elements"
+msgstr "⚗️ Un visionneur des éléments"
+
+#: data/com.github.eudaldgr.elements.appdata.xml.in:10
+msgid "Features:"
+msgstr "Fonctionnalités :"
+
+#: data/com.github.eudaldgr.elements.appdata.xml.in:12
+msgid "View all the known elements!!"
+msgstr "Visualisez tous les éléments connus !"
+
+#: data/com.github.eudaldgr.elements.appdata.xml.in:13
+msgid "Use handy shortcuts to close the app Ctrl+q"
+msgstr "Utilisez le raccourci pratique Ctrl + Q pour fermer l'application"
+
+#: data/com.github.eudaldgr.elements.appdata.xml.in:19
+msgid "Boron release"
+msgstr "Version Bore"
+
+#: data/com.github.eudaldgr.elements.appdata.xml.in:20
+msgid "Elements is back!"
+msgstr "Éléments est de retour !"
+
+#: data/com.github.eudaldgr.elements.appdata.xml.in:22
+msgid "Completely rewrited and thiner"
+msgstr "Entièrement réécrit et allégé"
+
+#: data/com.github.eudaldgr.elements.appdata.xml.in:23
+msgid "Added: Now remembers window state and position"
+msgstr "Ajouté : Mémorisation de l'état et la position de la fenêtre"
+
+#: data/com.github.eudaldgr.elements.appdata.xml.in:29
+msgid "Beryllium release"
+msgstr "Version Béryllium"
+
+#: data/com.github.eudaldgr.elements.appdata.xml.in:34
+msgid "Lithium release"
+msgstr "Version Lithium"
+
+#: data/com.github.eudaldgr.elements.appdata.xml.in:39
+msgid "Helium release"
+msgstr "Version Helium"
+
+#: data/com.github.eudaldgr.elements.appdata.xml.in:44
+msgid "First release"
+msgstr "Première version"
+
+#: data/com.github.eudaldgr.elements.appdata.xml.in:85
+msgid "Eudald Gubert i Roldan"
+msgstr "Eudald Gubert i Roldan"
+
+#: data/com.github.eudaldgr.elements.desktop.in:4
+msgid "Periodic Table"
+msgstr "Tableau périodique"
+
+#: data/com.github.eudaldgr.elements.desktop.in:5
+msgid "View all the known elements"
+msgstr "Visualisez tous les éléments connus"
+
+#: data/com.github.eudaldgr.elements.desktop.in:8
+msgid "com.github.eudaldgr.elements"
+msgstr "com.github.eudaldgr.elements"
+
+#: data/com.github.eudaldgr.elements.desktop.in:12
+msgid "Science;Chemistry;Elements;"
+msgstr "Science;Chimie;Éléments;"
