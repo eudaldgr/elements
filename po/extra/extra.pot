@@ -1,47 +1,46 @@
-# Japanese translations for extra package.
-# Copyright (C) 2020 THE extra'S COPYRIGHT HOLDER
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the extra package.
-# Ryo Nakano <ryonakaknock3@gmail.com>, 2020.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-31 13:31+0100\n"
-"PO-Revision-Date: 2020-01-30 07:20+0900\n"
-"Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
-"Language-Team: none\n"
-"Language: ja\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.2.4\n"
 
 #: data/com.github.eudaldgr.elements.appdata.xml.in:6
 #: data/com.github.eudaldgr.elements.desktop.in:3
 msgid "Elements"
-msgstr "Elements"
+msgstr ""
 
 #: data/com.github.eudaldgr.elements.appdata.xml.in:7
 msgid "All the elements of the universe!"
-msgstr "すべての元素を表示します！"
+msgstr ""
 
 #: data/com.github.eudaldgr.elements.appdata.xml.in:9
 msgid "⚗️ A viewer of the elements"
-msgstr "⚗️ 元素周期表"
+msgstr ""
 
 #: data/com.github.eudaldgr.elements.appdata.xml.in:10
 msgid "Features:"
-msgstr "機能:"
+msgstr ""
 
 #: data/com.github.eudaldgr.elements.appdata.xml.in:12
 msgid "View all the known elements!!"
-msgstr "発見済みの元素を確認できます！"
+msgstr ""
 
 #: data/com.github.eudaldgr.elements.appdata.xml.in:13
 msgid "Use handy shortcuts to close the app Ctrl+q"
-msgstr "便利なショートカット Ctrl + Q で、アプリを終了できます"
+msgstr ""
 
 #: data/com.github.eudaldgr.elements.appdata.xml.in:19
 msgid "Boron release"
@@ -77,21 +76,20 @@ msgstr ""
 
 #: data/com.github.eudaldgr.elements.appdata.xml.in:85
 msgid "Eudald Gubert i Roldan"
-msgstr "Eudald Gubert i Roldan"
+msgstr ""
 
 #: data/com.github.eudaldgr.elements.desktop.in:4
 msgid "Periodic Table"
-msgstr "元素周期表"
+msgstr ""
 
 #: data/com.github.eudaldgr.elements.desktop.in:5
 msgid "View all the known elements"
-msgstr "発見済みの元素を確認します"
+msgstr ""
 
 #: data/com.github.eudaldgr.elements.desktop.in:8
 msgid "com.github.eudaldgr.elements"
-msgstr "com.github.eudaldgr.elements"
+msgstr ""
 
 #: data/com.github.eudaldgr.elements.desktop.in:12
 msgid "Science;Chemistry;Elements;"
-msgstr "Science;Chemistry;Elements;科学;サイエンス;化学;元素;"
-https://www.qwant.com/?client=ext-firefox-hp
+msgstr ""
