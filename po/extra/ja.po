@@ -94,4 +94,3 @@ msgstr "com.github.eudaldgr.elements"
 #: data/com.github.eudaldgr.elements.desktop.in:12
 msgid "Science;Chemistry;Elements;"
 msgstr "Science;Chemistry;Elements;科学;サイエンス;化学;元素;"
-https://www.qwant.com/?client=ext-firefox-hp
