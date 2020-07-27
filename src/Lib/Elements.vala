@@ -254,7 +254,7 @@ namespace ATOMS {
     };
 
     public const string[,] STYLE = {
-        null,                            null, // separator
+        null, null, // separator
         /////////////////////////////////////
         {"other-nonmetal", "six-eV"}, // 1
         {"noble-gas", "zero-eV"}, // 2
