@@ -128,72 +128,72 @@ namespace ATOMS {
     };
 
     public const int[,] POSITION = {
-        {0,   8}, // separator
+        {0, 8}, // separator
         ////////
-        {0,   1}, // 1
-        {17,  1}, // 2
-        {0,   2}, // 3
-        {1,   2}, // 4
-        {12,  2}, // 5
-        {13,  2}, // 6
-        {14,  2}, // 7
-        {15,  2}, // 8
-        {16,  2}, // 9
-        {17,  2}, // 10
-        {0,   3}, // 11
-        {1,   3}, // 12
-        {12,  3}, // 13
-        {13,  3}, // 14
-        {14,  3}, // 15
-        {15,  3}, // 16
-        {16,  3}, // 17
-        {17,  3}, // 18
-        {0,   4}, // 19
-        {1,   4}, // 20
-        {2,   4}, // 21
-        {3,   4}, // 22
-        {4,   4}, // 23
-        {5,   4}, // 24
-        {6,   4}, // 25
-        {7,   4}, // 26
-        {8,   4}, // 27
-        {9,   4}, // 28
-        {10,  4}, // 29
-        {11,  4}, // 30
-        {12,  4}, // 31
-        {13,  4}, // 32
-        {14,  4}, // 33
-        {15,  4}, // 34
-        {16,  4}, // 35
-        {17,  4}, // 36
-        {0,   5}, // 37
-        {1,   5}, // 38
-        {2,   5}, // 39
-        {3,   5}, // 40
-        {4,   5}, // 41
-        {5,   5}, // 42
-        {6,   5}, // 43
-        {7,   5}, // 44
-        {8,   5}, // 45
-        {9,   5}, // 46
-        {10,  5}, // 47
-        {11,  5}, // 48
-        {12,  5}, // 49
-        {13,  5}, // 50
-        {14,  5}, // 51
-        {15,  5}, // 52
-        {16,  5}, // 53
-        {17,  5}, // 54
-        {0,   6}, // 55
-        {1,   6}, // 56
-        {2,  10}, // 57
-        {3,  10}, // 58
-        {4,  10}, // 59
-        {5,  10}, // 60
-        {6,  10}, // 61
-        {7,  10}, // 62
-        {8,  10}, // 63
-        {9,  10}, // 64
+        {0, 1}, // 1
+        {17, 1}, // 2
+        {0, 2}, // 3
+        {1, 2}, // 4
+        {12, 2}, // 5
+        {13, 2}, // 6
+        {14, 2}, // 7
+        {15, 2}, // 8
+        {16, 2}, // 9
+        {17, 2}, // 10
+        {0, 3}, // 11
+        {1, 3}, // 12
+        {12, 3}, // 13
+        {13, 3}, // 14
+        {14, 3}, // 15
+        {15, 3}, // 16
+        {16, 3}, // 17
+        {17, 3}, // 18
+        {0, 4}, // 19
+        {1, 4}, // 20
+        {2, 4}, // 21
+        {3, 4}, // 22
+        {4, 4}, // 23
+        {5, 4}, // 24
+        {6, 4}, // 25
+        {7, 4}, // 26
+        {8, 4}, // 27
+        {9, 4}, // 28
+        {10, 4}, // 29
+        {11, 4}, // 30
+        {12, 4}, // 31
+        {13, 4}, // 32
+        {14, 4}, // 33
+        {15, 4}, // 34
+        {16, 4}, // 35
+        {17, 4}, // 36
+        {0, 5}, // 37
+        {1, 5}, // 38
+        {2, 5}, // 39
+        {3, 5}, // 40
+        {4, 5}, // 41
+        {5, 5}, // 42
+        {6, 5}, // 43
+        {7, 5}, // 44
+        {8, 5}, // 45
+        {9, 5}, // 46
+        {10, 5}, // 47
+        {11, 5}, // 48
+        {12, 5}, // 49
+        {13, 5}, // 50
+        {14, 5}, // 51
+        {15, 5}, // 52
+        {16, 5}, // 53
+        {17, 5}, // 54
+        {0, 6}, // 55
+        {1, 6}, // 56
+        {2, 10}, // 57
+        {3, 10}, // 58
+        {4, 10}, // 59
+        {5, 10}, // 60
+        {6, 10}, // 61
+        {7, 10}, // 62
+        {8, 10}, // 63
+        {9, 10}, // 64
         {10, 10}, // 65
         {11, 10}, // 66
         {12, 10}, // 67
@@ -201,31 +201,31 @@ namespace ATOMS {
         {14, 10}, // 69
         {15, 10}, // 70
         {16, 10}, // 71
-        {3,   6}, // 72
-        {4,   6}, // 73
-        {5,   6}, // 74
-        {6,   6}, // 75
-        {7,   6}, // 76
-        {8,   6}, // 77
-        {9,   6}, // 78
-        {10,  6}, // 79
-        {11,  6}, // 80
-        {12,  6}, // 81
-        {13,  6}, // 82
-        {14,  6}, // 83
-        {15,  6}, // 84
-        {16,  6}, // 85
-        {17,  6}, // 86
-        {0,   7}, // 87
-        {1,   7}, // 88
-        {2,  11}, // 89
-        {3,  11}, // 90
-        {4,  11}, // 91
-        {5,  11}, // 92
-        {6,  11}, // 93
-        {7,  11}, // 94
-        {8,  11}, // 95
-        {9,  11}, // 96
+        {3, 6}, // 72
+        {4, 6}, // 73
+        {5, 6}, // 74
+        {6, 6}, // 75
+        {7, 6}, // 76
+        {8, 6}, // 77
+        {9, 6}, // 78
+        {10, 6}, // 79
+        {11, 6}, // 80
+        {12, 6}, // 81
+        {13, 6}, // 82
+        {14, 6}, // 83
+        {15, 6}, // 84
+        {16, 6}, // 85
+        {17, 6}, // 86
+        {0, 7}, // 87
+        {1, 7}, // 88
+        {2, 11}, // 89
+        {3, 11}, // 90
+        {4, 11}, // 91
+        {5, 11}, // 92
+        {6, 11}, // 93
+        {7, 11}, // 94
+        {8, 11}, // 95
+        {9, 11}, // 96
         {10, 11}, // 97
         {11, 11}, // 98
         {12, 11}, // 99
@@ -233,150 +233,150 @@ namespace ATOMS {
         {14, 11}, // 101
         {15, 11}, // 102
         {16, 11}, // 103
-        {3,   7}, // 104
-        {4,   7}, // 105
-        {5,   7}, // 106
-        {6,   7}, // 107
-        {7,   7}, // 108
-        {8,   7}, // 109
-        {9,   7}, // 110
-        {10,  7}, // 111
-        {11,  7}, // 112
-        {12,  7}, // 113
-        {13,  7}, // 114
-        {14,  7}, // 115
-        {15,  7}, // 116
-        {16,  7}, // 117
-        {17,  7}, // 118
+        {3, 7}, // 104
+        {4, 7}, // 105
+        {5, 7}, // 106
+        {6, 7}, // 107
+        {7, 7}, // 108
+        {8, 7}, // 109
+        {9, 7}, // 110
+        {10, 7}, // 111
+        {11, 7}, // 112
+        {12, 7}, // 113
+        {13, 7}, // 114
+        {14, 7}, // 115
+        {15, 7}, // 116
+        {16, 7}, // 117
+        {17, 7}, // 118
         ////////
-        {2,   6}, // separator
-        {2,   7}  // separator
+        {2, 6}, // separator
+        {2, 7}  // separator
     };
 
     public const string[,] STYLE = {
         null,                            null, // separator
         /////////////////////////////////////
-        {"other-nonmetal",        "six-eV"  }, // 1
-        {"noble-gas",             "zero-eV" }, // 2
-        {"alkali-metal",          "one-eV"  }, // 3
-        {"alkaline-earth-metal",  "three-eV"}, // 4
-        {"metalloid",             "five-eV" }, // 5
-        {"other-nonmetal",        "seven-eV"}, // 6
-        {"other-nonmetal",        "eight-eV"}, // 7
-        {"other-nonmetal",        "nine-eV" }, // 8
-        {"halogen",               "nine-eV" }, // 9
-        {"noble-gas",             "zero-eV" }, // 10
-        {"alkali-metal",          "one-eV"  }, // 11
-        {"alkaline-earth-metal",  "three-eV"}, // 12
-        {"post-transition-metal", "four-eV" }, // 13
-        {"metalloid",             "five-eV" }, // 14
-        {"other-nonmetal",        "five-eV" }, // 15
-        {"other-nonmetal",        "seven-eV"}, // 16
-        {"halogen",               "nine-eV" }, // 17
-        {"noble-gas",             "zero-eV" }, // 18
-        {"alkali-metal",          "one-eV"  }, // 19
-        {"alkaline-earth-metal",  "two-eV"  }, // 20
-        {"transition-metal",      "three-eV"}, // 21
-        {"transition-metal",      "three-eV"}, // 22
-        {"transition-metal",      "four-eV" }, // 23
-        {"transition-metal",      "four-eV" }, // 24
-        {"transition-metal",      "three-eV"}, // 25
-        {"transition-metal",      "four-eV" }, // 26
-        {"transition-metal",      "four-eV" }, // 27
-        {"transition-metal",      "five-eV" }, // 28
-        {"transition-metal",      "five-eV" }, // 29
-        {"transition-metal",      "four-eV" }, // 30
-        {"post-transition-metal", "four-eV" }, // 31
-        {"metalloid",             "five-eV" }, // 32
-        {"metalloid",             "five-eV" }, // 33
-        {"other-nonmetal",        "seven-eV"}, // 34
-        {"halogen",               "eight-eV"}, // 35
-        {"noble-gas",             "eight-eV"}, // 36
-        {"alkali-metal",          "one-eV"  }, // 37
-        {"alkaline-earth-metal",  "one-eV"  }, // 38
-        {"transition-metal",      "two-eV"  }, // 39
-        {"transition-metal",      "three-eV"}, // 40
-        {"transition-metal",      "four-eV" }, // 41
-        {"transition-metal",      "five-eV" }, // 42
-        {"transition-metal",      "five-eV" }, // 43
-        {"transition-metal",      "six-eV"  }, // 44
-        {"transition-metal",      "six-eV"  }, // 45
-        {"transition-metal",      "six-eV"  }, // 46
-        {"transition-metal",      "five-eV" }, // 47
-        {"transition-metal",      "four-eV" }, // 48
-        {"post-transition-metal", "four-eV" }, // 49
-        {"post-transition-metal", "five-eV" }, // 50
-        {"metalloid",             "five-eV" }, // 51
-        {"metalloid",             "five-eV" }, // 52
-        {"halogen",               "seven-eV"}, // 53
-        {"noble-gas",             "seven-eV"}, // 54
-        {"alkali-metal",          "one-eV"  }, // 55
-        {"alkaline-earth-metal",  "one-eV"  }, // 56
-        {"lanthanide",            "two-eV"  }, // 57
-        {"lanthanide",            "two-eV"  }, // 58
-        {"lanthanide",            "two-eV"  }, // 59
-        {"lanthanide",            "two-eV"  }, // 60
-        {"lanthanide",            "two-eV"  }, // 61
-        {"lanthanide",            "two-eV"  }, // 62
-        {"lanthanide",            "two-eV"  }, // 63
-        {"lanthanide",            "two-eV"  }, // 64
-        {"lanthanide",            "two-eV"  }, // 65
-        {"lanthanide",            "two-eV"  }, // 66
-        {"lanthanide",            "two-eV"  }, // 67
-        {"lanthanide",            "two-eV"  }, // 68
-        {"lanthanide",            "two-eV"  }, // 69
-        {"lanthanide",            "two-eV"  }, // 70
-        {"lanthanide",            "two-eV"  }, // 71
-        {"transition-metal",      "three-eV"}, // 72
-        {"transition-metal",      "three-eV"}, // 73
-        {"transition-metal",      "six-eV"  }, // 74
-        {"transition-metal",      "five-eV" }, // 75
-        {"transition-metal",      "six-eV"  }, // 76
-        {"transition-metal",      "six-eV"  }, // 77
-        {"transition-metal",      "six-eV"  }, // 78
-        {"transition-metal",      "seven-eV"}, // 79
-        {"transition-metal",      "five-eV" }, // 80
-        {"post-transition-metal", "four-eV" }, // 81
-        {"post-transition-metal", "six-eV"  }, // 82
-        {"post-transition-metal", "five-eV" }, // 83
-        {"metalloid",             "five-eV" }, // 84
-        {"halogen",               "six-eV"  }, // 85
-        {"noble-gas",             "zero-eV" }, // 86
-        {"alkali-metal",          "one-eV"  }, // 87
-        {"alkaline-earth-metal",  "one-eV"  }, // 88
-        {"actinide",              "two-eV"  }, // 89
-        {"actinide",              "three-eV"}, // 90
-        {"actinide",              "three-eV"}, // 91
-        {"actinide",              "three-eV"}, // 92
-        {"actinide",              "three-eV"}, // 93
-        {"actinide",              "two-eV"  }, // 94
-        {"actinide",              "three-eV"}, // 95
-        {"actinide",              "three-eV"}, // 96
-        {"actinide",              "three-eV"}, // 97
-        {"actinide",              "three-eV"}, // 98
-        {"actinide",              "three-eV"}, // 99
-        {"actinide",              "three-eV"}, // 100
-        {"actinide",              "three-eV"}, // 101
-        {"actinide",              "three-eV"}, // 102
-        {"actinide",              "zero-eV" }, // 103
-        {"transition-metal",      "zero-eV" }, // 104
-        {"transition-metal",      "zero-eV" }, // 105
-        {"transition-metal",      "zero-eV" }, // 106
-        {"transition-metal",      "zero-eV" }, // 107
-        {"transition-metal",      "zero-eV" }, // 108
-        {"transition-metal",      "zero-eV" }, // 109
-        {"transition-metal",      "zero-eV" }, // 110
-        {"transition-metal",      "zero-eV" }, // 111
-        {"transition-metal",      "zero-eV" }, // 112
-        {"post-transition-metal", "zero-eV" }, // 113
-        {"post-transition-metal", "zero-eV" }, // 114
-        {"post-transition-metal", "zero-eV" }, // 115
-        {"post-transition-metal", "zero-eV" }, // 116
-        {"halogen",               "zero-eV" }, // 117
-        {"noble-gas",             "zero-eV" }, // 118
+        {"other-nonmetal", "six-eV"}, // 1
+        {"noble-gas", "zero-eV"}, // 2
+        {"alkali-metal", "one-eV"}, // 3
+        {"alkaline-earth-metal", "three-eV"}, // 4
+        {"metalloid", "five-eV"}, // 5
+        {"other-nonmetal", "seven-eV"}, // 6
+        {"other-nonmetal", "eight-eV"}, // 7
+        {"other-nonmetal", "nine-eV"}, // 8
+        {"halogen", "nine-eV"}, // 9
+        {"noble-gas", "zero-eV"}, // 10
+        {"alkali-metal", "one-eV"}, // 11
+        {"alkaline-earth-metal", "three-eV"}, // 12
+        {"post-transition-metal", "four-eV"}, // 13
+        {"metalloid", "five-eV"}, // 14
+        {"other-nonmetal", "five-eV"}, // 15
+        {"other-nonmetal", "seven-eV"}, // 16
+        {"halogen", "nine-eV"}, // 17
+        {"noble-gas", "zero-eV"}, // 18
+        {"alkali-metal", "one-eV"}, // 19
+        {"alkaline-earth-metal", "two-eV"}, // 20
+        {"transition-metal", "three-eV"}, // 21
+        {"transition-metal", "three-eV"}, // 22
+        {"transition-metal", "four-eV"}, // 23
+        {"transition-metal", "four-eV"}, // 24
+        {"transition-metal", "three-eV"}, // 25
+        {"transition-metal", "four-eV"}, // 26
+        {"transition-metal", "four-eV"}, // 27
+        {"transition-metal", "five-eV"}, // 28
+        {"transition-metal", "five-eV"}, // 29
+        {"transition-metal", "four-eV"}, // 30
+        {"post-transition-metal", "four-eV"}, // 31
+        {"metalloid", "five-eV"}, // 32
+        {"metalloid", "five-eV"}, // 33
+        {"other-nonmetal", "seven-eV"}, // 34
+        {"halogen", "eight-eV"}, // 35
+        {"noble-gas", "eight-eV"}, // 36
+        {"alkali-metal", "one-eV"}, // 37
+        {"alkaline-earth-metal", "one-eV"}, // 38
+        {"transition-metal", "two-eV"}, // 39
+        {"transition-metal", "three-eV"}, // 40
+        {"transition-metal", "four-eV"}, // 41
+        {"transition-metal", "five-eV"}, // 42
+        {"transition-metal", "five-eV"}, // 43
+        {"transition-metal", "six-eV"}, // 44
+        {"transition-metal", "six-eV"}, // 45
+        {"transition-metal", "six-eV"}, // 46
+        {"transition-metal", "five-eV"}, // 47
+        {"transition-metal", "four-eV"}, // 48
+        {"post-transition-metal", "four-eV"}, // 49
+        {"post-transition-metal", "five-eV"}, // 50
+        {"metalloid", "five-eV"}, // 51
+        {"metalloid", "five-eV"}, // 52
+        {"halogen", "seven-eV"}, // 53
+        {"noble-gas", "seven-eV"}, // 54
+        {"alkali-metal", "one-eV"}, // 55
+        {"alkaline-earth-metal", "one-eV"}, // 56
+        {"lanthanide", "two-eV"}, // 57
+        {"lanthanide", "two-eV"}, // 58
+        {"lanthanide", "two-eV"}, // 59
+        {"lanthanide", "two-eV"}, // 60
+        {"lanthanide", "two-eV"}, // 61
+        {"lanthanide", "two-eV"}, // 62
+        {"lanthanide", "two-eV"}, // 63
+        {"lanthanide", "two-eV"}, // 64
+        {"lanthanide", "two-eV"}, // 65
+        {"lanthanide", "two-eV"}, // 66
+        {"lanthanide", "two-eV"}, // 67
+        {"lanthanide", "two-eV"}, // 68
+        {"lanthanide", "two-eV"}, // 69
+        {"lanthanide", "two-eV"}, // 70
+        {"lanthanide", "two-eV"}, // 71
+        {"transition-metal", "three-eV"}, // 72
+        {"transition-metal", "three-eV"}, // 73
+        {"transition-metal", "six-eV"}, // 74
+        {"transition-metal", "five-eV"}, // 75
+        {"transition-metal", "six-eV"}, // 76
+        {"transition-metal", "six-eV"}, // 77
+        {"transition-metal", "six-eV"}, // 78
+        {"transition-metal", "seven-eV"}, // 79
+        {"transition-metal", "five-eV"}, // 80
+        {"post-transition-metal", "four-eV"}, // 81
+        {"post-transition-metal", "six-eV"}, // 82
+        {"post-transition-metal", "five-eV"}, // 83
+        {"metalloid", "five-eV"}, // 84
+        {"halogen", "six-eV"}, // 85
+        {"noble-gas", "zero-eV"}, // 86
+        {"alkali-metal", "one-eV"}, // 87
+        {"alkaline-earth-metal", "one-eV"}, // 88
+        {"actinide", "two-eV"}, // 89
+        {"actinide", "three-eV"}, // 90
+        {"actinide", "three-eV"}, // 91
+        {"actinide", "three-eV"}, // 92
+        {"actinide", "three-eV"}, // 93
+        {"actinide", "two-eV"}, // 94
+        {"actinide", "three-eV"}, // 95
+        {"actinide", "three-eV"}, // 96
+        {"actinide", "three-eV"}, // 97
+        {"actinide", "three-eV"}, // 98
+        {"actinide", "three-eV"}, // 99
+        {"actinide", "three-eV"}, // 100
+        {"actinide", "three-eV"}, // 101
+        {"actinide", "three-eV"}, // 102
+        {"actinide", "zero-eV"}, // 103
+        {"transition-metal", "zero-eV"}, // 104
+        {"transition-metal", "zero-eV"}, // 105
+        {"transition-metal", "zero-eV"}, // 106
+        {"transition-metal", "zero-eV"}, // 107
+        {"transition-metal", "zero-eV"}, // 108
+        {"transition-metal", "zero-eV"}, // 109
+        {"transition-metal", "zero-eV"}, // 110
+        {"transition-metal", "zero-eV"}, // 111
+        {"transition-metal", "zero-eV"}, // 112
+        {"post-transition-metal", "zero-eV"}, // 113
+        {"post-transition-metal", "zero-eV"}, // 114
+        {"post-transition-metal", "zero-eV"}, // 115
+        {"post-transition-metal", "zero-eV"}, // 116
+        {"halogen", "zero-eV"}, // 117
+        {"noble-gas", "zero-eV"}, // 118
         /////////////////////////////////////
-        {"lanthanide",            "zero-eV" }, // separator
-        {"actinide",              "zero-eV" }  // separator
+        {"lanthanide", "zero-eV"}, // separator
+        {"actinide", "zero-eV"}  // separator
     };
 }
 /*
