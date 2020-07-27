@@ -5,7 +5,7 @@ public class HeaderBar : Gtk.HeaderBar {
     Popover popover = Popover.get_instance ();
 
     public Gtk.Button info_button = new Gtk.Button.from_icon_name ("help-contents-symbolic");
-    public Granite.Widgets.ModeButton periodicView_mode = new Granite.Widgets.ModeButton ();
+    public ModeButton periodicView_mode = new Granite.Widgets.ModeButton ();
 
     HeaderBar () {
         this.get_style_context ().add_class ("flat");
@@ -25,7 +25,7 @@ public class HeaderBar : Gtk.HeaderBar {
         return instance;
     }
 
-    private void generatePeriodicViewMode () {
+    generatePeriodicViewMode () {
         var label1 = new Gtk.Label (_("Main"));
         var label2 = new Gtk.Label (_("Electronegativity"));
 
@@ -37,7 +37,7 @@ public class HeaderBar : Gtk.HeaderBar {
         periodicView_mode.notify["selected"].connect (on_periodicView_mode_changed);
     }
 
-    private void generateInfoButton () {
+    generateInfoButton () {
         var pop = new Gtk.Popover (info_button);
         pop.add (popover);
 
@@ -47,19 +47,19 @@ public class HeaderBar : Gtk.HeaderBar {
         });
     }
 
-    public void showPeriodicViewMode (bool answer) {
+    showPeriodicViewMode (bool answer) {
         periodicView_mode.visible = answer;
     }
 
-    public void showInfoButton (bool answer) {
+    showInfoButton (bool answer) {
         info_button.visible = answer;
     }
 
-    public void setSelectedPeriodicViewMode (int answer) {
+    setSelectedPeriodicViewMode (int answer) {
         periodicView_mode.selected = answer;
     }
 
-    private void on_periodicView_mode_changed () {
+    on_periodicView_mode_changed () {
         switch (periodicView_mode.selected) {
             case 1:
                 stack.getStack ().visible_child_name = "electronegativity_view";
