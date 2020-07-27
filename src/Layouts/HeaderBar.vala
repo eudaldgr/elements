@@ -5,16 +5,16 @@ public class HeaderBar : Gtk.HeaderBar {
     Popover popover = Popover.get_instance ();
 
     public Gtk.Button info_button = new Gtk.Button.from_icon_name ("help-contents-symbolic");
-    public ModeButton periodicView_mode = new Granite.Widgets.ModeButton ();
+    public Granite.Widgets.ModeButton periodic_view_mode = new Granite.Widgets.ModeButton ();
 
     HeaderBar () {
         this.get_style_context ().add_class ("flat");
 
-        generateInfoButton ();
-        generatePeriodicViewMode ();
+        generate_info_button ();
+        generate_periodic_view_mode ();
 
         this.show_close_button = true;
-        this.custom_title = periodicView_mode;
+        this.custom_title = periodic_view_mode;
         this.pack_end (info_button);
     }
 
@@ -25,19 +25,19 @@ public class HeaderBar : Gtk.HeaderBar {
         return instance;
     }
 
-    generatePeriodicViewMode () {
+    private void generate_periodic_view_mode () {
         var label1 = new Gtk.Label (_("Main"));
         var label2 = new Gtk.Label (_("Electronegativity"));
 
         label1.name = "main_view";
         label2.name = "electronegativity_view";
 
-        periodicView_mode.append (label1);
-        periodicView_mode.append (label2);
-        periodicView_mode.notify["selected"].connect (on_periodicView_mode_changed);
+        periodic_view_mode.append (label1);
+        periodic_view_mode.append (label2);
+        periodic_view_mode.notify["selected"].connect (on_periodic_view_mode_changed);
     }
 
-    generateInfoButton () {
+    private void generate_info_button () {
         var pop = new Gtk.Popover (info_button);
         pop.add (popover);
 
@@ -47,25 +47,25 @@ public class HeaderBar : Gtk.HeaderBar {
         });
     }
 
-    showPeriodicViewMode (bool answer) {
-        periodicView_mode.visible = answer;
+    public void show_periodic_view_mode (bool answer) {
+        periodic_view_mode.visible = answer;
     }
 
-    showInfoButton (bool answer) {
+    public void show_info_button (bool answer) {
         info_button.visible = answer;
     }
 
-    setSelectedPeriodicViewMode (int answer) {
-        periodicView_mode.selected = answer;
+    public void set_selected_periodic_view_mode (int answer) {
+        periodic_view_mode.selected = answer;
     }
 
-    on_periodicView_mode_changed () {
-        switch (periodicView_mode.selected) {
+    private void on_periodic_view_mode_changed () {
+        switch (periodic_view_mode.selected) {
             case 1:
-                stack.getStack ().visible_child_name = "electronegativity_view";
+                stack.get_stack ().visible_child_name = "electronegativity_view";
                 break;
             default:
-                stack.getStack ().visible_child_name = "main_view";
+                stack.get_stack ().visible_child_name = "main_view";
                 break;
         }
     }

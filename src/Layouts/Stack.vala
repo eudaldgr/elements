@@ -16,11 +16,11 @@ public class Stack : Object {
         return instance;
     }
 
-    public Gtk.Stack getStack () {
+    public Gtk.Stack get_stack () {
         return this.stack;
     }
 
-    public void loadViews (Gtk.Window window) {
+    public void load_views (Gtk.Window window) {
         var main_view = new PeriodicView ("main_view");
         var electro_view = new PeriodicView ("electronegativity_view");
 
@@ -28,18 +28,18 @@ public class Stack : Object {
         stack.add_titled (electro_view, "electronegativity_view", _("Electronegativity"));
 
         stack.notify["visible-child"].connect ( () => {
-            var headerBar = HeaderBar.get_instance ();
+            var header_bar = HeaderBar.get_instance ();
 
             if (stack.get_visible_child_name () == "main_view") {
-                headerBar.showInfoButton (true);
-                headerBar.showPeriodicViewMode (true);
-                headerBar.setSelectedPeriodicViewMode (0);
+                header_bar.show_info_button (true);
+                header_bar.show_periodic_view_mode (true);
+                header_bar.set_selected_periodic_view_mode (0);
             }
 
             if (stack.get_visible_child_name () == "electronegativity_view") {
-                headerBar.showInfoButton (true);
-                headerBar.showPeriodicViewMode (true);
-                headerBar.setSelectedPeriodicViewMode (1);
+                header_bar.show_info_button (true);
+                header_bar.show_periodic_view_mode (true);
+                header_bar.set_selected_periodic_view_mode (1);
             }
         });
 

@@ -3,16 +3,16 @@ public class MainWindow : Gtk.ApplicationWindow {
     private uint configure_id;
 
     private Stack stack = Stack.get_instance ();
-    private HeaderBar headerBar = HeaderBar.get_instance ();
+    private HeaderBar header_bar = HeaderBar.get_instance ();
 
     public MainWindow (Gtk.Application application) {
         Object (application: application,
         icon_name: "com.github.eudaldgr.elements");
 
         this.show_all ();
-        this.set_titlebar (headerBar);
+        this.set_titlebar (header_bar);
 
-        stack.loadViews (this);
+        stack.load_views (this);
 
         settings = new Settings ("com.github.eudaldgr.elements");
 
