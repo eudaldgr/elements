@@ -1,9 +1,9 @@
 public class PeriodicView : Gtk.Grid {
-    HeaderBar headerBar = HeaderBar.get_instance ();
+    public static headerBar = HeaderBar.get_instance ();
 
     static PeriodicView? instance;
 
-    public static PeriodicView get_instance() {
+    public static PeriodicView get_instance () {
         if (instance == null) {
             instance = new PeriodicView ("main_view");
         }
@@ -11,7 +11,7 @@ public class PeriodicView : Gtk.Grid {
     }
 
     public PeriodicView (string id) {
-        headerBar.showPeriodicViewMode(true);
+        headerBar.showPeriodicViewMode (true);
 
         this.row_spacing = 3;
         this.column_spacing = 3;
