@@ -10,7 +10,11 @@ public class Elements : Gtk.Application {
 
         var provider = new Gtk.CssProvider ();
         provider.load_from_resource ("/com/github/eudaldgr/elements/stylesheet.css");
-        Gtk.StyleContext.add_provider_for_screen (Gdk.Screen.get_default (), provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+        Gtk.StyleContext.add_provider_for_screen (
+            Gdk.Screen.get_default (), 
+            provider, 
+            Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
+        );
 
         var quit_action = new SimpleAction ("quit", null);
         add_action (quit_action);
