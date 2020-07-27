@@ -15,14 +15,6 @@
   <a href="https://appcenter.elementary.io/com.github.eudaldgr.elements"><img src="https://appcenter.elementary.io/badge.svg?new" alt="Get it on AppCenter" /></a>
 </p>
 
-### Arch GNU/Linux
-
-Arch GNU/Linux users can find `Elements` under the name [elements-git](https://aur.archlinux.org/packages/elements-git/) in the **aur**:
-
-```
-pacaur -S elements-git
-```
-
 ### Dependencies
 
 These dependencies must be present before building
